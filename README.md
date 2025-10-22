@@ -20,3 +20,15 @@
 <h2 align="center">=================================================</h2> 
 <h1 align="center"> 🌊 SOLARWAVE 🌊 </h1>
 <h2 align="center">=================================================</h2> 
+
+
+## ~ 📗 Deskripsi Singkat Program 📒  ~
+
+## ~ 📌 Fitur Program 📌 ~
+
+## ~ 📥Penerapan OOP (Encapsulation, Inheritance, Abstraction, Polymorphism, Interface) 📥 ~
+
+## ~ 📁 Struktur Folder/Package 📁 ~
+
+## ~ ➡ Cara Menggunakan Program ⬅ ~
+
