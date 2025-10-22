@@ -26,7 +26,7 @@
 
 ## ~ 📌 Fitur Program 📌 ~
 
-## ~ 📥Penerapan OOP (Encapsulation, Inheritance, Abstraction, Polymorphism, Interface) 📥 ~
+## ~ 📥Penerapan OOP (Encapsulation, Inheritance, Abstraction, Polymorphism, Interface)📥 ~
 
 ## ~ 📁 Struktur Folder/Package 📁 ~
 
