@@ -33,6 +33,49 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
 
 
 ## ~ 📌 Fitur Program 📌 ~
+1. Menu Login
+   
+2. Menu Super Admin
+   
+   a. Data Warga
+   
+   b. Data Anggota Komunitas
+   
+   c. Data Komunitas
+   
+   d. Data Pembayaran
+   
+   e. Data Tagihan Bulanan
+   
+   f. Data Rumah Warga
+   
+   g. Data Distribusi Energi
+   
+   h. Data Panel Surya
+   
+3. Menu Anggota Komunitas
+   
+   a. Data Warga
+   
+   b. Data Rumah Warga
+   
+   c. Data Panel Surya Komunitas
+   
+   d. Distribusi Energi Rumah Warga
+   
+   e. Tagihan Warga
+   
+4. Menu Warga
+   
+   a. Pembayaran Listrik
+   
+   b. Riwayat Pembayaran
+   
+   c. Tagihan Bulanan
+   
+   d. Distribusi Energi Rumah
+   
+   e. Data Rumah Pribadi
 
 ## ~ 📥Penerapan OOP (Encapsulation, Inheritance, Abstraction, Polymorphism, Interface)📥 ~
 
