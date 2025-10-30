@@ -107,6 +107,8 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
    Salah satu menu utama yang difasilitasi untuk warga adalah fitur pembayaran,      di mana warga dapat melakukan proses pembayaran secara langsung melalui sistem    dengan mudah dan aman.
    
    a. Pembayaran Listrik
+
+   
    
    b. Riwayat Pembayaran
    
