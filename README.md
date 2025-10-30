@@ -38,6 +38,7 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
 2. Menu Super Admin
    
    a. Data Warga
+      Pada menu Login ini merupakan tampilan utama ketika program dijalankan. Pada       halaman ini, pengguna diminta untuk memasukkan username dan password,              kemudian menekan tombol Login untuk melanjutkan. Proses login berfungsi            sebagai verifikasi pengguna untuk memastikan siapa yang berhak mengakses dan       menggunakan sistem.
    
    b. Data Anggota Komunitas
    
@@ -53,7 +54,7 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
    
    h. Data Panel Surya
    
-3. Menu Anggota Komunitas
+4. Menu Anggota Komunitas
    
    a. Data Warga
    
@@ -65,7 +66,7 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
    
    e. Tagihan Warga
    
-4. Menu Warga
+5. Menu Warga
    
    a. Pembayaran Listrik
    
