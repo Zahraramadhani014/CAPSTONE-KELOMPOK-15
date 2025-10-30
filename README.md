@@ -56,6 +56,7 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
       Pada menu Data Komunitas, sistem menampilkan informasi setiap komunitas yang       terdaftar, seperti nama komunitas, wilayah, dan keterangan tambahan. Super         Admin dapat menambah, melihat, memperbarui, maupun menghapus data komunitas        sesuai kebutuhan. Proses pengelolaan dilakukan dengan cara memilih data yang       ingin diubah dan menekan tombol aksi edit atau hapus.
    
    d. Data Pembayaran
+   
       Menu Data Pembayaran menampilkan daftar transaksi pembayaran warga, mencakup       tanggal, nominal, metode pembayaran, dan status. Super Admin memiliki akses        penuh untuk melakukan pengelolaan data, baik menambahkan, memperbarui,             maupun menghapus catatan pembayaran. Untuk melakukan perubahan, Super Admin        dapat memilih baris transaksi dan menjalankan aksi edit atau delete pada           tombol yang disediakan.
    
    e. Data Tagihan Bulanan
