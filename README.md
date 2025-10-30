@@ -102,21 +102,34 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
    
 7. Menu Warga
    
-   Ketika pengguna login sebagai Warga, sistem akan menampilkan beberapa fitur       utama yang difasilitasi khusus untuk warga.
-   Terdapat lima fitur utama yang dapat digunakan oleh warga untuk berinteraksi      dengan sistem.
-   Salah satu menu utama yang difasilitasi untuk warga adalah fitur pembayaran,      di mana warga dapat melakukan proses pembayaran secara langsung melalui sistem    dengan mudah dan aman.
+   Ketika pengguna login sebagai Warga, sistem akan menampilkan beberapa fitur utama yang difasilitasi khusus untuk warga.
+   Terdapat lima fitur utama yang dapat digunakan oleh warga untuk berinteraksi dengan sistem.
+   Salah satu menu utama yang difasilitasi untuk warga adalah fitur pembayaran, di mana warga dapat melakukan proses pembayaran secara langsung melalui sistem    dengan mudah dan           aman.
    
    a. Pembayaran Listrik
-
    
+   Pada menu pembayaran listrik, warga akan ditampilkan beberapa pilihan metode pembayaran, yaitu transfer bank, DANA, dan OVO. Setelah memilih salah satu metode pembayaran, pengguna       akan diminta untuk memasukkan nomor rekening, nomor DANA, atau nomor OVO sesuai dengan metode yang dipilih. Selanjutnya, pengguna akan diminta untuk memasukkan jumlah pembayaran yang    ingin dilakukan. Setelah pembayaran berhasil, status pembayaran akan otomatis berubah, dan warga akan ditampilkan riwayat pembayaran yang telah dilakukan. Jika pengguna memilih          tombol “Kembali”, maka sistem akan mengalihkan pengguna ke menu utama.
    
    b. Riwayat Pembayaran
+
+   Ketika user warga memilih menu Riwayat Pembayaran, sistem akan menampilkan daftar seluruh transaksi pembayaran yang telah dilakukan sebelumnya. Pada menu ini, warga dapat melihat        detail setiap pembayaran, seperti metode pembayaran yang digunakan, jumlah yang dibayarkan, tanggal transaksi, serta status pembayaran.
+   Melalui menu ini, warga dapat memantau dan memastikan bahwa seluruh tagihan telah dibayar dengan benar, serta memiliki bukti dan catatan pembayaran yang tersimpan secara otomatis.       Fitur ini juga membantu warga dalam mengelola keuangan dan menghindari keterlambatan pembayaran di bulan-bulan berikutnya.
    
    c. Tagihan Bulanan
+
+   Ketika user warga memilih menu Tagihan Bulanan, sistem akan menampilkan daftar tagihan listrik yang harus dibayar setiap bulannya. Pada menu ini, warga dapat melihat rincian tagihan,    seperti periode tagihan (bulan dan tahun), jumlah tagihan yang harus dibayar, serta status tagihan (LUNAS,BELUM LUNAS). Melalui menu ini, warga dapat memantau kewajiban pembayaran       listrik setiap bulan dengan mudah, sehingga tidak ada tagihan yang terlewat. Selain itu, fitur ini juga membantu warga dalam mengatur pengeluaran bulanan dan memastikan pembayaran       dilakukan tepat waktu, karena seluruh informasi tagihan tersaji dengan jelas
    
    d. Distribusi Energi Rumah
+
+   Menu Distribusi Energi Rumah menampilkan data penyaluran dan penggunaan energi listrik yang diterima oleh setiap rumah dalam sistem panel surya. Pada menu ini, setiap warga hanya        dapat melihat data distribusi energi milik rumahnya sendiri, termasuk informasi seperti tanggal distribusi, jumlah pemakaian listrik (kWh), biaya per kWh, serta catatan kondisi          penggunaan seperti cuaca atau aktivitas rumah yang memengaruhi konsumsi energi. Hal ini memastikan bahwa data yang ditampilkan bersifat privat dan sesuai dengan rumah masing-masing      pengguna.
+
+   Melalui menu ini, warga dapat memantau pemakaian energi secara mandiri dan mengetahui bagaimana faktor lingkungan atau aktivitas rumah tangga memengaruhi konsumsi listrik. Fitur ini     membantu warga untuk mengontrol penggunaan energi dengan lebih efisien, menghindari pemborosan, serta memastikan bahwa distribusi energi dari panel surya berjalan dengan optimal di      rumah mereka.
    
    e. Data Rumah Pribadi
+
+   Pada menu Data Rumah, user warga hanya dapat melihat data rumah miliknya sendiri, seperti alamat rumah, nomor rumah, status koneksi listrik, serta tanggal bergabung dalam sistem         panel surya. Pembatasan akses ini diterapkan agar setiap warga hanya memiliki hak untuk melihat dan memeriksa informasi yang relevan dengan rumahnya, tanpa dapat melihat atau            mengubah data milik warga lain.
+
+   Alasan utama pembatasan ini adalah untuk menjaga keamanan dan keakuratan data sistem. Dengan hanya dapat melihat datanya sendiri, warga tetap bisa memantau kondisi rumahnya, termasuk    status koneksi aktif atau tidak aktif, dan jika ditemukan kesalahan atau perubahan data, warga dapat melaporkannya kepada anggota komunitas untuk diperbaiki. Hal ini juga mencegah       penyalahgunaan, seperti pengubahan status koneksi secara sembarangan, sehingga keandalan sistem panel surya tetap terjaga.
 
 ## ~ 📥Penerapan OOP (Encapsulation, Inheritance, Abstraction, Polymorphism, Interface)📥 ~
 
