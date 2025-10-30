@@ -33,18 +33,30 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
 
 
 ## ~ 📌 Fitur Program 📌 ~
-1. Menu Login
+1. 🔓👥 Menu Login
+
+   Pada menu Login ini merupakan tampilan utama ketika program dijalankan. Pada       halaman ini, pengguna diminta untuk memasukkan username dan password, kemudian     menekan tombol Login untuk melanjutkan. Proses login berfungsi sebagai             verifikasi pengguna untuk memastikan siapa yang berhak mengakses dan               menggunakan sistem. Proses ini melibatkan database untuk mengecek apakah           username dan password yang dimasukkan tersedia di database.
    
-2. Menu Super Admin
+3. 🛠️👨‍💻 Menu Super Admin
+
+   Setelah pengguna berhasil login sebagai Super Admin, tampilan yang muncul akan     berisi berbagai menu dan fungsi khusus yang hanya dapat dilakukan oleh Super       Admin sesuai dengan otoritas yang dimilikinya.
    
-   a. Data Warga
-      Pada menu Login ini merupakan tampilan utama ketika program dijalankan. Pada       halaman ini, pengguna diminta untuk memasukkan username dan password,              kemudian menekan tombol Login untuk melanjutkan. Proses login berfungsi            sebagai verifikasi pengguna untuk memastikan siapa yang berhak mengakses dan       menggunakan sistem.
+   a. 📋👨‍👩‍👧‍👦 Data Warga
    
-   b. Data Anggota Komunitas
+      Ketika Super Admin memilih menu Data Warga, sistem akan menampilkan tabel          berisi data warga lengkap dengan kolom-kolom yang dapat dikelola. Pada menu        ini, Super Admin memiliki akses penuh (CRUD: Create, Read, Update, Delete)         terhadap data warga.
+   
+      Untuk melakukan perubahan seperti update atau delete, Super Admin dapat            memilih salah satu baris data, kemudian menekan tombol aksi yang sesuai            untuk melakukan pengeditan atau penghapusan data.
+      
+   b.📋🧑‍🤝‍🧑 Data Anggota Komunitas
+   
+      Ketika Super Admin memilih menu Data Anggota Komunitas, sistem akan                menampilkan tabel berisi daftar anggota komunitas beserta informasi seperti        nama, jabatan, dan kontak. Pada menu ini, Super Admin memiliki akses penuh         (CRUD: Create, Read, Update, Delete) terhadap seluruh data. Untuk mengubah         atau menghapus data, Super Admin cukup memilih baris data yang diinginkan          lalu menekan tombol aksi yang tersedia.
    
    c. Data Komunitas
    
+      Pada menu Data Komunitas, sistem menampilkan informasi setiap komunitas yang       terdaftar, seperti nama komunitas, wilayah, dan keterangan tambahan. Super         Admin dapat menambah, melihat, memperbarui, maupun menghapus data komunitas        sesuai kebutuhan. Proses pengelolaan dilakukan dengan cara memilih data yang       ingin diubah dan menekan tombol aksi edit atau hapus.
+   
    d. Data Pembayaran
+      Menu Data Pembayaran menampilkan daftar transaksi pembayaran warga, mencakup       tanggal, nominal, metode pembayaran, dan status. Super Admin memiliki akses        penuh untuk melakukan pengelolaan data, baik menambahkan, memperbarui,             maupun menghapus catatan pembayaran. Untuk melakukan perubahan, Super Admin        dapat memilih baris transaksi dan menjalankan aksi edit atau delete pada           tombol yang disediakan.
    
    e. Data Tagihan Bulanan
    
@@ -54,7 +66,7 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
    
    h. Data Panel Surya
    
-4. Menu Anggota Komunitas
+5. Menu Anggota Komunitas
    
    a. Data Warga
    
@@ -66,7 +78,7 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
    
    e. Tagihan Warga
    
-5. Menu Warga
+6. Menu Warga
    
    a. Pembayaran Listrik
    
