@@ -127,13 +127,103 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
    
    e. Data Rumah Pribadi
 
-   Pada menu Data Rumah, user warga hanya dapat melihat data rumah miliknya sendiri, seperti alamat rumah, nomor rumah, status koneksi listrik, serta tanggal bergabung dalam sistem         panel surya. Pembatasan akses ini diterapkan agar setiap warga hanya memiliki hak untuk melihat dan memeriksa informasi yang relevan dengan rumahnya, tanpa dapat melihat atau            mengubah data milik warga lain.
+   Pada menu Data Rumah, pengguna dengan peran warga memiliki akses untuk melihat dan memperbarui data rumah miliknya sendiri. Warga dapat mengubah informasi seperti nama pemilik,          alamat rumah, nomor rumah, serta nomor telepon. Akses ini diberikan agar warga dapat memastikan data rumahnya selalu akurat, terkini, dan sesuai dengan kondisi sebenarnya, terutama      jika terjadi perubahan informasi kontak atau alamat.
 
-   Alasan utama pembatasan ini adalah untuk menjaga keamanan dan keakuratan data sistem. Dengan hanya dapat melihat datanya sendiri, warga tetap bisa memantau kondisi rumahnya, termasuk    status koneksi aktif atau tidak aktif, dan jika ditemukan kesalahan atau perubahan data, warga dapat melaporkannya kepada anggota komunitas untuk diperbaiki. Hal ini juga mencegah       penyalahgunaan, seperti pengubahan status koneksi secara sembarangan, sehingga keandalan sistem panel surya tetap terjaga.
+   Namun, warga tidak memiliki akses untuk mengubah data tertentu seperti ID rumah, status koneksi, serta tanggal bergabung, karena data tersebut bersifat tetap dan digunakan sebagai       identitas utama dalam sistem panel surya. Pembatasan ini diterapkan untuk menjaga keamanan, integritas, dan konsistensi data, sehingga tidak terjadi perubahan yang dapat memengaruhi     validitas informasi sistem.
+
+   Dengan pembatasan ini, warga tetap dapat mengelola datanya secara mandiri tanpa mengganggu keakuratan sistem secara keseluruhan. Jika ditemukan kesalahan pada data yang bersifat         tetap, warga dapat melaporkannya kepada anggota komunitas atau admin untuk dilakukan perbaikan resmi melalui akun yang memiliki hak akses lebih tinggi.
+
+   f. Data Pribadi Warga
+
+   Pada menu Data Pribadi Warga, pengguna dengan peran warga juga memiliki akses penuh untuk melihat dan memperbarui informasi pribadinya. Data yang dapat diperbarui mencakup nama,         username, password, NIK, nomor KK, alamat, nomor telepon, dan email. Akses ini diberikan agar warga dapat menjaga agar data pribadinya selalu benar, valid, dan sesuai dengan kondisi     terkini.
+
+   Kemampuan untuk memperbarui data pribadi juga penting dalam menjaga keamanan akun dan kemudahan komunikasi, karena warga dapat memperbarui password secara mandiri serta memastikan       kontak yang terdaftar (seperti nomor telepon dan email) selalu aktif.
+
+   Sementara itu, warga tidak dapat mengubah data ID pengguna, status akun, maupun tanggal bergabung, karena data tersebut merupakan identitas permanen yang menunjukkan keanggotaan         resmi dalam sistem. Pembatasan ini bertujuan untuk mencegah manipulasi data penting dan memastikan keaslian identitas pengguna tetap terjaga.
+
+   Dengan pembagian hak akses ini, sistem panel surya tetap transparan, aman, dan akurat, sekaligus memberikan kebebasan bagi warga untuk mengelola datanya sendiri sesuai kebutuhan         pribadi.
 
 ## ~ 📥Penerapan OOP (Encapsulation, Inheritance, Abstraction, Polymorphism, Interface)📥 ~
 
 ## ~ 📁 Struktur Folder/Package 📁 ~
 
 ## ~ ➡ Cara Menggunakan Program ⬅ ~
+
+Halaman Login
+
+<img width="790" height="491" alt="image" src="https://github.com/user-attachments/assets/7392f6e4-0811-46b5-9e78-8a001e0d4032" />
+
+**Halaman Menu Warga**
+
+<img width="739" height="459" alt="image" src="https://github.com/user-attachments/assets/3711ed7e-c251-4990-bded-adad7959e46b" />
+
+Halaman Pembayaran Listrik
+
+<img width="745" height="463" alt="image" src="https://github.com/user-attachments/assets/5a2c6cc6-b85e-4183-9a2f-48a95bfad6e8" />
+
+Halaman jika memilih metode pembayaran Transfer
+
+Halaman jika memilih metode pembayaran Dana
+
+Halaman jika memilih metode pembayaran Ovo
+
+Halaman data rumah
+
+Halaman data distribusi energi rumah 
+
+Halaman Riwayat Pembayaran Listrik
+
+Halaman Tagihan Bulanan
+
+Halaman Data Diri
+
+
+**Halaman Anggota Komunitas**
+
+<img width="749" height="461" alt="image" src="https://github.com/user-attachments/assets/393b7178-c377-4055-9d3c-24da55e18d78" />
+
+
+Halaman Data Warga
+
+Halaman Rumah Warga
+
+Halaman Data Panel Surya Komunitas
+
+Halaman Distribusi Energi Rumah Warga
+
+Halaman Data Tagihan Bulanan Warga
+
+Data Pembayaran Listrik Warga
+
+
+**Halaman Admin**
+
+<img width="743" height="462" alt="image" src="https://github.com/user-attachments/assets/eccaf87f-00de-4200-b47a-052fb404bfc3" />
+
+Halaman Data Warga
+
+Halaman Data Anggota Komunitas
+
+Halaman Data Komunitas
+
+Halaman Data Rumah Warga
+
+Halaman Data Distribusi Energi
+
+Halaman Data Panel Surya
+
+Halaman Data Tagihan Bulanan
+
+Halaman Data Pembayaran Listrik
+
+
+
+
+
+
+
+
+
+
+
 
