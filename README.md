@@ -33,11 +33,14 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
 
 
 ## ~ 📌 Fitur Program 📌 ~
-**1. 🔓👥 MENU LOGIN**
+
+## **1. 🔓👥 MENU LOGIN**
 
    Pada menu Login ini merupakan tampilan utama ketika program dijalankan. Pada      halaman ini, pengguna diminta untuk memasukkan username dan password, kemudian    menekan tombol Login untuk melanjutkan. Proses login berfungsi sebagai            verifikasi pengguna untuk memastikan siapa yang berhak mengakses dan              menggunakan sistem. Proses ini melibatkan database untuk mengecek apakah          username dan password yang dimasukkan tersedia di database.
    
-**3. 🛠️👨‍💻 MENU SUPER ADMIN**
+ --------------------------------------------------------------------------------------------  
+ 
+**2. 🛠️👨‍💻 MENU SUPER ADMIN**
 
    Setelah pengguna berhasil login sebagai Super Admin, tampilan yang muncul akan    berisi berbagai menu dan fungsi khusus yang hanya dapat dilakukan oleh Super      Admin sesuai dengan otoritas yang dimilikinya.
    
@@ -73,8 +76,9 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
 
    Pada menu Data Panel Surya, sistem menampilkan informasi mengenai perangkat       panel surya yang digunakan, termasuk kode panel, kapasitas, dan lokasi            pemasangan. Super Admin memiliki kendali penuh terhadap pengelolaan data ini.     Semua proses seperti penambahan, pengeditan, maupun penghapusan data dilakukan    dengan memilih data panel tertentu dan menekan tombol aksi sesuai kebutuhan.
    
+--------------------------------------------------------------------------------------------
    
-**5. 🛠️🧑‍🤝‍🧑MENU ANGGOTA KOMUNITAS**
+## **3. 🛠️🧑‍🤝‍🧑MENU ANGGOTA KOMUNITAS**
    
    Ketika membuka menu Anggota Komunitas, sistem akan langsung menampilkan           beberapa menu utama yang dapat diakses oleh anggota komunitas.
    Berbeda dengan Super Admin, anggota komunitas tidak memiliki akses penuh,         melainkan hanya dapat melakukan beberapa pengelolaan terbatas sesuai perannya.
@@ -103,8 +107,10 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
    **e. 📋📅 Tagihan Warga**
 
    Pada menu Data Tagihan Bulanan, Anggota Komunitas memiliki akses penuh (CRUD:     Create, Read, Update, Delete) terhadap data tagihan. Setelah menyelesaikan        proses distribusi energi ke rumah warga, anggota komunitas dapat membuat          tagihan bulanan baru berdasarkan penggunaan energi di wilayahnya. Selain itu,     anggota komunitas juga dapat melihat, memperbarui, maupun menghapus data          tagihan jika terjadi kesalahan atau perubahan informasi. Dengan akses ini,        anggota komunitas berperan penting dalam memastikan setiap tagihan bulanan        tercatat dengan benar dan sesuai kondisi lapangan.
+
+   --------------------------------------------------------------------------------------------
    
-**7. 🏡👨‍👩‍👧‍👦 MENU WARGA**
+## **4. 🏡👨‍👩‍👧‍👦 MENU WARGA**
    
    Ketika pengguna login sebagai Warga, sistem akan menampilkan beberapa fitur utama yang difasilitasi khusus untuk warga.
    Terdapat lima fitur utama yang dapat digunakan oleh warga untuk berinteraksi dengan sistem.
