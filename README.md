@@ -40,7 +40,7 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
    
  --------------------------------------------------------------------------------------------  
  
-**2. 🛠️👨‍💻 MENU SUPER ADMIN**
+## **2. 🛠️👨‍💻 MENU SUPER ADMIN**
 
    Setelah pengguna berhasil login sebagai Super Admin, tampilan yang muncul akan    berisi berbagai menu dan fungsi khusus yang hanya dapat dilakukan oleh Super      Admin sesuai dengan otoritas yang dimilikinya.
    
