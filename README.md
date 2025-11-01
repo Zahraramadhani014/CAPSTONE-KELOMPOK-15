@@ -82,11 +82,15 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
    
    a. Data Warga
    
-   Ketika Anggota Komunitas memilih menu Data Warga, sistem akan menampilkan         tabel berisi data warga yang telah dimasukkan oleh Super Admin. Pada menu ini,    Anggota Komunitas hanya memiliki hak untuk melihat dan memperbarui (update)       data warga. Fitur ini berfungsi agar anggota komunitas dapat membantu             memperbaiki    atau memperbarui informasi warga, misalnya ketika ada perubahan    data yang disampaikan langsung oleh warga. Dengan demikian, anggota komunitas     berperan menjaga agar data yang telah ditambahkan oleh Super Admin tetap          valid, akurat, dan terbaru.
+   Ketika Anggota Komunitas memilih menu Data Warga, sistem akan menampilkan tabel berisi daftar warga yang telah terdaftar di dalam sistem oleh Super Admin. Pada menu ini, Anggota         Komunitas memiliki hak akses untuk melihat data warga dan memperbarui status warga saja.
+
+   Fitur ini disediakan agar anggota komunitas dapat memantau dan memperbarui status keaktifan warga sesuai kondisi sebenarnya di lapangan, misalnya ketika terdapat warga baru yang         aktif menggunakan panel surya atau warga yang sementara nonaktif. Dengan pembatasan hak akses ini, anggota komunitas tetap dapat berperan dalam menjaga validitas dan keakuratan          status data warga, tanpa dapat mengubah informasi pribadi lainnya yang bersifat sensitif atau tetap.
    
    b. Data Rumah Warga
    
-   Pada menu Data Rumah Warga, Anggota Komunitas dapat melihat tabel yang            menampilkan informasi rumah milik warga, seperti alamat, nomor rumah, dan nama    pemilik. Sama seperti pada menu Data Warga, anggota komunitas tidak memiliki      akses penuh, melainkan hanya bisa melihat dan memperbarui data yang sudah ada.    Fitur ini membantu anggota komunitas ketika ada warga yang melaporkan             perubahan, misalnya pindah rumah atau pergantian pemilik. Jadi, anggota           komunitas bisa langsung memperbarui data tersebut agar informasi di sistem        tetap terupdate dan sesuai kondisi sebenarnya di lapangan.
+   Ketika Anggota Komunitas memilih menu Data Rumah Warga, sistem akan menampilkan tabel berisi informasi rumah milik warga, seperti alamat rumah, nomor rumah, dan nama pemilik. Pada       menu ini, Anggota Komunitas tidak memiliki akses penuh terhadap seluruh data, melainkan hanya dapat melihat data rumah dan memperbarui bagian yang diizinkan, khususnya status koneksi    rumah.
+
+   Pembatasan ini bertujuan agar anggota komunitas dapat memantau dan memperbarui status rumah warga sesuai kondisi sebenarnya di lapangan, misalnya ketika terjadi perubahan status         koneksi dari aktif menjadi tidak aktif, atau sebaliknya. Dengan demikian, anggota komunitas tetap dapat membantu menjaga keakuratan dan pembaruan data operasional sistem, tanpa          mengubah informasi penting lainnya yang bersifat tetap.
    
    c. Data Panel Surya Komunitas
    
