@@ -166,11 +166,15 @@ Jika ingin kembali ke halaman login, pengguna dapat menekan tombol “Kembali”
 
 **Halaman Pembayaran Listrik**
 
-
-
 <img width="745" height="463" alt="image" src="https://github.com/user-attachments/assets/5a2c6cc6-b85e-4183-9a2f-48a95bfad6e8" />
 
-Halaman jika memilih metode pembayaran Transfer
+Ketika pengguna dengan peran warga memilih menu “Pembayaran Listrik” pada halaman utama warga, sistem akan menampilkan halaman pilihan metode pembayaran.
+Terdapat tiga metode pembayaran yang dapat dipilih sesuai keinginan warga. Untuk melanjutkan proses pembayaran, warga cukup mengklik metode pembayaran yang diinginkan.
+Apabila ingin kembali ke halaman menu utama warga, pengguna dapat menekan tombol “Kembali” yang tersedia di halaman tersebut.
+
+**Halaman jika memilih metode pembayaran Transfer**
+
+
 
 Halaman jika memilih metode pembayaran Dana
 
