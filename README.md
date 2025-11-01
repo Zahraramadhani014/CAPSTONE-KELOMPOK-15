@@ -21,8 +21,8 @@
 <h1 align="center"> 🌊 SOLARWAVE 🌊 </h1>
 <h2 align="center">=================================================</h2> 
 
-
-## ~ 📗 Deskripsi Singkat Program 📒  ~
+<details>
+## <summary><h3>~ 📗 Deskripsi Singkat Program 📒  ~</h3></summary>
 
 **SolarWave** adalah sebuah aplikasi yang dirancang untuk membantu pengelolaan distribusi dan penjualan energi listrik dari panel surya di wilayah pesisir Berau. Aplikasi ini hadir sebagai solusi atas berbagai kendala yang dihadapi masyarakat pesisir yang belum sepenuhnya terjangkau jaringan listrik PLN. Selama ini, proses pendataan pelanggan, pencatatan penyaluran energi, hingga penagihan dan pembayaran masih dilakukan secara manual, sehingga sering terjadi ketidaksesuaian data dan keterlambatan layanan. Melalui SolarWave, seluruh proses tersebut diintegrasikan dalam satu sistem yang lebih efisien, transparan, dan mudah digunakan oleh komunitas lokal.
 
@@ -31,10 +31,14 @@ Warga dapat melihat tagihan bulanan, melakukan pembayaran, dan memantau pemakaia
 
 Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melalui platform **XAMPP**, dengan konsep sistem **CRUD** (Create, Read, Update, Delete). Pendekatan ini membuat aplikasi lebih mudah dikembangkan, dioperasikan, dan diaudit oleh pengelola komunitas. Dengan adanya SolarWave, pengelolaan energi surya di pesisir Berau menjadi lebih terstruktur, adil, dan berkelanjutan. Aplikasi ini tidak hanya membantu memastikan kelancaran distribusi energi, tetapi juga mendorong kemandirian energi masyarakat serta mendukung tercapainya tujuan pembangunan berkelanjutan (SDGs) terutama pada poin ke-7, yaitu energi bersih dan terjangkau.
 
+</details>
 
-## ~ 📌 Fitur Program 📌 ~
+<details>
+<summary><h3> ~ 📌 Fitur Program 📌 ~</h3></summary>
 
-## **1. 🔓👥 MENU LOGIN**
+--------------------------------------------------------------------------------------------  
+<details>
+<summary><h3> 1. 🔓👥 MENU LOGIN </h3></summary>
 
    Pada menu Login ini merupakan tampilan utama ketika program dijalankan. Pada      halaman ini, pengguna diminta untuk memasukkan username dan password, kemudian    menekan tombol Login untuk melanjutkan. Proses login berfungsi sebagai            verifikasi pengguna untuk memastikan siapa yang berhak mengakses dan              menggunakan sistem. Proses ini melibatkan database untuk mengecek apakah          username dan password yang dimasukkan tersedia di database.
    
@@ -153,11 +157,28 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
 
    Dengan pembagian hak akses ini, sistem panel surya tetap transparan, aman, dan akurat, sekaligus memberikan kebebasan bagi warga untuk mengelola datanya sendiri sesuai kebutuhan         pribadi.
 
-## ~ 📥Penerapan OOP (Encapsulation, Inheritance, Abstraction, Polymorphism, Interface)📥 ~
+   --------------------------------------------------------------------------------------------  
 
-## ~ 📁 Struktur Folder/Package 📁 ~
+   </details>
 
-## ~ ➡ Cara Menggunakan Program ⬅ ~
+   
+<details>
+<summary><h3>~ 📥Penerapan OOP (Encapsulation, Inheritance, Abstraction, Polymorphism, Interface)📥 ~</h3></summary>
+
+</details>
+
+<details>
+<summary><h3>~ 📁 Struktur Folder/Package 📁 ~</h3></summary>
+
+</details>
+
+
+<details>
+<summary><h3>~ ➡ Cara Menggunakan Program ⬅ ~</h3></summary>
+
+
+
+
 
 **Halaman Login**
 
@@ -238,6 +259,8 @@ Halaman Data Panel Surya
 Halaman Data Tagihan Bulanan
 
 Halaman Data Pembayaran Listrik
+
+</details>
 
 
 
