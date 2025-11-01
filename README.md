@@ -69,67 +69,67 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
 
    Menu Data Distribusi Energi menampilkan informasi terkait aliran energi           listrik ke tiap rumah atau komunitas. Data yang ditampilkan mencakup kapasitas    energi, waktu distribusi, dan status penggunaan. Super Admin berwenang            sepenuhnya untuk mengelola seluruh data — mulai dari menambah, memperbarui,       hingga menghapus data distribusi — dengan memilih entri yang ingin diubah dan     menekan tombol aksi.
 
-    h. 🌞📋 Data Panel Surya
+   **h. 🌞📋 Data Panel Surya**
 
    Pada menu Data Panel Surya, sistem menampilkan informasi mengenai perangkat       panel surya yang digunakan, termasuk kode panel, kapasitas, dan lokasi            pemasangan. Super Admin memiliki kendali penuh terhadap pengelolaan data ini.     Semua proses seperti penambahan, pengeditan, maupun penghapusan data dilakukan    dengan memilih data panel tertentu dan menekan tombol aksi sesuai kebutuhan.
    
    
-5. Menu Anggota Komunitas
+**5. 🛠️🧑‍🤝‍🧑Menu Anggota Komunitas**
    
    Ketika membuka menu Anggota Komunitas, sistem akan langsung menampilkan           beberapa menu utama yang dapat diakses oleh anggota komunitas.
    Berbeda dengan Super Admin, anggota komunitas tidak memiliki akses penuh,         melainkan hanya dapat melakukan beberapa pengelolaan terbatas sesuai perannya.
    Anggota komunitas memiliki 5 menu utama yang digunakan untuk mengelola data       warga serta distribusi energi di lingkungan masing-masing.
    
-   a. Data Warga
+  **a.📋👨‍👩‍👧‍👦 Data Warga**
    
    Ketika Anggota Komunitas memilih menu Data Warga, sistem akan menampilkan tabel berisi daftar warga yang telah terdaftar di dalam sistem oleh Super Admin. Pada menu ini, Anggota         Komunitas memiliki hak akses untuk melihat data warga dan memperbarui status warga saja.
 
    Fitur ini disediakan agar anggota komunitas dapat memantau dan memperbarui status keaktifan warga sesuai kondisi sebenarnya di lapangan, misalnya ketika terdapat warga baru yang         aktif menggunakan panel surya atau warga yang sementara nonaktif. Dengan pembatasan hak akses ini, anggota komunitas tetap dapat berperan dalam menjaga validitas dan keakuratan          status data warga, tanpa dapat mengubah informasi pribadi lainnya yang bersifat sensitif atau tetap.
    
-   b. Data Rumah Warga
+   **b.🏠📋 Data Rumah Warga**
    
    Ketika Anggota Komunitas memilih menu Data Rumah Warga, sistem akan menampilkan tabel berisi informasi rumah milik warga, seperti alamat rumah, nomor rumah, dan nama pemilik. Pada       menu ini, Anggota Komunitas tidak memiliki akses penuh terhadap seluruh data, melainkan hanya dapat melihat data rumah dan memperbarui bagian yang diizinkan, khususnya status koneksi    rumah.
 
    Pembatasan ini bertujuan agar anggota komunitas dapat memantau dan memperbarui status rumah warga sesuai kondisi sebenarnya di lapangan, misalnya ketika terjadi perubahan status         koneksi dari aktif menjadi tidak aktif, atau sebaliknya. Dengan demikian, anggota komunitas tetap dapat membantu menjaga keakuratan dan pembaruan data operasional sistem, tanpa          mengubah informasi penting lainnya yang bersifat tetap.
    
-   c. Data Panel Surya Komunitas
+   **c. Data Panel Surya Komunitas**
    
    Pada menu Data Panel Surya, Anggota Komunitas memiliki akses penuh (CRUD:         Create, Read, Update, Delete) terhadap data panel surya. Artinya, anggota         komunitas dapat menambahkan, mengubah, maupun menghapus data panel surya          sesuai kebutuhan. Fitur ini memungkinkan anggota komunitas untuk mengelola        informasi terkait panel surya, seperti lokasi pemasangan, kapasitas, atau         kondisi panel, agar data yang tersimpan di sistem selalu lengkap dan akurat.
    
-   d. Distribusi Energi Rumah Warga
+  **d. Distribusi Energi Rumah Warga**
    
    Pada menu Data Distribusi Energi, Anggota Komunitas memiliki akses penuh          (CRUD: Create, Read, Update, Delete) terhadap data distribusi energi di           wilayahnya. Anggota komunitas dapat menambahkan data baru, mengubah informasi     distribusi, atau menghapus data yang sudah tidak relevan. Selain itu, anggota     komunitas juga berhak memperbarui status distribusi energi sesuai kondisi di      lapangan pada daerah yang menjadi tanggung jawabnya, sehingga data yang           tersimpan di sistem selalu terpantau dan sesuai dengan keadaan aktual.
    
-   e. Tagihan Warga
+   **e. Tagihan Warga**
 
    Pada menu Data Tagihan Bulanan, Anggota Komunitas memiliki akses penuh (CRUD:     Create, Read, Update, Delete) terhadap data tagihan. Setelah menyelesaikan        proses distribusi energi ke rumah warga, anggota komunitas dapat membuat          tagihan bulanan baru berdasarkan penggunaan energi di wilayahnya. Selain itu,     anggota komunitas juga dapat melihat, memperbarui, maupun menghapus data          tagihan jika terjadi kesalahan atau perubahan informasi. Dengan akses ini,        anggota komunitas berperan penting dalam memastikan setiap tagihan bulanan        tercatat dengan benar dan sesuai kondisi lapangan.
    
-7. Menu Warga
+**7. Menu Warga**
    
    Ketika pengguna login sebagai Warga, sistem akan menampilkan beberapa fitur utama yang difasilitasi khusus untuk warga.
    Terdapat lima fitur utama yang dapat digunakan oleh warga untuk berinteraksi dengan sistem.
    Salah satu menu utama yang difasilitasi untuk warga adalah fitur pembayaran, di mana warga dapat melakukan proses pembayaran secara langsung melalui sistem    dengan mudah dan           aman.
    
-   a. Pembayaran Listrik
+   **a. Pembayaran Listrik**
    
    Pada menu pembayaran listrik, warga akan ditampilkan beberapa pilihan metode pembayaran, yaitu transfer bank, DANA, dan OVO. Setelah memilih salah satu metode pembayaran, pengguna       akan diminta untuk memasukkan nomor rekening, nomor DANA, atau nomor OVO sesuai dengan metode yang dipilih. Selanjutnya, pengguna akan diminta untuk memasukkan jumlah pembayaran yang    ingin dilakukan. Setelah pembayaran berhasil, status pembayaran akan otomatis berubah, dan warga akan ditampilkan riwayat pembayaran yang telah dilakukan. Jika pengguna memilih          tombol “Kembali”, maka sistem akan mengalihkan pengguna ke menu utama.
    
-   b. Riwayat Pembayaran
+   **b. Riwayat Pembayaran**
 
    Ketika user warga memilih menu Riwayat Pembayaran, sistem akan menampilkan daftar seluruh transaksi pembayaran yang telah dilakukan sebelumnya. Pada menu ini, warga dapat melihat        detail setiap pembayaran, seperti metode pembayaran yang digunakan, jumlah yang dibayarkan, tanggal transaksi, serta status pembayaran.
    Melalui menu ini, warga dapat memantau dan memastikan bahwa seluruh tagihan telah dibayar dengan benar, serta memiliki bukti dan catatan pembayaran yang tersimpan secara otomatis.       Fitur ini juga membantu warga dalam mengelola keuangan dan menghindari keterlambatan pembayaran di bulan-bulan berikutnya.
    
-   c. Tagihan Bulanan
+   **c. Tagihan Bulanan**
 
    Ketika user warga memilih menu Tagihan Bulanan, sistem akan menampilkan daftar tagihan listrik yang harus dibayar setiap bulannya. Pada menu ini, warga dapat melihat rincian tagihan,    seperti periode tagihan (bulan dan tahun), jumlah tagihan yang harus dibayar, serta status tagihan (LUNAS,BELUM LUNAS). Melalui menu ini, warga dapat memantau kewajiban pembayaran       listrik setiap bulan dengan mudah, sehingga tidak ada tagihan yang terlewat. Selain itu, fitur ini juga membantu warga dalam mengatur pengeluaran bulanan dan memastikan pembayaran       dilakukan tepat waktu, karena seluruh informasi tagihan tersaji dengan jelas
    
-   d. Distribusi Energi Rumah
+   **d. Distribusi Energi Rumah**
 
    Menu Distribusi Energi Rumah menampilkan data penyaluran dan penggunaan energi listrik yang diterima oleh setiap rumah dalam sistem panel surya. Pada menu ini, setiap warga hanya        dapat melihat data distribusi energi milik rumahnya sendiri, termasuk informasi seperti tanggal distribusi, jumlah pemakaian listrik (kWh), biaya per kWh, serta catatan kondisi          penggunaan seperti cuaca atau aktivitas rumah yang memengaruhi konsumsi energi. Hal ini memastikan bahwa data yang ditampilkan bersifat privat dan sesuai dengan rumah masing-masing      pengguna.
 
    Melalui menu ini, warga dapat memantau pemakaian energi secara mandiri dan mengetahui bagaimana faktor lingkungan atau aktivitas rumah tangga memengaruhi konsumsi listrik. Fitur ini     membantu warga untuk mengontrol penggunaan energi dengan lebih efisien, menghindari pemborosan, serta memastikan bahwa distribusi energi dari panel surya berjalan dengan optimal di      rumah mereka.
    
-   e. Data Rumah Pribadi
+   **e. Data Rumah Pribadi**
 
    Pada menu Data Rumah, pengguna dengan peran warga memiliki akses untuk melihat dan memperbarui data rumah miliknya sendiri. Warga dapat mengubah informasi seperti nama pemilik,          alamat rumah, nomor rumah, serta nomor telepon. Akses ini diberikan agar warga dapat memastikan data rumahnya selalu akurat, terkini, dan sesuai dengan kondisi sebenarnya, terutama      jika terjadi perubahan informasi kontak atau alamat.
 
@@ -137,7 +137,7 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
 
    Dengan pembatasan ini, warga tetap dapat mengelola datanya secara mandiri tanpa mengganggu keakuratan sistem secara keseluruhan. Jika ditemukan kesalahan pada data yang bersifat         tetap, warga dapat melaporkannya kepada anggota komunitas atau admin untuk dilakukan perbaikan resmi melalui akun yang memiliki hak akses lebih tinggi.
 
-   f. Data Pribadi Warga
+   **f. Data Pribadi Warga**
 
    Pada menu Data Pribadi Warga, pengguna dengan peran warga juga memiliki akses penuh untuk melihat dan memperbarui informasi pribadinya. Data yang dapat diperbarui mencakup nama,         username, password, NIK, nomor KK, alamat, nomor telepon, dan email. Akses ini diberikan agar warga dapat menjaga agar data pribadinya selalu benar, valid, dan sesuai dengan kondisi     terkini.
 
