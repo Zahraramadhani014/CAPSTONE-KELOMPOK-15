@@ -149,15 +149,24 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
 
 ## ~ ➡ Cara Menggunakan Program ⬅ ~
 
-Halaman Login
+**Halaman Login**
 
-<img width="790" height="491" alt="image" src="https://github.com/user-attachments/assets/7392f6e4-0811-46b5-9e78-8a001e0d4032" />
+![WhatsApp Image 2025-11-01 at 18 14 37_d602f3c3](https://github.com/user-attachments/assets/1be4463f-7947-439b-9d2e-7da5b95228f3)
+
+Pada halaman login, pengguna harus memasukkan username dan password yang telah terdaftar sesuai perannya, baik sebagai warga, anggota komunitas, maupun admin.
+Terdapat fitur “Show Password” untuk menampilkan kata sandi agar pengguna dapat memeriksa kebenarannya.
+Setelah kedua kolom diisi dengan benar, pengguna menekan tombol “Login” untuk masuk ke sistem sesuai dengan hak akses masing-masing.
 
 **Halaman Menu Warga**
 
 <img width="739" height="459" alt="image" src="https://github.com/user-attachments/assets/3711ed7e-c251-4990-bded-adad7959e46b" />
 
-Halaman Pembayaran Listrik
+Setelah pengguna berhasil login sebagai warga, sistem akan menampilkan halaman utama dengan menu-menu yang dapat diakses oleh warga. Pengguna dapat langsung memilih menu yang diinginkan untuk melakukan suatu tindakan, seperti melihat data rumah atau mengelola data pribadi.
+Jika ingin kembali ke halaman login, pengguna dapat menekan tombol “Kembali” yang tersedia
+
+**Halaman Pembayaran Listrik**
+
+
 
 <img width="745" height="463" alt="image" src="https://github.com/user-attachments/assets/5a2c6cc6-b85e-4183-9a2f-48a95bfad6e8" />
 
