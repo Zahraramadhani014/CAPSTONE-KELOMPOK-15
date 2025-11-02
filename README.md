@@ -177,92 +177,162 @@ Setelah pengguna berhasil login sebagai Super Admin, tampilan yang muncul akan  
    
 <details>
 <summary><h3>~ 📥Penerapan OOP (Encapsulation, Inheritance, Abstraction, Polymorphism, Interface)📥 ~</h3></summary>
+   
 
-- 1. Encapsulation
+
+<details>
+<summary><h3>1. Encapsulation</h3></summary>
    
    Penerapan Encapsulation dalam program **SOLARWAVE** ada pada class **AuthUser.java** di Package **Model**.
 
    <img width="751" height="639" alt="image" src="https://github.com/user-attachments/assets/a11b88bd-cd34-480f-a77c-d4dc8dec0bff" />
----
-    
-- 2. Inheritance
+
+</details>
+
+
+
+<details>
+<summary><h3>2. Inheritance</h3></summary>
 
    Penerapan Inheritance dalam program **SOLARWAVE** ada pada class **Login.java** di Package **View**. Selain itu juga ada class **User.java** di Packcage **Model** sebagai parent         class dan class **Warga.java**, **AnggotaKomunitas.java** di package **Model** sebagai child class.
+
+────────────────────────────────────────────────────────
    
-   a. Login.java
+   - **a. Login.java**
 
    <img width="521" height="50" alt="image" src="https://github.com/user-attachments/assets/396a3bd3-a5c3-4d48-9d31-20f04337cdad" />
-
-   b. User.java
+   
+────────────────────────────────────────────────────────
+   
+   - **b. User.java**
 
    <img width="466" height="902" alt="image" src="https://github.com/user-attachments/assets/254112ca-1f4f-4718-84b8-a6e6d2b3df20" />
 
-   c. Warga.java
+────────────────────────────────────────────────────────
+   
+
+   - **c. Warga.java**
 
    <img width="1085" height="880" alt="image" src="https://github.com/user-attachments/assets/a058c8c8-7830-4dc3-86ea-d91aa2d5f625" />
 
-   d. AnggotaKomunitas.java
+────────────────────────────────────────────────────────
+   
+   - **d. AnggotaKomunitas.java**
 
    <img width="997" height="951" alt="image" src="https://github.com/user-attachments/assets/97d67593-0580-45df-bcfe-1b23acff79bd" />
-
    
-3. Abstraction
+────────────────────────────────────────────────────────
+   
+   
+---
+
+</details>
+
+
+<details>
+   
+<summary><h3>3. Abstraction</h3></summary>
 
    Penerapan Abstraction dalam program **SOLARWAVE** ada pada class **User.java**, **Warga.java**, dan **AnggotaKomunitas.java** di Package **Model**.
 
-   a. User.java
+   ────────────────────────────────────────────────────────
+
+   - **a. User.java**
 
    <img width="670" height="666" alt="image" src="https://github.com/user-attachments/assets/50efb625-d1b1-48a0-a431-c8133ccf7dda" />
+
+   ────────────────────────────────────────────────────────
    
-   b. Warga.java
+   - **b. Warga.java**
 
    <img width="370" height="141" alt="image" src="https://github.com/user-attachments/assets/e8902868-5f3b-4204-bee5-af4b5986ea31" />
+
+   ────────────────────────────────────────────────────────
    
-   c. AnggotaKomunitas.java
+   - **c. AnggotaKomunitas.java**
 
    <img width="375" height="142" alt="image" src="https://github.com/user-attachments/assets/4c14a336-67fd-4fd6-b84d-acc1a0f6fc9d" />
 
-4. Polymorphism
+   ────────────────────────────────────────────────────────
+
+   ---
+   
+   </details>
+
+   <details>
+
+   <summary><h3>4. Polymorphism</h3></summary>
 
    Penerapan Polymorphism dalam program **SOLARWAVE**  ada pada class **User.java**, **Warga.java**, dan **AnggotaKomunitas.java** di Package **Model**.
 
-   a. User.java
+   ────────────────────────────────────────────────────────
+
+   - **a. User.java**
 
    <img width="729" height="100" alt="image" src="https://github.com/user-attachments/assets/2b239fbc-9c3f-4d1a-ab83-3414f2280358" />
 
-      
-   b. Warga.java
+   ────────────────────────────────────────────────────────
 
+
+   - **b. Warga.java**
+   
    <img width="364" height="30" alt="image" src="https://github.com/user-attachments/assets/53014286-c665-4a97-b621-6047306fe9da" />
+   
 
    <img width="851" height="244" alt="image" src="https://github.com/user-attachments/assets/df4c14c1-b7d5-46a8-aa71-590c9deb5f17" />
 
+   ────────────────────────────────────────────────────────
 
-   c.  AnggotaKomunitas.java
+
+   - **c.  AnggotaKomunitas.java**
 
    <img width="470" height="33" alt="image" src="https://github.com/user-attachments/assets/45ea12f7-fb21-4352-8750-fe3ea675810c" />
+   
 
    <img width="923" height="226" alt="image" src="https://github.com/user-attachments/assets/c21b4064-7fc5-4e74-943e-d7fab34e13b2" />
 
-5.  Interface
+   ────────────────────────────────────────────────────────
+
+   ---
+
+   </details>
+
+   <details>
+   
+<summary><h3>5.  Interface</h3></summary>
 
    Penerapan Interface dalam program **SOLARWAVE** ada pada class **AuthService.java**, **DbAuthService.java**, **ServiceFactory.java**  di Package **Service**.
 
-   a. AuthService.java
+   ────────────────────────────────────────────────────────
+
+   - **a. AuthService.java**
 
    <img width="915" height="148" alt="image" src="https://github.com/user-attachments/assets/f8826932-9fdd-4a25-a15b-443b0624ca7c" />
 
-   b. DbAuthService.java
+   ────────────────────────────────────────────────────────
+
+   
+
+   - **b. DbAuthService.java**
 
    <img width="936" height="274" alt="image" src="https://github.com/user-attachments/assets/ed13a957-6f9e-4bae-9f6f-e90ee47d817a" />
 
+   ────────────────────────────────────────────────────────
+
    
-   c. ServiceFactory.java
+   - **c. ServiceFactory.java**
 
    <img width="841" height="657" alt="image" src="https://github.com/user-attachments/assets/34a03c95-87e5-4b4a-b38f-ac16f5182c84" />
 
+   ────────────────────────────────────────────────────────
+
+   ---
+
 
 </details>
+
+</details>
+
 
 <details>
 <summary><h3>~ 📁 Struktur Folder/Package 📁 ~</h3></summary>
