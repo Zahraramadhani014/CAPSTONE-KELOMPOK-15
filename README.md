@@ -1,4 +1,4 @@
-<img width="245" height="275" alt="image" src="https://github.com/user-attachments/assets/5ae9c96b-9419-4b41-86ce-0010e3770fe1" />## ── .✦ CAPSTONE KELOMPOK 15 ✦. ── 
+## ── .✦ CAPSTONE KELOMPOK 15 ✦. ── 
 --------------------------------------------------------------------------------------------
 
 ### Disusun oleh:
@@ -177,39 +177,76 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
    Penerapan Inheritance dalam program **SOLARWAVE** ada pada class **Login.java** di Package **View**. Selain itu juga ada class **User.java** di Packcage **Model** sebagai parent class dan class **Warga.java**, **AnggotaKomunitas.java** di package **Model** sebagai child class.
    
    a. Login.java
-   
+
    <img width="521" height="50" alt="image" src="https://github.com/user-attachments/assets/396a3bd3-a5c3-4d48-9d31-20f04337cdad" />
 
-   b. User.java, Warga.java, AnggotaKomunitas.java
+   b. User.java
 
-   <img width="751" height="935" alt="image" src="https://github.com/user-attachments/assets/db7fcffa-366d-4c82-964d-33c95dcdaa30" />
+   <img width="466" height="902" alt="image" src="https://github.com/user-attachments/assets/254112ca-1f4f-4718-84b8-a6e6d2b3df20" />
 
-   <img width="1060" height="736" alt="image" src="https://github.com/user-attachments/assets/743d781f-735d-4461-8808-85a188849586" />
+   c. Warga.java
 
-   <img width="1112" height="885" alt="image" src="https://github.com/user-attachments/assets/222a2cea-593e-408a-a90a-4d3138062488" />
+   <img width="1085" height="880" alt="image" src="https://github.com/user-attachments/assets/a058c8c8-7830-4dc3-86ea-d91aa2d5f625" />
 
-   <img width="1110" height="873" alt="image" src="https://github.com/user-attachments/assets/43b5d77c-0d5d-4b21-b34f-e2b649debebd" />
+   d. AnggotaKomunitas.java
 
+   <img width="997" height="951" alt="image" src="https://github.com/user-attachments/assets/97d67593-0580-45df-bcfe-1b23acff79bd" />
 
+   
 3. Abstraction
 
    Penerapan Abstraction dalam program **SOLARWAVE** ada pada class **User.java**, **Warga.java**, dan **AnggotaKomunitas.java** di Package **Model**.
 
+   a. User.java
+
    <img width="670" height="666" alt="image" src="https://github.com/user-attachments/assets/50efb625-d1b1-48a0-a431-c8133ccf7dda" />
+   
+   b. Warga.java
 
    <img width="370" height="141" alt="image" src="https://github.com/user-attachments/assets/e8902868-5f3b-4204-bee5-af4b5986ea31" />
+   
+   c. AnggotaKomunitas.java
 
    <img width="375" height="142" alt="image" src="https://github.com/user-attachments/assets/4c14a336-67fd-4fd6-b84d-acc1a0f6fc9d" />
 
-5. Polymorphism
+4. Polymorphism
 
-   Salah satu penerapan Abstraction dalam program **SOLARWAVE** ada pada class **AuthUser** di Package **Model**.
+   Penerapan Polymorphism dalam program **SOLARWAVE**  ada pada class **User.java**, **Warga.java**, dan **AnggotaKomunitas.java** di Package **Model**.
+
+   a. User.java
+
+   <img width="729" height="100" alt="image" src="https://github.com/user-attachments/assets/2b239fbc-9c3f-4d1a-ab83-3414f2280358" />
+
+      
+   b. Warga.java
+
+   <img width="364" height="30" alt="image" src="https://github.com/user-attachments/assets/53014286-c665-4a97-b621-6047306fe9da" />
+
+   <img width="851" height="244" alt="image" src="https://github.com/user-attachments/assets/df4c14c1-b7d5-46a8-aa71-590c9deb5f17" />
 
 
+   c.  AnggotaKomunitas.java
 
-6.  Interface
+   <img width="470" height="33" alt="image" src="https://github.com/user-attachments/assets/45ea12f7-fb21-4352-8750-fe3ea675810c" />
 
-   Salah satu penerapan Interface dalam program **SOLARWAVE** ada pada class **AuthUser** di Package **Model**.
+   <img width="923" height="226" alt="image" src="https://github.com/user-attachments/assets/c21b4064-7fc5-4e74-943e-d7fab34e13b2" />
+
+5.  Interface
+
+   Penerapan Interface dalam program **SOLARWAVE** ada pada class **AuthService.java**, **DbAuthService.java**, **ServiceFactory.java**  di Package **Service**.
+
+   a. AuthService.java
+
+   <img width="915" height="148" alt="image" src="https://github.com/user-attachments/assets/f8826932-9fdd-4a25-a15b-443b0624ca7c" />
+
+   b. DbAuthService.java
+
+   <img width="936" height="274" alt="image" src="https://github.com/user-attachments/assets/ed13a957-6f9e-4bae-9f6f-e90ee47d817a" />
+
+   
+   c. ServiceFactory.java
+
+   <img width="841" height="657" alt="image" src="https://github.com/user-attachments/assets/34a03c95-87e5-4b4a-b38f-ac16f5182c84" />
 
 
 </details>
@@ -267,22 +304,35 @@ Di SOLARWAVE, Folder yang digunakan adalah:
 
 1. Other Sources
 
-<img width="575" height="430" alt="image" src="https://github.com/user-attachments/assets/0ad0e4e9-42d4-476d-9be0-84837e89c7d6" />
+   <img width="575" height="430" alt="image" src="https://github.com/user-attachments/assets/0ad0e4e9-42d4-476d-9be0-84837e89c7d6" />
 
 2. Project Files
 
    <img width="292" height="72" alt="image" src="https://github.com/user-attachments/assets/380b5754-72c6-4940-8dad-968fa22c3b2c" />
 
 
-C. Library
+C. Library (Dependencies)
 
-<img width="305" height="159" alt="image" src="https://github.com/user-attachments/assets/a83c1576-137d-4e5b-af22-c78db1b6df74" />
+Library merupakan kumpulan file pendukung (external class atau package) yang digunakan untuk menambahkan fungsi-fungsi tertentu ke dalam program tanpa perlu menulis semuanya dari awal.
+
+Dengan menggunakan library, pengembang dapat memanfaatkan kode yang sudah siap pakai, sehingga proses pengembangan aplikasi menjadi lebih cepat, efisien, dan mudah dipelihara.
+
+Dalam proyek SOLARWAVE, library berfungsi untuk membantu koneksi ke database, melakukan enkripsi password, serta mendukung tampilan antarmuka pada aplikasi.
+
+Library yang digunakan di SOLARWAVE antara lain:
+
+<img width="373" height="117" alt="image" src="https://github.com/user-attachments/assets/b61ddf4a-3c83-4344-969a-2a79871551a6" />
+
+D. Java Dependencies
+
+Java Dependencies merupakan bagian dari proyek Java yang berisi komponen utama Java Development Kit (JDK) yang digunakan oleh aplikasi. Bagian ini menyediakan semua pustaka (library) dan runtime environment bawaan Java yang diperlukan agar program dapat dikompilasi dan dijalankan dengan benar.
+
+Java Dependencies yang digunakan di SOLARWAVE antara lain:
+
+<img width="260" height="51" alt="image" src="https://github.com/user-attachments/assets/3453f9fa-b567-49fc-9721-9fd9327e521a" />
 
 
-
-
-
-   
+  
 <details>
 <summary><h3>~ Nilai Tambah ~</h3></summary>
 
@@ -290,9 +340,6 @@ C. Library
 
 <details>
 <summary><h3>~ ➡ Cara Menggunakan Program ⬅ ~</h3></summary>
-
-
-
 
 
 **Halaman Login**
