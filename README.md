@@ -178,16 +178,16 @@ Setelah pengguna berhasil login sebagai Super Admin, tampilan yang muncul akan  
 <details>
 <summary><h3>~ 📥Penerapan OOP (Encapsulation, Inheritance, Abstraction, Polymorphism, Interface)📥 ~</h3></summary>
 
-1. Encapsulation
+- 1. Encapsulation
    
    Penerapan Encapsulation dalam program **SOLARWAVE** ada pada class **AuthUser.java** di Package **Model**.
 
    <img width="751" height="639" alt="image" src="https://github.com/user-attachments/assets/a11b88bd-cd34-480f-a77c-d4dc8dec0bff" />
-
+---
     
-2. Inheritance
+- 2. Inheritance
 
-   Penerapan Inheritance dalam program **SOLARWAVE** ada pada class **Login.java** di Package **View**. Selain itu juga ada class **User.java** di Packcage **Model** sebagai parent class dan class **Warga.java**, **AnggotaKomunitas.java** di package **Model** sebagai child class.
+   Penerapan Inheritance dalam program **SOLARWAVE** ada pada class **Login.java** di Package **View**. Selain itu juga ada class **User.java** di Packcage **Model** sebagai parent         class dan class **Warga.java**, **AnggotaKomunitas.java** di package **Model** sebagai child class.
    
    a. Login.java
 
