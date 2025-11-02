@@ -1,4 +1,4 @@
-## ── .✦ CAPSTONE KELOMPOK 15 ✦. ── 
+<img width="245" height="275" alt="image" src="https://github.com/user-attachments/assets/5ae9c96b-9419-4b41-86ce-0010e3770fe1" />## ── .✦ CAPSTONE KELOMPOK 15 ✦. ── 
 --------------------------------------------------------------------------------------------
 
 ### Disusun oleh:
@@ -165,12 +165,127 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
 <details>
 <summary><h3>~ 📥Penerapan OOP (Encapsulation, Inheritance, Abstraction, Polymorphism, Interface)📥 ~</h3></summary>
 
+1. Encapsulation
+   
+   Penerapan Encapsulation dalam program **SOLARWAVE** ada pada class **AuthUser.java** di Package **Model**.
+
+   <img width="751" height="639" alt="image" src="https://github.com/user-attachments/assets/a11b88bd-cd34-480f-a77c-d4dc8dec0bff" />
+
+    
+2. Inheritance
+
+   Penerapan Inheritance dalam program **SOLARWAVE** ada pada class **Login.java** di Package **View**. Selain itu juga ada class **User.java** di Packcage **Model** sebagai parent class dan class **Warga.java**, **AnggotaKomunitas.java** di package **Model** sebagai child class.
+   
+   a. Login.java
+   
+   <img width="521" height="50" alt="image" src="https://github.com/user-attachments/assets/396a3bd3-a5c3-4d48-9d31-20f04337cdad" />
+
+   b. User.java, Warga.java, AnggotaKomunitas.java
+
+   <img width="751" height="935" alt="image" src="https://github.com/user-attachments/assets/db7fcffa-366d-4c82-964d-33c95dcdaa30" />
+
+   <img width="1060" height="736" alt="image" src="https://github.com/user-attachments/assets/743d781f-735d-4461-8808-85a188849586" />
+
+   <img width="1112" height="885" alt="image" src="https://github.com/user-attachments/assets/222a2cea-593e-408a-a90a-4d3138062488" />
+
+   <img width="1110" height="873" alt="image" src="https://github.com/user-attachments/assets/43b5d77c-0d5d-4b21-b34f-e2b649debebd" />
+
+
+3. Abstraction
+
+   Penerapan Abstraction dalam program **SOLARWAVE** ada pada class **User.java**, **Warga.java**, dan **AnggotaKomunitas.java** di Package **Model**.
+
+   <img width="670" height="666" alt="image" src="https://github.com/user-attachments/assets/50efb625-d1b1-48a0-a431-c8133ccf7dda" />
+
+   <img width="370" height="141" alt="image" src="https://github.com/user-attachments/assets/e8902868-5f3b-4204-bee5-af4b5986ea31" />
+
+   <img width="375" height="142" alt="image" src="https://github.com/user-attachments/assets/4c14a336-67fd-4fd6-b84d-acc1a0f6fc9d" />
+
+5. Polymorphism
+
+   Salah satu penerapan Abstraction dalam program **SOLARWAVE** ada pada class **AuthUser** di Package **Model**.
+
+
+
+6.  Interface
+
+   Salah satu penerapan Interface dalam program **SOLARWAVE** ada pada class **AuthUser** di Package **Model**.
+
+
 </details>
 
 <details>
 <summary><h3>~ 📁 Struktur Folder/Package 📁 ~</h3></summary>
 
 </details>
+
+A. Package
+
+Package adalah mekanisme untuk mengelompokkan class, interface, enum, dan sub-package ke dalam satu namespace. Tujuannya agar kode lebih terstruktur, mudah dicari, dan tidak terjadi benturan nama. Di Java, package juga berkaitan dengan kontrol akses (mis. package-private) dan distribusi kode.
+
+Perbedaannya dengan folder: folder adalah struktur fisik di disk, sedangkan package adalah identitas logis di kode. Keduanya harus selaras—nama package pada baris pertama file (package ...;) harus sesuai dengan struktur folder sumbernya.
+
+Di SOLARWAVE, Package yang digunakan adalah:
+
+<img width="234" height="324" alt="image" src="https://github.com/user-attachments/assets/53cd738c-9846-4de1-b227-3dd345f95e1a" />
+
+1. Package Main
+
+   <img width="199" height="48" alt="image" src="https://github.com/user-attachments/assets/b91736e4-35eb-4e6e-8c81-2a974d4cbdf2" />
+
+2. Package Model
+
+   <img width="245" height="275" alt="image" src="https://github.com/user-attachments/assets/bf0437a9-614d-4014-b0d4-672d5e7676d2" />
+
+3. Package Service
+
+   <img width="275" height="140" alt="image" src="https://github.com/user-attachments/assets/85f2084d-67cb-496f-8c96-fcddf866b551" />
+
+4. Package View
+
+   <img width="439" height="628" alt="image" src="https://github.com/user-attachments/assets/48bafb3a-b51d-4275-ab13-07e6062c37a9" />
+
+5. Package assets
+   
+   <img width="441" height="272" alt="image" src="https://github.com/user-attachments/assets/4c0b3e2b-f41e-405f-8a2e-5d38e640fd92" />
+
+6. Package config
+
+   <img width="214" height="44" alt="image" src="https://github.com/user-attachments/assets/6f3dc253-0adc-4b69-bba3-396725f7dbc3" />
+
+7. Package dao
+
+   <img width="304" height="252" alt="image" src="https://github.com/user-attachments/assets/cf482ff2-6149-4b4a-a78d-0f78dec90150" />
+
+B. Folder
+
+Folder merupakan wadah fisik di dalam sistem file komputer yang digunakan untuk menyimpan dan mengelompokkan berbagai berkas (file) proyek, seperti source code, gambar, database, atau konfigurasi. Dalam konteks pemrograman Java, struktur folder sangat penting karena harus sesuai dengan deklarasi package di setiap file .java.
+
+Folder membantu pengembang dalam menjaga proyek tetap terorganisir, mudah dipelihara, dan terstruktur sesuai fungsinya. Setiap folder biasanya merepresentasikan bagian atau komponen tertentu dari aplikasi.
+
+Di SOLARWAVE, Folder yang digunakan adalah:
+
+1. Other Sources
+
+<img width="575" height="430" alt="image" src="https://github.com/user-attachments/assets/0ad0e4e9-42d4-476d-9be0-84837e89c7d6" />
+
+2. Project Files
+
+   <img width="292" height="72" alt="image" src="https://github.com/user-attachments/assets/380b5754-72c6-4940-8dad-968fa22c3b2c" />
+
+
+C. Library
+
+<img width="305" height="159" alt="image" src="https://github.com/user-attachments/assets/a83c1576-137d-4e5b-af22-c78db1b6df74" />
+
+
+
+
+
+   
+<details>
+<summary><h3>~ Nilai Tambah ~</h3></summary>
+
 
 
 <details>
