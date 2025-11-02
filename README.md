@@ -336,6 +336,12 @@ Java Dependencies yang digunakan di SOLARWAVE antara lain:
 <details>
 <summary><h3>~ Nilai Tambah ~</h3></summary>
 
+Untuk nilai tambah pada program ini menerapkan 2 nilai tambah, yaitu:
+
+A. DAO
+
+B. MVC
+
 
 
 <details>
