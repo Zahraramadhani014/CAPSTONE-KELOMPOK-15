@@ -570,7 +570,6 @@ Ketika memperbarui data ga sesuai dengan tipe data yang ada maka akan muncul not
 
 <img width="1007" height="670" alt="image" src="https://github.com/user-attachments/assets/12df196c-b64c-4a0d-b76f-c0eaa13b50ba" />
 
-
 Ketika ingin keluar dari halaman data rumah warga, warga tinggal klik tombol kembali saja untuk kembali ke menu warga
 
 <img width="1010" height="675" alt="image" src="https://github.com/user-attachments/assets/6b442cfa-8332-4c09-851a-1658b772c6e2" />
@@ -597,18 +596,88 @@ Ketika ingin keluar dari halaman  Riwayat Pembayaran Listrik, warga tinggal klik
 
 Ketika ingin keluar dari halaman Tagihan Bulanan, warga tinggal klik tombol kembali saja untuk kembali ke menu warga
 
-![Uploading image.png…]()
-
+<img width="1004" height="667" alt="image" src="https://github.com/user-attachments/assets/74198ad9-5996-426d-9a53-928b83cc9154" />
 
 **6. Halaman Data Diri**
 
+<img width="1008" height="665" alt="image" src="https://github.com/user-attachments/assets/3f14a724-c1ab-425a-9488-29550aee0049" />
+
+mau ubah id user
+
+<img width="1012" height="674" alt="image" src="https://github.com/user-attachments/assets/f4204814-cc27-40c2-ab7c-eec0dcaee5a5" />
+
+mau ubah tanggal bergabung
+
+<img width="1009" height="667" alt="image" src="https://github.com/user-attachments/assets/d74d6cbc-f1ea-45b3-9125-0092d0f0ad10" />
+
+a. Muat Ulang
+
+sebelum klik muat ulang, dengan memperbarui data di field, disini mengubah alamat, email, username, password
+
+<img width="1006" height="672" alt="image" src="https://github.com/user-attachments/assets/8f9f2d4b-35a7-4560-9002-eac990b91824" />
+
+setelah klik muat ulang, maka akan muncul notifikasi
+
+<img width="1016" height="671" alt="image" src="https://github.com/user-attachments/assets/f463d0ad-24ad-4eb5-927b-9cb791f3cee0" />
+
+
+- jika klik yes maka data baru yang kita isi di field akan refresh ke data awal sebelum data baru kita inputkan
+
+  <img width="1012" height="676" alt="image" src="https://github.com/user-attachments/assets/d2a8b50b-978f-42b5-8bce-0e598615735c" />
+
+  <img width="1007" height="667" alt="image" src="https://github.com/user-attachments/assets/99ef02c8-8688-4970-800f-826761c33fc3" />
+
+
+- jika klik no  maka data tidak akan refresh ke data lama kita
+
+  <img width="1009" height="669" alt="image" src="https://github.com/user-attachments/assets/cfe2abef-2e6e-42c1-9ec3-f8a368346c3c" />
+
+b. Perbarui
+
+memperbarui alamat, email, username, password
+
+<img width="1009" height="669" alt="image" src="https://github.com/user-attachments/assets/fc8a5b48-79d1-43cc-8537-a0559fad3c78" />
+
+jika kik tombol perbarui akan muncul notifikasi "simpan perubahan data akun anda" "yes/no"
+
+<img width="1017" height="669" alt="image" src="https://github.com/user-attachments/assets/c54dd495-b11f-4d3d-bda7-b338c46cd083" />
+
+- yes
+
+  sebelum
+
+  <img width="1009" height="669" alt="image" src="https://github.com/user-attachments/assets/fc8a5b48-79d1-43cc-8537-a0559fad3c78" />
+
+  sesudah
+
+  <img width="1006" height="676" alt="image" src="https://github.com/user-attachments/assets/f981c639-bde3-4bb3-b696-f5ceaaba1814" />
+
+  <img width="1016" height="666" alt="image" src="https://github.com/user-attachments/assets/215ccaa5-1519-42d7-b3dc-3103eec36d62" />
+
+- jika no, maka data baru tidak akan berubah di tabelnya
+
+  <img width="1010" height="683" alt="image" src="https://github.com/user-attachments/assets/a24708e4-0b9a-4ba2-9d80-2753d62f4999" />
+
+  
+Ketika memperbarui data ga sesuai dengan tipe data yang ada maka akan muncul notifikasi validasi gagal
+
+<img width="1007" height="668" alt="image" src="https://github.com/user-attachments/assets/f108b4b1-3bf7-4f5c-99f6-3049fe925193" />
+
+Ketika ingin keluar dari halaman data diri, warga tinggal klik tombol kembali saja untuk kembali ke menu warga
+
+<img width="1009" height="672" alt="image" src="https://github.com/user-attachments/assets/5e930a20-1404-46b3-bb23-32d088915641" />
+
 **7. Kembali**
 
+klik tombol lembali pada halaman menu warga maka akan muncul notifikasi, dan diarahkan ke halaman login
+
+<img width="1005" height="670" alt="image" src="https://github.com/user-attachments/assets/ad2c0224-58c5-4290-9f49-7d7ea65f525a" />
+
+<img width="1006" height="675" alt="image" src="https://github.com/user-attachments/assets/8db6d1c6-8224-4a3b-93e3-c9b8fea0c2f7" />
 
 ## Halaman Menu Anggota Komunitas
 
 <img width="1009" height="664" alt="image" src="https://github.com/user-attachments/assets/a06515f5-f221-4db5-8070-c970e6f2ec64" />
-
 
 **1. Halaman Data Warga**
 
@@ -622,8 +691,7 @@ Ketika ingin keluar dari halaman Tagihan Bulanan, warga tinggal klik tombol kemb
 
 **6. Halaman Data Pembayaran Listrik Warga**
 
-**7. Kembalir**
-
+**7. Kembali**
 
 ## Halaman Menu Admin
 
