@@ -697,6 +697,48 @@ klik tombol lembali pada halaman menu warga maka akan muncul notifikasi, dan dia
 
 <img width="1006" height="675" alt="image" src="https://github.com/user-attachments/assets/8db6d1c6-8224-4a3b-93e3-c9b8fea0c2f7" />
 
+## Halaman Menu Admin
+
+<img width="743" height="462" alt="image" src="https://github.com/user-attachments/assets/eccaf87f-00de-4200-b47a-052fb404bfc3" />
+
+**1. Halaman Data Warga**
+
+<img width="1010" height="667" alt="image" src="https://github.com/user-attachments/assets/590b37b6-5a2d-43a2-8704-055ac15c0931" />
+
+1. Tambah
+
+   jika klik id user maka akan muncul notifikasi
+
+   <img width="1011" height="674" alt="image" src="https://github.com/user-attachments/assets/cab40efb-eaec-41c0-8f84-7bc89657a061" />
+
+2. Perbarui
+
+3. Muat Ulang
+
+4. Kembali
+
+
+**2. Halaman Data Anggota Komunitas**
+
+
+
+
+
+**3. Halaman Data Komunitas**
+
+**4. Halaman Data Rumah Warga**
+
+**5. Halaman Data Distribusi Energi**
+
+**6. Halaman Data Panel Surya**
+
+**7. Halaman Data Tagihan Bulanan**
+
+**8. Halaman Data Pembayaran Listrik**
+
+**9. Kembali**
+
+
 ## Halaman Menu Anggota Komunitas
 
 <img width="1009" height="664" alt="image" src="https://github.com/user-attachments/assets/a06515f5-f221-4db5-8070-c970e6f2ec64" />
@@ -715,29 +757,8 @@ klik tombol lembali pada halaman menu warga maka akan muncul notifikasi, dan dia
 
 **7. Kembali**
 
-## Halaman Menu Admin
-
-<img width="743" height="462" alt="image" src="https://github.com/user-attachments/assets/eccaf87f-00de-4200-b47a-052fb404bfc3" />
-
-**1. Halaman Data Warga**
-
-**2. Halaman Data Anggota Komunitas**
-
-**3. Halaman Data Komunitas**
-
-**4. Halaman Data Rumah Warga**
-
-**5. Halaman Data Distribusi Energi**
-
-**6. Halaman Data Panel Surya**
-
-**7. Halaman Data Tagihan Bulanan**
-
-**8. Halaman Data Pembayaran Listrik**
-
-**9. Kembali**
-
 </details>
+
 
 
 
