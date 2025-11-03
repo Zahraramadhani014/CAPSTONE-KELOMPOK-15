@@ -1069,7 +1069,6 @@ jika perbarui data tanpa format yang sesuai
    <img width="1005" height="669" alt="image" src="https://github.com/user-attachments/assets/57f6da26-7b8f-4a41-8996-68ffffe51d03" />
 
    
-
 **5. Halaman Data Distribusi Energi**
 
 1. Tambah
