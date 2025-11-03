@@ -921,7 +921,7 @@ klik tombol Kembali pada halaman menu warga maka akan muncul notifikasi, dan dia
    
    jika klik id komunnitas maka akan muncul notifikasi
 
-   <img width="1000" height="668" alt="image" src="https://github.com/user-attachments/assets/776005ef-57c0-483b-8b4d-a1e3482c60c1" />
+   <img width="1009" height="673" alt="image" src="https://github.com/user-attachments/assets/473040ec-dcda-4a77-ae04-fb3c968b9a2d" />
 
    jika berhasil perbarui data lama
 
@@ -1020,7 +1020,7 @@ klik tombol Kembali pada halaman menu warga maka akan muncul notifikasi, dan dia
 
 jika klik id rumah maka akan muncul notifikasi
 
-<img width="999" height="657" alt="image" src="https://github.com/user-attachments/assets/3c7a3ba9-b0ea-4316-b614-9bafad83ec61" />
+<img width="1006" height="669" alt="image" src="https://github.com/user-attachments/assets/b6d877db-fefc-4177-b22a-67b980db0e67" />
 
 
 jika berhasil perbarui data
@@ -1054,9 +1054,9 @@ jika perbarui data tanpa format yang sesuai
    <img width="996" height="671" alt="image" src="https://github.com/user-attachments/assets/61f4dba2-8721-4f26-bba1-0b82814fe5a0" />
 
    - yes
+     
      <img width="995" height="665" alt="image" src="https://github.com/user-attachments/assets/228723f1-77dd-4d39-b390-788780277e9f" />
 
-     
    - no
 
      <img width="998" height="665" alt="image" src="https://github.com/user-attachments/assets/e6ff4cbc-12ff-471f-ab8c-93d67e9aed1b" />
@@ -1071,71 +1071,364 @@ jika perbarui data tanpa format yang sesuai
    
 **5. Halaman Data Distribusi Energi**
 
+<img width="1017" height="674" alt="image" src="https://github.com/user-attachments/assets/a85bb411-4e8a-4061-a73b-9b9e1b72c3d6" />
+
+
 1. Tambah
 
-   Untuk id user dan tanggal bergabung ini auto pada saat nambahin data, jadi field ini terkunci gabisa diedit
+   Untuk id distribusi ini auto pada saat nambahin data, jadi field ini terkunci gabisa diedit
 
-   <img width="1006" height="670" alt="image" src="https://github.com/user-attachments/assets/b74a3f8e-7a6a-4822-9fd2-ff5d6783f710" />
+   <img width="1013" height="671" alt="image" src="https://github.com/user-attachments/assets/6b6b1f8c-ac9c-4e45-8929-4b61dc0e5c06" />
 
+   Jika tambah data berhasil
+
+   <img width="1006" height="666" alt="image" src="https://github.com/user-attachments/assets/7726e5d7-6446-4b48-b43f-727b252eb4cc" />
+
+   <img width="1007" height="670" alt="image" src="https://github.com/user-attachments/assets/13ee4131-ac26-451a-9b63-b1ea78a89b2a" />
+
+   <img width="1015" height="675" alt="image" src="https://github.com/user-attachments/assets/022d3f06-76b4-49f6-bafa-75d7f68bf0e3" />
+
+   jika tambah data tanpa mengisi field
+
+   <img width="1012" height="670" alt="image" src="https://github.com/user-attachments/assets/47cf6ec3-d210-43da-9bfd-43c710e939ee" />
+
+   jika tambah data ga sesuai format
+
+   <img width="1003" height="666" alt="image" src="https://github.com/user-attachments/assets/1f7aac4d-5075-47ae-9796-e696964f85a4" />
 
 2. Perbarui
 
+   jika klik id distribusi, maka akan muncul notifikasi
+
+   <img width="1005" height="673" alt="image" src="https://github.com/user-attachments/assets/d3eb2542-73a5-4708-8650-483c24caaec0" />
+
+   jika berhasil perbarui data
+
+   <img width="1007" height="676" alt="image" src="https://github.com/user-attachments/assets/6dcaa20f-9f3d-4d89-8383-cba7889cb6e8" />
+
+   - yes
+  
+     <img width="1004" height="665" alt="image" src="https://github.com/user-attachments/assets/03e8b79c-df7d-496e-9a28-952b7c026071" />
+
+     <img width="1016" height="679" alt="image" src="https://github.com/user-attachments/assets/10ce4ca2-a80c-4799-acb2-c283e9d7a316" />
+
+   - no
+  
+     <img width="1004" height="670" alt="image" src="https://github.com/user-attachments/assets/cede3f03-a160-482b-8a9b-739694a8b267" />
+
+   jika perbarui data tanpa klik data dari tabel
+
+   <img width="1006" height="675" alt="image" src="https://github.com/user-attachments/assets/e250b6cf-1d05-49ff-8b55-dfd4e814d57d" />
+
+   jika perbarui data tidak sesuai format
+
+   <img width="1007" height="674" alt="image" src="https://github.com/user-attachments/assets/91ba346a-e5d5-4f12-a73e-2a8cba196022" />
+
 3. Hapus
+
+   <img width="1008" height="671" alt="image" src="https://github.com/user-attachments/assets/09c7eb95-9866-451d-9832-67e62492f020" />
+
+   - yes
+  
+     <img width="1006" height="674" alt="image" src="https://github.com/user-attachments/assets/08bd210c-be72-47fe-aa75-4fa1f7eb1786" />
+
+     <img width="1018" height="670" alt="image" src="https://github.com/user-attachments/assets/4e89b0ef-a5a7-46f6-83d9-3e7a56a540cd" />
+
+     
+   - no
+
+     <img width="1009" height="672" alt="image" src="https://github.com/user-attachments/assets/29b28e2c-0df3-4e08-bebf-7c1111830552" />
+
 
 4. Muat Ulang
 
+   <img width="1021" height="668" alt="image" src="https://github.com/user-attachments/assets/b029e364-a369-487e-9403-d9cca8167d3e" />
+
+   - yes
+
+     <img width="1005" height="668" alt="image" src="https://github.com/user-attachments/assets/465ca1cc-cfd0-4efc-95d6-57603108ed89" />
+
+   - no
+
+     <img width="1021" height="685" alt="image" src="https://github.com/user-attachments/assets/0c216012-b2c2-4d51-96b0-cb689316a0c3" />
+
 5. Kembali
+
+    Ketika ingin keluar dari halaman data distribusi enrgi, admin klik tombol kembali saja untuk kembali ke menu admin
+
+   <img width="1010" height="676" alt="image" src="https://github.com/user-attachments/assets/a92ba276-d627-4349-950f-59e1d63b8eaf" />
 
 **6. Halaman Data Panel Surya**
 
+<img width="1014" height="669" alt="image" src="https://github.com/user-attachments/assets/e921ac0c-1853-4717-a74c-98dd5c15196a" />
+
+
 1. Tambah
 
-   Untuk id user dan tanggal bergabung ini auto pada saat nambahin data, jadi field ini terkunci gabisa diedit
+   Untuk kode panel ini auto pada saat nambahin data, jadi field ini terkunci gabisa diedit
 
-   <img width="1006" height="670" alt="image" src="https://github.com/user-attachments/assets/b74a3f8e-7a6a-4822-9fd2-ff5d6783f710" />
+   <img width="1014" height="669" alt="image" src="https://github.com/user-attachments/assets/9ef73c41-1c8e-4741-a517-e1d0a2c8e756" />
+
+   Jika berhasil tambah data
+
+   <img width="1010" height="669" alt="image" src="https://github.com/user-attachments/assets/0f61bad5-a019-4d83-9c26-0feea8720e21" />
+
+   <img width="1013" height="672" alt="image" src="https://github.com/user-attachments/assets/98309394-81c6-490b-ba06-073fa95d05e1" />
+
+   <img width="1003" height="665" alt="image" src="https://github.com/user-attachments/assets/7b616007-7864-4801-80af-2f5ee3721021" />
+
+   jika tambah data tanpa mengisi field
+
+   <img width="1011" height="667" alt="image" src="https://github.com/user-attachments/assets/8c52c338-064e-4b98-a461-b4d844f9715e" />
+
+   jika tambah data tidak sesuai format
+
+   <img width="1013" height="667" alt="image" src="https://github.com/user-attachments/assets/dbbf640e-f83a-40a4-bfbb-a0a3b53cfa70" />
 
 
 2. Perbarui
 
+   jika klik kode panel, muncul notifikasi
+
+   <img width="1010" height="675" alt="image" src="https://github.com/user-attachments/assets/3b4cdf8f-8746-4419-935b-da6ef7824766" />
+
+   jika berhasi perbarui data
+
+   <img width="1002" height="679" alt="image" src="https://github.com/user-attachments/assets/be51f729-50a7-4d04-b20d-83b856bab921" />
+
+   - yes
+
+     <img width="1012" height="665" alt="image" src="https://github.com/user-attachments/assets/d346b8e9-7f2f-4f40-9074-2d440efd49fa" />
+
+     <img width="1007" height="672" alt="image" src="https://github.com/user-attachments/assets/62a3ba19-7a38-41d2-bf6f-9c3498a2b4b8" />
+
+
+   - no
+  
+     <img width="1014" height="670" alt="image" src="https://github.com/user-attachments/assets/c4417a45-da85-48c4-9321-8e05f4f77b73" />
+
+   jika perbarui data tanpa klik data dari tabel
+
+   <img width="1007" height="675" alt="image" src="https://github.com/user-attachments/assets/0c776424-f2ed-44ab-8622-68c8f37c8472" />
+
+   jika perbarui data ga sesuai format
+
+   <img width="1011" height="666" alt="image" src="https://github.com/user-attachments/assets/3f1a0314-757e-4c46-b40b-dadc23aa35a6" />
+
 3. Hapus
+
+   <img width="1009" height="674" alt="image" src="https://github.com/user-attachments/assets/773cc4c5-9899-4ef6-8493-ef31cf6de5c5" />
+
+   - yes
+
+     <img width="1005" height="668" alt="image" src="https://github.com/user-attachments/assets/60c5d036-94bc-4731-8cf7-14acfb9fb9c4" />
+
+     <img width="1015" height="676" alt="image" src="https://github.com/user-attachments/assets/6a74c9b8-08c3-45b0-bf7a-dbd4c0648707" />
+
+   - no
+  
+     <img width="1018" height="667" alt="image" src="https://github.com/user-attachments/assets/7f7588ea-15a7-4807-9bb1-0167b04b8ba7" />
+
 
 4. Muat Ulang
 
+   <img width="1010" height="678" alt="image" src="https://github.com/user-attachments/assets/06d633de-1b8c-484a-9eda-07dbf52d2ed7" />
+
+   - yes
+
+     <img width="1008" height="677" alt="image" src="https://github.com/user-attachments/assets/c8caf255-9a6f-4400-96db-cda0405cb6a5" />
+
+   - no
+
+     <img width="1006" height="670" alt="image" src="https://github.com/user-attachments/assets/03f0a54c-9b16-4db5-8779-2ed1548b20cf" />
+
+      
 5. Kembali
+
+    Ketika ingin keluar dari halaman data panel surya, admin klik tombol kembali saja untuk kembali ke menu admin
+
+    <img width="1010" height="676" alt="image" src="https://github.com/user-attachments/assets/a92ba276-d627-4349-950f-59e1d63b8eaf" />
+   
 
 **7. Halaman Data Tagihan Bulanan**
 
+<img width="1015" height="677" alt="image" src="https://github.com/user-attachments/assets/758899d0-b802-42a4-a959-b82a86a39511" />
+
+
 1. Tambah
 
-   Untuk id user dan tanggal bergabung ini auto pada saat nambahin data, jadi field ini terkunci gabisa diedit
+   Untuk id tagihan ini auto pada saat nambahin data, jadi field ini terkunci gabisa diedit
 
-   <img width="1006" height="670" alt="image" src="https://github.com/user-attachments/assets/b74a3f8e-7a6a-4822-9fd2-ff5d6783f710" />
+   <img width="1015" height="673" alt="image" src="https://github.com/user-attachments/assets/2468db06-6851-473d-976a-452e6ab4324d" />
+
+   field total tagihan dikunci agar hanya menerima dari total kwh dikali tarif_per_kwh
+
+   <img width="1007" height="666" alt="image" src="https://github.com/user-attachments/assets/b9648e91-b221-4ae7-88f7-d933f2360b28" />
+
+   jika berhasil tambah data, dengan field total tagihan di hitung dari total kwh dikali tarif_per_kwh
+
+   sebagai contoh, total tagihan langsung tergenerate dan muncul di field total tagihan
+
+   <img width="1004" height="666" alt="image" src="https://github.com/user-attachments/assets/a06ec667-e595-430a-acaf-a4ccc17fc677" />
+
+   <img width="1007" height="676" alt="image" src="https://github.com/user-attachments/assets/6f62e76e-bb66-4a04-8d31-02ce8852141b" />
+
+   <img width="1004" height="669" alt="image" src="https://github.com/user-attachments/assets/9c8cdecd-efb9-4ecb-b128-9dde2dd0b884" />
+
+   <img width="1011" height="668" alt="image" src="https://github.com/user-attachments/assets/6e9d9ebc-0a31-455e-8ea6-0448cdb96140" />
+
+   jika tambah data tanpa mengisi field
+
+   <img width="1009" height="669" alt="image" src="https://github.com/user-attachments/assets/0d601360-b822-4503-b317-e4d3c674f23d" />
+
+
+   jika tambah data ga sesuai format
+
+   seperti yang diliat field total tagihan jika kita mengisi total kwh dan traif per kwh ga sesuai tipe data, maka total tagihan tidak tergenerate dan tidak bisa diisi field nya karena field nya dikunci
+   
+<img width="1014" height="679" alt="image" src="https://github.com/user-attachments/assets/19c72fdc-b27d-42e0-b8ee-246addaa0121" />
+
+<img width="1002" height="665" alt="image" src="https://github.com/user-attachments/assets/de534473-eb73-42a5-aa13-fa785af21dee" />
+
 
 
 2. Perbarui
 
+   jika klik id tagihan muncul notifikasi
+
+   <img width="1001" height="675" alt="image" src="https://github.com/user-attachments/assets/1c86f0a5-ae3b-4372-949e-3d84b7be1658" />
+
+
+   jika berhasil perbarui data
+
+   total tagihan akan tergenerate
+
+    <img width="1005" height="668" alt="image" src="https://github.com/user-attachments/assets/653ca488-4b47-4a74-b56c-2d39499b8b68" />
+
+   <img width="1015" height="675" alt="image" src="https://github.com/user-attachments/assets/82bac0e7-9b86-428d-99eb-9d088feb9b35" />
+
+   - yes
+  
+     <img width="976" height="676" alt="image" src="https://github.com/user-attachments/assets/8dd84355-ce90-4bac-923c-58980df0e153" />
+
+   <img width="1005" height="680" alt="image" src="https://github.com/user-attachments/assets/85b17cd3-d5fb-45f0-92b5-04f728f17a92" />
+
+     
+   - no
+  
+     <img width="1003" height="672" alt="image" src="https://github.com/user-attachments/assets/61639bdb-b8c0-460d-baa1-dc2debf2b7eb" />
+
+
+   jika perbarui data tanpa klik data dari tabel
+
+   <img width="1010" height="661" alt="image" src="https://github.com/user-attachments/assets/f50f8636-d99f-4d8a-9ee3-4963c5f4f3f5" />
+
+   jika perbarui data tidak sesuai format
+
+   seperti yang diliat field total tagihan jika kita mengubah total kwh dan tarif per kwh ga sesuai tipe data, maka total tagihan tidak tergenerate dan tidak bisa diisi field nya karena field nya dikunci
+
+   <img width="1009" height="686" alt="image" src="https://github.com/user-attachments/assets/d1374ee6-527e-4f01-8753-027bf9203f4f" />
+
+   <img width="986" height="665" alt="image" src="https://github.com/user-attachments/assets/8e6dddab-e62e-4f32-bc70-3be4562dca3c" />
+   
+
 3. Hapus
 
+   <img width="1007" height="685" alt="image" src="https://github.com/user-attachments/assets/ea6994ed-aed7-4c6c-bcec-ec3b533819bc" />
+
+   - yes
+  
+     <img width="1008" height="675" alt="image" src="https://github.com/user-attachments/assets/d33e1d0a-6620-43ca-b7c8-670f4d51a1a3" />
+
+     <img width="1009" height="667" alt="image" src="https://github.com/user-attachments/assets/84452df5-26f3-47af-a78d-21e3cb17ab2d" />
+
+
+   - no
+  
+     <img width="1002" height="674" alt="image" src="https://github.com/user-attachments/assets/2994b064-b657-4bf4-befb-4aea78badbc4" />
+
+  
+     
 4. Muat Ulang
 
+   <img width="1004" height="674" alt="image" src="https://github.com/user-attachments/assets/c66a3fff-dc02-47c0-9552-497c654df1be" />
+
+   - yes
+  
+     <img width="1009" height="670" alt="image" src="https://github.com/user-attachments/assets/e7d867be-66d5-4587-9f5e-5c111daa203f" />
+
+   - no
+
+     <img width="1019" height="675" alt="image" src="https://github.com/user-attachments/assets/d1067f47-8871-4626-aa2b-f93548645bcc" />
+
+     
 5. Kembali
+
+    Ketika ingin keluar dari halaman data tagihan bulanan , admin klik tombol kembali saja untuk kembali ke menu admin
+
+    <img width="1010" height="676" alt="image" src="https://github.com/user-attachments/assets/a92ba276-d627-4349-950f-59e1d63b8eaf" />
+   
 
 **8. Halaman Data Pembayaran Listrik**
 
+<img width="1003" height="672" alt="image" src="https://github.com/user-attachments/assets/365c67db-2234-4de1-862c-bd31d4207059" />
+
+
 1. Tambah
 
-   Untuk id user dan tanggal bergabung ini auto pada saat nambahin data, jadi field ini terkunci gabisa diedit
+   Untuk id pembayaran ini auto pada saat nambahin data, jadi field ini terkunci gabisa diedit
 
-   <img width="1006" height="670" alt="image" src="https://github.com/user-attachments/assets/b74a3f8e-7a6a-4822-9fd2-ff5d6783f710" />
+   <img width="1011" height="672" alt="image" src="https://github.com/user-attachments/assets/048056f0-0fde-4f85-928d-daf1326ae0ad" />
+
+   jika berhasil tambah data
+
+   jika tambah data ga mengisi field
+
+   <img width="1005" height="670" alt="image" src="https://github.com/user-attachments/assets/0f8403e6-1bff-4096-a51b-3d387298918d" />
+
+   jika tambah data ga sesuai tipe data
+
+   <img width="1004" height="669" alt="image" src="https://github.com/user-attachments/assets/1d3936d4-bea2-40e6-bc8c-76e1c59dd3d6" />
 
 
-2. Perbarui
 
-3. Hapus
+3. Perbarui
 
-4. Muat Ulang
+   jika klik id pembayaran, muncul notifikasi
 
-5. Kembali
+   <img width="998" height="665" alt="image" src="https://github.com/user-attachments/assets/0874fb6e-6d72-4d6d-b092-a69de4a20a3e" />
+
+
+   jika berhasil perbarui data
+
+   jika perbarui data ga klik data dari tabel
+
+   <img width="1001" height="670" alt="image" src="https://github.com/user-attachments/assets/84f5607e-9bb3-429b-9760-352baf4f004d" />
+
+   jika perbarui data ga sesuai format
+
+   field jumlah bayar gabisa di klik karena field nya dikunci
+
+   <img width="1005" height="672" alt="image" src="https://github.com/user-attachments/assets/adfd8902-e165-43b1-be07-a60105fc9356" />
+
+   <img width="1005" height="671" alt="image" src="https://github.com/user-attachments/assets/5f3438f6-1d85-494d-9b57-033ead08a7a5" />
+
+
+4. Hapus
+
+   - yes
+   - no
+     
+5. Muat Ulang
+
+   - yes
+   - no
+     
+6. Kembali
+
+   Ketika ingin keluar dari halaman data pembayaran listrik, admin klik tombol kembali saja untuk kembali ke menu admin
+
+    <img width="1010" height="676" alt="image" src="https://github.com/user-attachments/assets/a92ba276-d627-4349-950f-59e1d63b8eaf" />
 
 **9. Kembali**
 
