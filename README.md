@@ -76,9 +76,9 @@ Setelah pengguna berhasil login sebagai Super Admin, tampilan yang muncul akan  
 
    - **f. 🏠📋Input dan Kelola Data Rumah Warga**
 
-     Ketika Super Admin memilih menu Data Warga, sistem akan menampilkan tabel berisi informasi lengkap rumah warga dengan kolom yang dapat dikelola sepenuhnya. Super Admin memiliki         akses penuh untuk melihat, menambahkan, dan memperbarui data, tetapi tidak dapat menghapusnya. Hal ini diterapkan karena setiap data yang sudah tercatat akan disimpan sebagai           arsip permanen, agar riwayat data warga tetap lengkap dan dapat dilihat kembali untuk keperluan evaluasi atau dokumentasi perkembangan komunitas.
+     Ketika Super Admin memilih menu Data Rumah Warga, sistem akan menampilkan tabel berisi informasi lengkap rumah warga dengan kolom yang dapat dikelola sepenuhnya. Super Admin            memiliki akses penuh untuk melihat, menambahkan, dan memperbarui data, tetapi tidak dapat menghapusnya. Hal ini diterapkan karena setiap data yang sudah tercatat akan                   disimpan sebagai arsip permanen, agar riwayat data rumah warga tetap lengkap dan dapat dilihat kembali untuk keperluan evaluasi atau dokumentasi perkembangan komunitas.
 
-     Kebijakan yang sama juga berlaku pada Data Rumah Warga, di mana Super Admin memiliki semua akses kecuali hapus. Data rumah dan data warga saling terhubung dan membentuk satu            kesatuan informasi, sehingga keduanya tidak dapat dihapus agar sistem tetap menyimpan arsip yang utuh dan konsisten mengenai seluruh warga beserta rumah yang mereka tempati selama      komunitas berjalan.
+     Super Admin memiliki semua akses kecuali hapus. Data rumah dan data warga saling terhubung dan membentuk satu kesatuan informasi, sehingga keduanya tidak dapat dihapus agar sistem      tetap menyimpan arsip yang utuh dan konsisten mengenai seluruh warga beserta rumah yang mereka tempati selama komunitas berjalan.
 
    - **g. ⚡📋 Memantau Data Distribusi Energi**
 
