@@ -650,7 +650,7 @@ setelah klik muat ulang, maka akan muncul notifikasi
   <img width="1007" height="667" alt="image" src="https://github.com/user-attachments/assets/99ef02c8-8688-4970-800f-826761c33fc3" />
 
 
-- jika klik no  maka data tidak akan refresh ke data lama kita
+- jika klik no maka data tidak akan refresh ke data lama kita dan tetap ada di field
 
   <img width="1009" height="669" alt="image" src="https://github.com/user-attachments/assets/cfe2abef-2e6e-42c1-9ec3-f8a368346c3c" />
 
@@ -691,7 +691,7 @@ Ketika ingin keluar dari halaman data diri, warga tinggal klik tombol kembali sa
 
 **7. Kembali**
 
-klik tombol lembali pada halaman menu warga maka akan muncul notifikasi, dan diarahkan ke halaman login
+klik tombol Kembali pada halaman menu warga maka akan muncul notifikasi, dan diarahkan ke halaman login
 
 <img width="1005" height="670" alt="image" src="https://github.com/user-attachments/assets/ad2c0224-58c5-4290-9f49-7d7ea65f525a" />
 
@@ -703,40 +703,459 @@ klik tombol lembali pada halaman menu warga maka akan muncul notifikasi, dan dia
 
 **1. Halaman Data Warga**
 
-<img width="1010" height="667" alt="image" src="https://github.com/user-attachments/assets/590b37b6-5a2d-43a2-8704-055ac15c0931" />
+<img width="1004" height="664" alt="image" src="https://github.com/user-attachments/assets/17b07102-a614-44a9-8caf-0b759ed33fa3" />
 
 1. Tambah
 
    jika klik id user maka akan muncul notifikasi
 
-   <img width="1011" height="674" alt="image" src="https://github.com/user-attachments/assets/cab40efb-eaec-41c0-8f84-7bc89657a061" />
+   <img width="1002" height="679" alt="image" src="https://github.com/user-attachments/assets/86ac935e-6659-4b7e-9802-513bb7229f00" />
+
+
+   jika klik field tanggal bergabung maka tidak bisa diedit, karena filed nya terkunci dan muncul pesan notifikasi
+
+  <img width="998" height="668" alt="image" src="https://github.com/user-attachments/assets/4286c204-2c11-41d7-8094-1184f6618496" />
+
+
+   jika berhasil tambah data
+
+   <img width="995" height="671" alt="image" src="https://github.com/user-attachments/assets/4125a79f-83f8-4b44-a992-366213acba6e" />
+
+   <img width="1005" height="670" alt="image" src="https://github.com/user-attachments/assets/9b58d7fe-4a48-4602-b387-2a79233fa215" />
+
+  
+   jika klik tambah, tanpa mengisi field
+
+   <img width="1008" height="674" alt="image" src="https://github.com/user-attachments/assets/327be207-568c-4f6d-a6c0-a440cb141a93" />
+   
+
+   jika tambah data ga sesuai tipe data akan muncul notifikasi validasi input
+
+   <img width="1008" height="670" alt="image" src="https://github.com/user-attachments/assets/2c23b018-ced3-4a15-ae69-cedfb618e431" />
+
 
 2. Perbarui
 
+   jika klik id user maka akan muncul notifikasi
+
+   <img width="1008" height="668" alt="image" src="https://github.com/user-attachments/assets/71cfed1e-549f-476c-8d90-bb6c8f2efc6a" />
+
+   jika klik field tanggal bergabung maka tidak bisa diedit, karena filed nya terkunci, dan muncul notif
+
+  <img width="1013" height="674" alt="image" src="https://github.com/user-attachments/assets/a8087919-643a-4a73-ad62-1aaf311d092b" />
+
+   Jika berhasil perbarui data
+
+   <img width="1000" height="670" alt="image" src="https://github.com/user-attachments/assets/93c54b4e-fb1a-442d-adde-1517700aba10" />
+
+   - yes
+
+     <img width="1009" height="673" alt="image" src="https://github.com/user-attachments/assets/360eb470-e1d9-49a7-a415-8c96b20e7d3d" />
+
+     <img width="1011" height="669" alt="image" src="https://github.com/user-attachments/assets/fc7070cb-736e-4dbc-9dcd-20ff700f0fb7" />
+
+   - no, data tidak terbarui di tabel
+
+     <img width="1009" height="676" alt="image" src="https://github.com/user-attachments/assets/50ffda16-6985-4161-b3d7-7d93d2b398ca" />
+
+   jika klik perbarui, tanpa kik data dari tabel
+
+   <img width="1011" height="672" alt="image" src="https://github.com/user-attachments/assets/1ccacd9b-32d3-4293-8baa-1a8d41155868" />
+
+   jika perbarui tidak sesuai tipe data akan muncul notifikasi validasi input
+
+   <img width="1008" height="672" alt="image" src="https://github.com/user-attachments/assets/5cacfb7d-894e-4cd0-a89e-9da1d008b666" />
+
 3. Muat Ulang
 
+   sebelum klik muat ulang
+
+   <img width="1007" height="670" alt="image" src="https://github.com/user-attachments/assets/c6c34d0d-74d5-47de-a92f-a9328caa8456" />
+
+   sesudah klik muat ulang
+
+   <img width="1011" height="671" alt="image" src="https://github.com/user-attachments/assets/6dc8b77c-0a20-49d3-9d27-f7305a92b219" />
+
+   - yes, data yang ada di field akan muat ulang (yang di field kosong)
+  
+     <img width="1003" height="672" alt="image" src="https://github.com/user-attachments/assets/54b34360-54d6-403a-b72b-b85e1f271596" />
+
+     <img width="1008" height="669" alt="image" src="https://github.com/user-attachments/assets/7fa33c03-be01-4d3d-83c7-2ca10bb7f180" />
+
+   - no, data yang ada di field tetap ada
+
+     <img width="1001" height="672" alt="image" src="https://github.com/user-attachments/assets/69cd45fc-44ce-4719-b199-d4a47144bdbb" />
+
 4. Kembali
+   Ketika ingin keluar dari halaman data warga, admin klik tombol kembali saja untuk kembali ke menu admin
+
+   <img width="1007" height="674" alt="image" src="https://github.com/user-attachments/assets/bbf4d83e-98be-45bc-8f59-c7d716fab3cf" />
 
 
 **2. Halaman Data Anggota Komunitas**
 
+<img width="1007" height="675" alt="image" src="https://github.com/user-attachments/assets/115a4746-9c52-4cf1-8f72-540a54ccaa74" />
+
+1. Tambah
+
+   Untuk id user an tanggal bergabung ini auto pada saat nambahin data, jadi field ini terkunci gabisa diedit
+
+   <img width="1005" height="667" alt="image" src="https://github.com/user-attachments/assets/b57b5118-6120-419f-bec3-7124f229d260" />
+
+   jika berhasil tambah data
+
+   <img width="999" height="667" alt="image" src="https://github.com/user-attachments/assets/66ad860d-cb92-4b2a-989e-0e6bc77865e8" />
+
+   <img width="1018" height="666" alt="image" src="https://github.com/user-attachments/assets/52abe2c9-5828-4d72-8dc6-66662ce61028" />
+
+   <img width="1013" height="665" alt="image" src="https://github.com/user-attachments/assets/8f5e9050-b03e-4f0a-9eae-670ed5b0e15e" />
+
+   <img width="1016" height="676" alt="image" src="https://github.com/user-attachments/assets/5856b8b0-9d99-439e-bd57-450920061b81" />
 
 
+   jika klik tambah tanpa mengisi field
 
+   <img width="1006" height="676" alt="image" src="https://github.com/user-attachments/assets/35934f17-2d3a-41ca-9390-dbd4a2885a04" />
+
+   jika tambah data ga sesuai tipe data akan muncul notifikasi validasi input
+
+   <img width="1008" height="669" alt="image" src="https://github.com/user-attachments/assets/03dc5310-5d0e-431a-9a48-b5718bbd4bb9" />
+
+
+   
+2. Perbarui
+
+   jika klik id user maka akan muncul notifikasi
+
+   <img width="1003" height="672" alt="image" src="https://github.com/user-attachments/assets/734ca269-a0dd-4a7e-862b-25e06d496e21" />
+
+   jika klik tanggal bergabung akan muncul notifikasi
+
+   <img width="1003" height="667" alt="image" src="https://github.com/user-attachments/assets/044f6031-a9cb-48c7-8820-d124bd9b96ad" />
+
+   jika berhasil perbarui data lama
+
+   <img width="1007" height="671" alt="image" src="https://github.com/user-attachments/assets/396f6c49-bdb6-45e7-8e21-273ee2809592" />
+
+   <img width="1011" height="675" alt="image" src="https://github.com/user-attachments/assets/2c204186-0b3a-44f9-acdc-de1b10397a76" />
+
+   jika perbarui tanpa klik data dari tabel
+
+   <img width="1002" height="670" alt="image" src="https://github.com/user-attachments/assets/fcd8bce5-2891-4141-b75d-a3108fed2321" />
+
+   Jika perbarui data tidak sesuai tipe data
+
+   <img width="1003" height="663" alt="image" src="https://github.com/user-attachments/assets/c73d5a29-9cd0-4317-9620-7292bc137d28" />
+
+3. Hapus
+
+<img width="1004" height="664" alt="image" src="https://github.com/user-attachments/assets/88929f15-bdb4-4b9a-829f-b6269b58fb6d" />
+
+- yes
+
+  <img width="1002" height="674" alt="image" src="https://github.com/user-attachments/assets/004d338f-30e8-4058-b27e-381e9d977679" />
+
+  <img width="1008" height="675" alt="image" src="https://github.com/user-attachments/assets/e24f4374-2352-4ec1-bb4a-3b321fef440a" />
+
+
+- no, data di field tidak kehapus
+  
+  <img width="1022" height="674" alt="image" src="https://github.com/user-attachments/assets/107939ac-9cef-436f-9f0d-517976fc70e4" />
+
+  <img width="1001" height="663" alt="image" src="https://github.com/user-attachments/assets/0da2e426-51c7-4185-9e37-53101252b419" />
+
+
+4. Muat Ulang
+
+<img width="1008" height="666" alt="image" src="https://github.com/user-attachments/assets/f3f892de-7000-4da7-9256-ee61f685b025" />
+
+- yes, data di field sudah tidak ada
+
+  <img width="1005" height="669" alt="image" src="https://github.com/user-attachments/assets/9bf44cb5-01e0-45b4-a6a0-980da3955381" />
+
+
+- no, data di field masih ada
+  
+  <img width="1003" height="670" alt="image" src="https://github.com/user-attachments/assets/599f436e-7906-46f8-aeb2-c40e79bea59c" />
+
+5. Kembali
+    Ketika ingin keluar dari halaman data anggota komunitas, admin klik tombol kembali saja untuk kembali ke menu admin
+
+   <img width="1007" height="674" alt="image" src="https://github.com/user-attachments/assets/86f00197-3ded-43df-a2a1-4c83912b4be4" />
 
 **3. Halaman Data Komunitas**
 
+<img width="1006" height="673" alt="image" src="https://github.com/user-attachments/assets/661129e5-fe24-4469-9e9d-d77469fca5bd" />
+
+
+1. Tambah
+
+   Untuk id komunitas ini auto pada saat nambahin data, jadi field ini terkunci gabisa diedit
+
+   <img width="1011" height="667" alt="image" src="https://github.com/user-attachments/assets/e0d5decd-713b-46bf-99f8-b15ace8943c2" />
+
+   Jika berhasil tambah data
+   
+<img width="999" height="658" alt="image" src="https://github.com/user-attachments/assets/d9164156-ebbe-4c3d-b670-b5c3b5fe1df5" />
+
+<img width="995" height="653" alt="image" src="https://github.com/user-attachments/assets/2b1d1225-ec8f-48bf-9438-0048a267f91f" />
+
+
+
+   Jika klik tambah tanpa mengisi field
+
+   <img width="1000" height="668" alt="image" src="https://github.com/user-attachments/assets/149d82a2-00da-45d8-af91-ca082d168dd3" />
+
+
+   Jika tambah data tidak sesuai format
+
+   <img width="1008" height="658" alt="image" src="https://github.com/user-attachments/assets/3ae608ee-bf3f-4428-8c58-4dc1c0230db1" />
+
+
+
+2. Perbarui
+   
+   jika klik id komunnitas maka akan muncul notifikasi
+
+   <img width="1000" height="668" alt="image" src="https://github.com/user-attachments/assets/776005ef-57c0-483b-8b4d-a1e3482c60c1" />
+
+   jika berhasil perbarui data lama
+
+   <img width="1000" height="664" alt="image" src="https://github.com/user-attachments/assets/b1b17e7f-1c07-47ac-8de4-b0c49f9ff647" />
+
+   - yes, data akan berhasil di perbarui dan meumunculkan pesan seperti gambar dibawah
+     
+     <img width="997" height="657" alt="image" src="https://github.com/user-attachments/assets/879038c2-871f-43b5-8f6b-08007c584c95" />
+
+   - no, data tidak di perbarui dan tetap tampilan yang sama
+     
+     <img width="999" height="660" alt="image" src="https://github.com/user-attachments/assets/1882fd57-c894-4533-a739-2e45c07d1306" />
+
+
+   jika klik perbarui tanpa mengisi field dari data lama
+
+   <img width="1009" height="667" alt="image" src="https://github.com/user-attachments/assets/198b9612-ec28-4a9e-aa78-9e7ffb5066a9" />
+
+   jika perbarui data lama tidak sesuai dengan format
+
+   <img width="994" height="667" alt="image" src="https://github.com/user-attachments/assets/07dd6b14-f916-486e-be07-c81068d57d06" />
+  
+
+3. Hapus
+
+   <img width="998" height="651" alt="image" src="https://github.com/user-attachments/assets/bdc33a47-7d85-4591-8f43-b49c6062e589" />
+
+   -yes, maka data berhasil di update dan memunculkan pesan notifikasi
+
+   <img width="1002" height="659" alt="image" src="https://github.com/user-attachments/assets/44178b43-5c7a-45c1-b40a-5f3a40aa87d4" />
+
+   <img width="1000" height="653" alt="image" src="https://github.com/user-attachments/assets/5c249783-7ad5-40f5-a535-1b6ac6a33d40" />
+
+
+   -no, tampilan akan sama dan tidak ada instruksi lanjutan
+
+   <img width="1001" height="666" alt="image" src="https://github.com/user-attachments/assets/9abd0d66-dcc0-42fe-aa18-1f7cbe4bed33" />
+   
+
+4. Muat Ulang
+
+   <img width="996" height="647" alt="image" src="https://github.com/user-attachments/assets/46e951ed-537d-4971-b6da-10c1b263251e" />
+
+   -yes, maka akan muncul pesan data berhasil di muat ulang
+
+   <img width="999" height="660" alt="image" src="https://github.com/user-attachments/assets/65b14952-0215-405a-af82-bdde70938ed2" />
+
+   -no, tdak ada perubahan pada tampilan
+
+   <img width="1007" height="664" alt="image" src="https://github.com/user-attachments/assets/33c38791-d778-44f9-aea1-a139c041afa5" />
+
+
+5. Kembali
+
+   Ketika ingin keluar dari halaman data komunitas, admin klik tombol kembali saja untuk kembali ke menu admin
+
+   <img width="1007" height="674" alt="image" src="https://github.com/user-attachments/assets/86f00197-3ded-43df-a2a1-4c83912b4be4" />
+
+   
 **4. Halaman Data Rumah Warga**
+
+1. Tambah
+
+   <img width="997" height="665" alt="image" src="https://github.com/user-attachments/assets/0b20c5b1-3dba-412d-98af-124142791b28" />
+
+
+   Untuk id rumah ini auto pada saat nambahin data, jadi field ini terkunci gabisa diedit
+
+   <img width="999" height="655" alt="image" src="https://github.com/user-attachments/assets/7a62f86e-0e74-4e40-86fe-34779c786332" />
+
+   Jika berhasil menambahkan data
+
+   <img width="998" height="658" alt="image" src="https://github.com/user-attachments/assets/cda83486-aaee-4cc5-ac4c-3cfba34b48f4" />
+
+   <img width="1000" height="658" alt="image" src="https://github.com/user-attachments/assets/4dfe3e93-7b05-4160-a624-95ec5953f0b1" />
+
+   <img width="999" height="660" alt="image" src="https://github.com/user-attachments/assets/87321d07-82a9-47f8-8057-b6035141921c" />
+
+   <img width="995" height="655" alt="image" src="https://github.com/user-attachments/assets/0dbfa90f-eae7-4374-a028-fae5f71a7a5e" />
+
+   Tampilan setelah data berhasil ditambahkan
+
+   <img width="1005" height="662" alt="image" src="https://github.com/user-attachments/assets/191bcacd-5a70-4d0d-86e4-9ec248fac8c7" />
+
+   Jika tambah tanpa memasukkan data di field
+
+   <img width="996" height="654" alt="image" src="https://github.com/user-attachments/assets/0b9ee03b-1961-4208-8169-5318d451418e" />
+
+   Jika tambah data tidak sesuai format
+
+   <img width="1000" height="658" alt="image" src="https://github.com/user-attachments/assets/f980a416-279d-4e12-9b24-6ad2cec6c96c" />
+
+
+
+2. Perbarui
+
+jika klik id rumah maka akan muncul notifikasi
+
+<img width="999" height="657" alt="image" src="https://github.com/user-attachments/assets/3c7a3ba9-b0ea-4316-b614-9bafad83ec61" />
+
+
+jika berhasil perbarui data
+
+<img width="1007" height="667" alt="image" src="https://github.com/user-attachments/assets/dcc56bc7-16ac-4aed-b591-860d4c9ef3af" />
+
+- yes
+
+  <img width="1000" height="660" alt="image" src="https://github.com/user-attachments/assets/1dd3ef02-fd57-4752-98eb-e9fee9571407" />
+
+  <img width="1002" height="660" alt="image" src="https://github.com/user-attachments/assets/34aff06c-465d-4613-a9b9-e462d382827c" />
+
+
+- no, tidak jadi memperbarui data
+
+  <img width="1005" height="672" alt="image" src="https://github.com/user-attachments/assets/5c7fb3ce-d007-443b-ba43-3f461e687e8d" />
+
+
+jika klik perbarui tanpa klik data dari tabel
+
+<img width="997" height="665" alt="image" src="https://github.com/user-attachments/assets/1100acaf-09d2-42b8-af44-ceafdd343345" />
+
+
+jika perbarui data tanpa format yang sesuai
+
+<img width="1006" height="678" alt="image" src="https://github.com/user-attachments/assets/ee94f39f-9da1-4a44-9736-a28160fb64e4" />
+
+   
+3. Hapus
+
+   <img width="1013" height="668" alt="image" src="https://github.com/user-attachments/assets/5e87c6a8-473d-4c14-829c-c3555410d004" />
+
+   - yes
+
+   <img width="1002" height="672" alt="image" src="https://github.com/user-attachments/assets/45ac49ab-91c2-423a-8eee-1da7bd7dc948" />
+
+   <img width="1004" height="671" alt="image" src="https://github.com/user-attachments/assets/d49a8ece-f62c-4d16-ab23-3668d91bc3f6" />
+   
+   - no
+     
+     <img width="1007" height="666" alt="image" src="https://github.com/user-attachments/assets/4e2187f6-11ed-45a2-89ab-a1be8869c111" />
+
+
+4. Muat Ulang
+
+   <img width="996" height="671" alt="image" src="https://github.com/user-attachments/assets/61f4dba2-8721-4f26-bba1-0b82814fe5a0" />
+
+   - yes
+     <img width="995" height="665" alt="image" src="https://github.com/user-attachments/assets/228723f1-77dd-4d39-b390-788780277e9f" />
+
+     
+   - no
+
+     <img width="998" height="665" alt="image" src="https://github.com/user-attachments/assets/e6ff4cbc-12ff-471f-ab8c-93d67e9aed1b" />
+
+     
+5. Kembali
+
+   Ketika ingin keluar dari halaman data rumah warga, admin klik tombol kembali saja untuk kembali ke menu admin
+   
+   <img width="1005" height="669" alt="image" src="https://github.com/user-attachments/assets/57f6da26-7b8f-4a41-8996-68ffffe51d03" />
+
+   
 
 **5. Halaman Data Distribusi Energi**
 
+1. Tambah
+
+   Untuk id user dan tanggal bergabung ini auto pada saat nambahin data, jadi field ini terkunci gabisa diedit
+
+   <img width="1006" height="670" alt="image" src="https://github.com/user-attachments/assets/b74a3f8e-7a6a-4822-9fd2-ff5d6783f710" />
+
+
+2. Perbarui
+
+3. Hapus
+
+4. Muat Ulang
+
+5. Kembali
+
 **6. Halaman Data Panel Surya**
+
+1. Tambah
+
+   Untuk id user dan tanggal bergabung ini auto pada saat nambahin data, jadi field ini terkunci gabisa diedit
+
+   <img width="1006" height="670" alt="image" src="https://github.com/user-attachments/assets/b74a3f8e-7a6a-4822-9fd2-ff5d6783f710" />
+
+
+2. Perbarui
+
+3. Hapus
+
+4. Muat Ulang
+
+5. Kembali
 
 **7. Halaman Data Tagihan Bulanan**
 
+1. Tambah
+
+   Untuk id user dan tanggal bergabung ini auto pada saat nambahin data, jadi field ini terkunci gabisa diedit
+
+   <img width="1006" height="670" alt="image" src="https://github.com/user-attachments/assets/b74a3f8e-7a6a-4822-9fd2-ff5d6783f710" />
+
+
+2. Perbarui
+
+3. Hapus
+
+4. Muat Ulang
+
+5. Kembali
+
 **8. Halaman Data Pembayaran Listrik**
 
+1. Tambah
+
+   Untuk id user dan tanggal bergabung ini auto pada saat nambahin data, jadi field ini terkunci gabisa diedit
+
+   <img width="1006" height="670" alt="image" src="https://github.com/user-attachments/assets/b74a3f8e-7a6a-4822-9fd2-ff5d6783f710" />
+
+
+2. Perbarui
+
+3. Hapus
+
+4. Muat Ulang
+
+5. Kembali
+
 **9. Kembali**
+
+klik tombol Kembali pada halaman menu warga maka akan muncul notifikasi, dan diarahkan ke halaman login
+
+<img width="1002" height="663" alt="image" src="https://github.com/user-attachments/assets/9ba6283b-8f94-424e-93e5-0b43a1b56ac9" />
+
+<img width="1009" height="667" alt="image" src="https://github.com/user-attachments/assets/501f1366-6737-42cf-9512-e99237731641" />
 
 
 ## Halaman Menu Anggota Komunitas
@@ -756,6 +1175,10 @@ klik tombol lembali pada halaman menu warga maka akan muncul notifikasi, dan dia
 **6. Halaman Data Pembayaran Listrik Warga**
 
 **7. Kembali**
+
+<img width="1011" height="669" alt="image" src="https://github.com/user-attachments/assets/d339efe5-abfa-4148-8e1f-724056c4984a" />
+
+<img width="1011" height="668" alt="image" src="https://github.com/user-attachments/assets/5abf9b6a-98b7-487d-8c09-72a29264dc65" />
 
 </details>
 
