@@ -352,37 +352,51 @@ Di SOLARWAVE, Package yang digunakan adalah:
 1. Package Main
 
    <img width="199" height="48" alt="image" src="https://github.com/user-attachments/assets/b91736e4-35eb-4e6e-8c81-2a974d4cbdf2" />
+
+
    Package main disini berguna sebagain entry point untuk masuk ke gui
 
-2. Package Model
+3. Package Model
 
    <img width="245" height="275" alt="image" src="https://github.com/user-attachments/assets/bf0437a9-614d-4014-b0d4-672d5e7676d2" />
+
+
    Package model disini berguna untuk memanggil database dari xampp
 
-3. Package Service
+5. Package Service
 
    <img width="275" height="140" alt="image" src="https://github.com/user-attachments/assets/85f2084d-67cb-496f-8c96-fcddf866b551" />
+
+
    Package Service disini berfungsi sebagai lapisan logika bisnis (business logic layer) dalam arsitektur aplikasi.
 Lapisan ini menjadi penghubung antara Controller dan Repository/DAO
 
-4. Package View
+7. Package View
 
    <img width="439" height="628" alt="image" src="https://github.com/user-attachments/assets/48bafb3a-b51d-4275-ab13-07e6062c37a9" />untukme
+
+
    Package View disini berguna untuk menyimpan class class jframe gui
 
-5. Package assets
+9. Package assets
    
    <img width="441" height="272" alt="image" src="https://github.com/user-attachments/assets/4c0b3e2b-f41e-405f-8a2e-5d38e640fd92" />
+
+
    Package assets disini berguna untuk menyimpan gambar untuk dipanggil ke gui namun pada saat dirun gambar gambar yang ada di assets ini tidak terpanggil jadi kami memutuskan untuk  pemanggilan gambar di guinya dengan external image namun kami tetap menyimpan package assets untuk berjaga jaga
 
-6. Package config
+11. Package config
 
    <img width="214" height="44" alt="image" src="https://github.com/user-attachments/assets/6f3dc253-0adc-4b69-bba3-396725f7dbc3" /> 
+   
+   
    Package config berguna untuk menyimpan rekening tujuan,
 
-7. Package dao
+11. Package dao
 
    <img width="304" height="252" alt="image" src="https://github.com/user-attachments/assets/cf482ff2-6149-4b4a-a78d-0f78dec90150" />
+   
+   
    Package dao disini fungsinya untuk mememanggil query query database untuk dieksekusi di program
 
 B. Folder
