@@ -699,7 +699,7 @@ klik tombol Kembali pada halaman menu warga maka akan muncul notifikasi, dan dia
 
 ## Halaman Menu Admin
 
-<img width="743" height="462" alt="image" src="https://github.com/user-attachments/assets/eccaf87f-00de-4200-b47a-052fb404bfc3" />
+ <img width="1005" height="669" alt="image" src="https://github.com/user-attachments/assets/57f6da26-7b8f-4a41-8996-68ffffe51d03" />
 
 **1. Halaman Data Warga**
 
@@ -1044,23 +1044,8 @@ jika perbarui data tanpa format yang sesuai
 
 <img width="1006" height="678" alt="image" src="https://github.com/user-attachments/assets/ee94f39f-9da1-4a44-9736-a28160fb64e4" />
 
-   
-3. Hapus
 
-   <img width="1013" height="668" alt="image" src="https://github.com/user-attachments/assets/5e87c6a8-473d-4c14-829c-c3555410d004" />
-
-   - yes
-
-   <img width="1002" height="672" alt="image" src="https://github.com/user-attachments/assets/45ac49ab-91c2-423a-8eee-1da7bd7dc948" />
-
-   <img width="1004" height="671" alt="image" src="https://github.com/user-attachments/assets/d49a8ece-f62c-4d16-ab23-3668d91bc3f6" />
-   
-   - no
-     
-     <img width="1007" height="666" alt="image" src="https://github.com/user-attachments/assets/4e2187f6-11ed-45a2-89ab-a1be8869c111" />
-
-
-4. Muat Ulang
+3. Muat Ulang
 
    <img width="996" height="671" alt="image" src="https://github.com/user-attachments/assets/61f4dba2-8721-4f26-bba1-0b82814fe5a0" />
 
@@ -1073,7 +1058,7 @@ jika perbarui data tanpa format yang sesuai
      <img width="998" height="665" alt="image" src="https://github.com/user-attachments/assets/e6ff4cbc-12ff-471f-ab8c-93d67e9aed1b" />
 
      
-5. Kembali
+4. Kembali
 
    Ketika ingin keluar dari halaman data rumah warga, admin klik tombol kembali saja untuk kembali ke menu admin
    
