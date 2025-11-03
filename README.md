@@ -435,83 +435,217 @@ B. MVC
 
 **Halaman Login**
 
-![WhatsApp Image 2025-11-01 at 18 14 37_d602f3c3](https://github.com/user-attachments/assets/1be4463f-7947-439b-9d2e-7da5b95228f3)
+<img width="1006" height="667" alt="image" src="https://github.com/user-attachments/assets/5b115cc2-40d9-43d2-8ec8-9e3563691d8b" />
 
 Pada halaman login, pengguna harus memasukkan username dan password yang telah terdaftar sesuai perannya, baik sebagai warga, anggota komunitas, maupun admin.
 Terdapat fitur “Show Password” untuk menampilkan kata sandi agar pengguna dapat memeriksa kebenarannya.
 Setelah kedua kolom diisi dengan benar, pengguna menekan tombol “Login” untuk masuk ke sistem sesuai dengan hak akses masing-masing.
 
-**Halaman Menu Warga**
+Jika Username atau Password salah maka akan muncul peringatan seperti gambar di bawah ini.
 
-<img width="739" height="459" alt="image" src="https://github.com/user-attachments/assets/3711ed7e-c251-4990-bded-adad7959e46b" />
+<img width="1010" height="676" alt="image" src="https://github.com/user-attachments/assets/ca52aa2c-1aba-44fe-adc7-16efb90fb073" />
+
+
+## Halaman Menu Warga
+
+<img width="1010" height="667" alt="image" src="https://github.com/user-attachments/assets/4e285e45-7a6a-48b7-af2a-4274aaf3a4e9" />
+
 
 Setelah pengguna berhasil login sebagai warga, sistem akan menampilkan halaman utama dengan menu-menu yang dapat diakses oleh warga. Pengguna dapat langsung memilih menu yang diinginkan untuk melakukan suatu tindakan, seperti melihat data rumah atau mengelola data pribadi.
 Jika ingin kembali ke halaman login, pengguna dapat menekan tombol “Kembali” yang tersedia
 
-**Halaman Pembayaran Listrik**
+**1. Halaman Pembayaran Listrik**
 
-<img width="745" height="463" alt="image" src="https://github.com/user-attachments/assets/5a2c6cc6-b85e-4183-9a2f-48a95bfad6e8" />
+<img width="1002" height="669" alt="image" src="https://github.com/user-attachments/assets/31543273-7762-4092-be43-18c448733b02" />
+
 
 Ketika pengguna dengan peran warga memilih menu “Pembayaran Listrik” pada halaman utama warga, sistem akan menampilkan halaman pilihan metode pembayaran.
 Terdapat tiga metode pembayaran yang dapat dipilih sesuai keinginan warga. Untuk melanjutkan proses pembayaran, warga cukup mengklik metode pembayaran yang diinginkan.
 Apabila ingin kembali ke halaman menu utama warga, pengguna dapat menekan tombol “Kembali” yang tersedia di halaman tersebut.
 
-**Halaman jika memilih metode pembayaran Transfer**
+   **a. Halaman jika memilih metode pembayaran Transfer**
+
+   <img width="1012" height="675" alt="image" src="https://github.com/user-attachments/assets/adf70594-3a3a-4196-a5fe-0aac007efac8" />
+
+   Klik Konfirmasi pembayaran
+
+   <img width="1014" height="673" alt="image" src="https://github.com/user-attachments/assets/1f1390d3-6438-46bd-9415-8046dadb7b99" />
+
+   Klik Kembali
+
+   <img width="998" height="667" alt="image" src="https://github.com/user-attachments/assets/4ee5ca4e-fc0b-4900-8f17-a229aea9834d" />
+
+   **b. Halaman jika memilih metode pembayaran Dana**
+
+   <img width="1012" height="673" alt="image" src="https://github.com/user-attachments/assets/6dee23ba-a02c-47d1-be69-475d6c5b7041" />
+
+   Klik konfirmasi pembayaran
+
+   <img width="1008" height="671" alt="image" src="https://github.com/user-attachments/assets/d68185c3-3135-47b1-b3a0-be8a24dcd7aa" />
+
+   Klik Kembali
+
+   <img width="1008" height="675" alt="image" src="https://github.com/user-attachments/assets/367828e7-8ee9-4a86-951e-86ddd33876cc" />
+   
+   **c. Halaman jika memilih metode pembayaran OVO**
+
+   <img width="996" height="671" alt="image" src="https://github.com/user-attachments/assets/1df1a25f-0c0a-4d69-a839-4c1add87bbd1" />
+
+   Klik konfirmasi pembayaran
+
+   <img width="1010" height="671" alt="image" src="https://github.com/user-attachments/assets/1c536289-dad7-4733-a6e4-f9c7e3ad20a0" />
+
+   Klik Kembali
+
+   <img width="1001" height="671" alt="image" src="https://github.com/user-attachments/assets/6c03aff7-d668-412b-8adf-cc7220761329" />
+
+Sebagai contoh jika tagihan warga belum dibayar dengan ststus belum lunas
 
 
+Ketika ingin keluar dari halaman pembayaran listrik warga tinggak klik tombol kembali saja untuk kembali ke menu warga
 
-Halaman jika memilih metode pembayaran Dana
+<img width="1009" height="671" alt="image" src="https://github.com/user-attachments/assets/a25c891d-a530-4d9a-a2a0-6b22cafec41e" />
 
-Halaman jika memilih metode pembayaran Ovo
+**2. Halaman data rumah**
 
-Halaman data rumah
+<img width="1011" height="675" alt="image" src="https://github.com/user-attachments/assets/66066442-e67e-42e4-a008-f9dfb51f65e9" />
 
-Halaman data distribusi energi rumah 
+mau ubah id rumah
 
-Halaman Riwayat Pembayaran Listrik
+<img width="1010" height="672" alt="image" src="https://github.com/user-attachments/assets/62eb3a06-c3f7-4b65-bc49-623824ddacd5" />
 
-Halaman Tagihan Bulanan
+mau ubah status koneksi
 
-Halaman Data Diri
+<img width="1007" height="667" alt="image" src="https://github.com/user-attachments/assets/807ac13c-b997-4c5e-a455-e0a5c2b373e2" />
+
+mau ubah tanggal bergabung
+
+<img width="1014" height="671" alt="image" src="https://github.com/user-attachments/assets/e2547f27-ee58-44dd-b6ff-6d7ff3c6dcf0" />
+
+a. Muat Ulang
+
+sebelum klik muat ulang, dengan memperbarui data di field, disini mengubah nomor rumah dan alamat 
+
+<img width="1015" height="671" alt="image" src="https://github.com/user-attachments/assets/87075949-6777-4e23-9d49-6fba76f2b4b2" />
+
+setelah klik muat ulang
+
+<img width="1008" height="666" alt="image" src="https://github.com/user-attachments/assets/878e55b1-6cb3-4e48-9b46-cd646ab7ac1c" />
+
+- jika klik yes maka data baru yang kita isi di field akan refresh ke data awal sebelum data baru kita inputkan
+
+  <img width="1013" height="667" alt="image" src="https://github.com/user-attachments/assets/70dfb7a1-0fdc-4bf7-8648-7871c228e527" />
+
+  <img width="1011" height="666" alt="image" src="https://github.com/user-attachments/assets/9e71e835-ab46-4f11-a8ce-d58ebf8899eb" />
+
+- jika klik no  maka data tidak akan refresh ke data lama kita
+
+  <img width="1002" height="668" alt="image" src="https://github.com/user-attachments/assets/b5bede7e-bc40-41bd-801b-0e1d129a061a" />
+
+b. Perbarui
+
+memperbarui nomor rumah, alamat, dan no.telp
+
+<img width="1004" height="666" alt="image" src="https://github.com/user-attachments/assets/0cdc4443-a348-477e-884c-92d16a761662" />
+
+jika kik tombol perbarui akan muncul notifikasi "simpan perubahan data rumah" "yes/no"
+
+- yes
+
+  sebelum
+
+  <img width="1011" height="675" alt="image" src="https://github.com/user-attachments/assets/66066442-e67e-42e4-a008-f9dfb51f65e9" />
+
+  sesudah
+
+  <img width="1009" height="672" alt="image" src="https://github.com/user-attachments/assets/63d44251-d5ac-406e-a8e8-cfbd520e342f" />
+
+  <img width="1000" height="672" alt="image" src="https://github.com/user-attachments/assets/b09c5959-cf6b-4bf8-89fe-24c405f00162" />
+
+- jika no, maka data baru tidak akan berubah di tabelnya
+
+  <img width="1007" height="676" alt="image" src="https://github.com/user-attachments/assets/7e50ce04-be62-406a-aa16-55f380828a15" />
+
+Ketika memperbarui data ga sesuai dengan tipe data yang ada maka akan muncul notifikasi validasi gagal
+
+<img width="1007" height="670" alt="image" src="https://github.com/user-attachments/assets/12df196c-b64c-4a0d-b76f-c0eaa13b50ba" />
 
 
-**Halaman Anggota Komunitas**
+Ketika ingin keluar dari halaman data rumah warga, warga tinggal klik tombol kembali saja untuk kembali ke menu warga
 
-<img width="749" height="461" alt="image" src="https://github.com/user-attachments/assets/393b7178-c377-4055-9d3c-24da55e18d78" />
+<img width="1010" height="675" alt="image" src="https://github.com/user-attachments/assets/6b442cfa-8332-4c09-851a-1658b772c6e2" />
+
+**3.Halaman data distribusi energi rumah**
+
+<img width="1001" height="665" alt="image" src="https://github.com/user-attachments/assets/c65dac2a-ab4d-442d-a5e5-788b77467f48" />
+
+Ketika ingin keluar dari halaman data distribusi energi rumah, warga tinggal klik tombol kembali saja untuk kembali ke menu warga
+
+<img width="1007" height="671" alt="image" src="https://github.com/user-attachments/assets/10ed3986-f7ef-497d-8a39-55bd3244c12d" />
+
+**. Halaman Riwayat Pembayaran Listrik**
+
+<img width="1011" height="673" alt="image" src="https://github.com/user-attachments/assets/a6c89ce1-2bd7-4783-bb1e-3a6069fedd69" />
+
+Ketika ingin keluar dari halaman  Riwayat Pembayaran Listrik, warga tinggal klik tombol kembali saja untuk kembali ke menu warga
+
+<img width="1007" height="671" alt="image" src="https://github.com/user-attachments/assets/7e4ded84-5aed-44a9-8d27-959fc4646eb2" />
+
+**5. Halaman Tagihan Bulanan**
+
+<img width="1012" height="668" alt="image" src="https://github.com/user-attachments/assets/4f8da426-361d-49f4-a5c7-f77cda194ce8" />
+
+Ketika ingin keluar dari halaman Tagihan Bulanan, warga tinggal klik tombol kembali saja untuk kembali ke menu warga
+
+![Uploading image.png…]()
 
 
-Halaman Data Warga
+**6. Halaman Data Diri**
 
-Halaman Rumah Warga
-
-Halaman Data Panel Surya Komunitas
-
-Halaman Distribusi Energi Rumah Warga
-
-Halaman Data Tagihan Bulanan Warga
-
-Data Pembayaran Listrik Warga
+**7. Kembali**
 
 
-**Halaman Admin**
+## Halaman Menu Anggota Komunitas
+
+<img width="1009" height="664" alt="image" src="https://github.com/user-attachments/assets/a06515f5-f221-4db5-8070-c970e6f2ec64" />
+
+
+**1. Halaman Data Warga**
+
+**2. Halaman Rumah Warga**
+
+**3. Halaman Data Panel Surya Komunitas**
+
+**4. Halaman Distribusi Energi Rumah Warga**
+
+**5. Halaman Data Tagihan Bulanan Warga**
+
+**6. Halaman Data Pembayaran Listrik Warga**
+
+**7. Kembalir**
+
+
+## Halaman Menu Admin
 
 <img width="743" height="462" alt="image" src="https://github.com/user-attachments/assets/eccaf87f-00de-4200-b47a-052fb404bfc3" />
 
-Halaman Data Warga
+**1. Halaman Data Warga**
 
-Halaman Data Anggota Komunitas
+**2. Halaman Data Anggota Komunitas**
 
-Halaman Data Komunitas
+**3. Halaman Data Komunitas**
 
-Halaman Data Rumah Warga
+**4. Halaman Data Rumah Warga**
 
-Halaman Data Distribusi Energi
+**5. Halaman Data Distribusi Energi**
 
-Halaman Data Panel Surya
+**6. Halaman Data Panel Surya**
 
-Halaman Data Tagihan Bulanan
+**7. Halaman Data Tagihan Bulanan**
 
-Halaman Data Pembayaran Listrik
+**8. Halaman Data Pembayaran Listrik**
+
+**9. Kembali**
 
 </details>
 
