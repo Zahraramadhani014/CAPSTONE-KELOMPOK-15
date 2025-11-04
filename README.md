@@ -465,6 +465,21 @@ Pada halaman login, pengguna harus memasukkan username dan password yang telah t
 Terdapat fitur “Show Password” untuk menampilkan kata sandi agar pengguna dapat memeriksa kebenarannya.
 Setelah kedua kolom diisi dengan benar, pengguna menekan tombol “Login” untuk masuk ke sistem sesuai dengan hak akses masing-masing.
 
+Jika berhasil login maka akan muncul notifikasi sesuai peran, sebelum diarahkan ke menu dari masing-masing peran.
+
+> - Admin
+>
+>   <img width="997" height="664" alt="image" src="https://github.com/user-attachments/assets/d2c16915-a4e1-445e-a2a2-d97dab378f81" />
+>
+> - Anggota Komunitas
+>
+>   <img width="994" height="662" alt="image" src="https://github.com/user-attachments/assets/78b2661e-e836-42ee-9fe4-33b987c75ad8" />
+>
+> - Warga
+>
+>  <img width="1008" height="668" alt="image" src="https://github.com/user-attachments/assets/8f81987d-24e7-4560-9864-127cd6c36769" />
+ 
+
 Jika Username atau Password salah maka akan muncul peringatan seperti gambar di bawah ini.
 
 <img width="1010" height="676" alt="image" src="https://github.com/user-attachments/assets/ca52aa2c-1aba-44fe-adc7-16efb90fb073" />
@@ -693,11 +708,19 @@ Ketika ingin keluar dari halaman data diri, warga tinggal klik tombol kembali sa
 
 **7. Kembali**
 
-klik tombol Kembali pada halaman menu warga maka akan muncul notifikasi, dan diarahkan ke halaman login
+Klik tombol Kembali pada halaman menu warga maka akan muncul notifikasi "Apakah Anda yakin ingin keluar?", dan diarahkan ke halaman login
 
-<img width="1005" height="670" alt="image" src="https://github.com/user-attachments/assets/ad2c0224-58c5-4290-9f49-7d7ea65f525a" />
+<img width="1007" height="671" alt="image" src="https://github.com/user-attachments/assets/410ffa3c-ae61-461d-a1ef-92e7573adfc6" />
 
-<img width="1006" height="675" alt="image" src="https://github.com/user-attachments/assets/8db6d1c6-8224-4a3b-93e3-c9b8fea0c2f7" />
+- yes
+
+  <img width="999" height="665" alt="image" src="https://github.com/user-attachments/assets/84dc223c-271b-4dd5-933d-7352d756391e" />
+
+  <img width="998" height="669" alt="image" src="https://github.com/user-attachments/assets/32924295-68e9-4067-9d6f-0e1cb85fd133" />
+
+- no, maka akan tetap di menu warga
+
+  <img width="1009" height="674" alt="image" src="https://github.com/user-attachments/assets/4b911aea-420a-4b72-9daa-d84775e9da6b" />
 
 ## Halaman Menu Admin
 
@@ -1430,11 +1453,21 @@ jika perbarui data tanpa format yang sesuai
 
 **9. Kembali**
 
-klik tombol Kembali pada halaman menu warga maka akan muncul notifikasi, dan diarahkan ke halaman login
+Klik tombol Kembali pada halaman menu admin  maka akan muncul notifikasi "Apakah Anda yakin ingin keluar?", dan diarahkan ke halaman login
 
-<img width="1002" height="663" alt="image" src="https://github.com/user-attachments/assets/9ba6283b-8f94-424e-93e5-0b43a1b56ac9" />
+<img width="1002" height="668" alt="image" src="https://github.com/user-attachments/assets/fd4ef1e5-dfba-44b0-8bfc-4e9d4f667895" />
 
-<img width="1009" height="667" alt="image" src="https://github.com/user-attachments/assets/501f1366-6737-42cf-9512-e99237731641" />
+- yes
+
+  <img width="1010" height="669" alt="image" src="https://github.com/user-attachments/assets/5c4f7013-4c30-49e6-aa0e-8fb7bbdc9737" />
+
+
+  <img width="998" height="669" alt="image" src="https://github.com/user-attachments/assets/32924295-68e9-4067-9d6f-0e1cb85fd133" />
+
+- no, maka akan tetap di menu admin
+
+ <img width="1004" height="659" alt="image" src="https://github.com/user-attachments/assets/59475241-c800-4525-9892-f769b3595cbb" />
+
 
 
 ## Halaman Menu Anggota Komunitas
@@ -1455,9 +1488,20 @@ klik tombol Kembali pada halaman menu warga maka akan muncul notifikasi, dan dia
 
 **7. Kembali**
 
-<img width="1011" height="669" alt="image" src="https://github.com/user-attachments/assets/d339efe5-abfa-4148-8e1f-724056c4984a" />
+Klik tombol Kembali pada halaman menu anggota komunitas maka akan muncul notifikasi "Apakah Anda yakin ingin keluar?", dan diarahkan ke halaman login
 
-<img width="1011" height="668" alt="image" src="https://github.com/user-attachments/assets/5abf9b6a-98b7-487d-8c09-72a29264dc65" />
+
+- yes
+
+  <img width="1010" height="669" alt="image" src="https://github.com/user-attachments/assets/5c4f7013-4c30-49e6-aa0e-8fb7bbdc9737" />
+
+
+  <img width="998" height="669" alt="image" src="https://github.com/user-attachments/assets/32924295-68e9-4067-9d6f-0e1cb85fd133" />
+
+- no, maka akan tetap di menu admin
+
+ <img width="1004" height="659" alt="image" src="https://github.com/user-attachments/assets/59475241-c800-4525-9892-f769b3595cbb" />
+
 
 </details>
 
