@@ -854,124 +854,174 @@ Ketika admin klik “Data Warga” maka tampialnnya seperti gambar dibawah ini:
 
    <img width="1008" height="668" alt="image" src="https://github.com/user-attachments/assets/71cfed1e-549f-476c-8d90-bb6c8f2efc6a" />
 
-   jika klik field tanggal bergabung maka tidak bisa diedit, karena filed nya terkunci, dan muncul notif
+   Berlaku juga untuk kolom teks Tgl. Bergabung, admin tidak dapat mengubahnya karena akan tgl bergabung berisfat tetap dan tidak perlu dilakukan perubahan, maka akan muncul pesan seperti gambar di bawah ini:
 
   <img width="1013" height="674" alt="image" src="https://github.com/user-attachments/assets/a8087919-643a-4a73-ad62-1aaf311d092b" />
 
-   Jika berhasil perbarui data
+   Jika admin memperbarui data tanpa kesalahan format, maka akan muncul pesan seperti gambar dibawah ini:
 
    <img width="1000" height="670" alt="image" src="https://github.com/user-attachments/assets/93c54b4e-fb1a-442d-adde-1517700aba10" />
 
    - yes
 
+      Jika sudah yakin dengan perubahan yang telah dilakukan klik “yes” maka akan muncul pesan seperti gambar dibawah ini, lalu klik “OK” untuk melihat hasil perubahan data.
+
      <img width="1009" height="673" alt="image" src="https://github.com/user-attachments/assets/360eb470-e1d9-49a7-a415-8c96b20e7d3d" />
+
+
+   Setelah klik “OK”, maka data sudah di perbarui dan bisa melihatnya pada tabel data.
 
      <img width="1011" height="669" alt="image" src="https://github.com/user-attachments/assets/fc7070cb-736e-4dbc-9dcd-20ff700f0fb7" />
 
-   - no, data tidak terbarui di tabel
+   - no
+
+     Jika admin tidak yakin dengan perubahan yang telah dilakukan, maka admin bisa klik “No”, dan tampilan akan kembali ke tampilan sebelumnya untuk melanjutkan perbaruan data di kolom teks.
 
      <img width="1009" height="676" alt="image" src="https://github.com/user-attachments/assets/50ffda16-6985-4161-b3d7-7d93d2b398ca" />
 
-   jika klik perbarui, tanpa kik data dari tabel
+   Jika admin tidak memilih atau tidak mengklik satu pun data untuk di perbarui, maka akan muncul pesan seperti gambar dibawah ini, klik “OK” untuk kembali dan pilihlah satu baris data untuk di perbarui.
 
    <img width="1011" height="672" alt="image" src="https://github.com/user-attachments/assets/1ccacd9b-32d3-4293-8baa-1a8d41155868" />
+   
 
-   jika perbarui tidak sesuai tipe data akan muncul notifikasi validasi input
+   Jika admin melakukan perbaruan data yang tidak sesuai format, amak akan muncul pesan seperti gambar dibawah, pesan yang muncul memberitahukan format apa saja yang salah, klik “OK” untuk kembali memperbaiki perbaruan data yang sesuai format.
 
    <img width="1008" height="672" alt="image" src="https://github.com/user-attachments/assets/5cacfb7d-894e-4cd0-a89e-9da1d008b666" />
+   
 
 3. Muat Ulang
 
-   sebelum klik muat ulang
+   Admin dapat me refresh atau muat ulang tampilan jika diperlukan, klik  tombol “Muat Ulang” yang tersedia pada halaman, dibawah ini adalah tampilan sebelum klik tombol “Muat Ulang”:
 
    <img width="1007" height="670" alt="image" src="https://github.com/user-attachments/assets/c6c34d0d-74d5-47de-a92f-a9328caa8456" />
 
-   sesudah klik muat ulang
+  Ketika admin klik tombol “Muat Ulang”, maka akan muncul pesan seperti gambar dibawah untuk memastikan kepada admin, apakah yakin ingin muat ulang data atau membatalkan perubahan data.
 
    <img width="1011" height="671" alt="image" src="https://github.com/user-attachments/assets/6dc8b77c-0a20-49d3-9d27-f7305a92b219" />
 
-   - yes, data yang ada di field akan muat ulang (yang di field kosong)
+   - yes
+
+     Jika admin klik “yes” maka akan muncul pesan seperti gambar dibawah ini, klik “OK” untuk melihat halaman setelah dimuat ulang.
   
      <img width="1003" height="672" alt="image" src="https://github.com/user-attachments/assets/54b34360-54d6-403a-b72b-b85e1f271596" />
 
+
+   Dibawah ini adalah tampilan jika telah dimuat ulang
+
      <img width="1008" height="669" alt="image" src="https://github.com/user-attachments/assets/7fa33c03-be01-4d3d-83c7-2ca10bb7f180" />
 
-   - no, data yang ada di field tetap ada
+   - no
+
+     Jika admin klik “no” maka data tidak jadi dimuat ulang dan semua kolom teks masih ada isi nya semua.
 
      <img width="1001" height="672" alt="image" src="https://github.com/user-attachments/assets/69cd45fc-44ce-4719-b199-d4a47144bdbb" />
 
-4. Kembali
-   Ketika ingin keluar dari halaman data warga, admin klik tombol kembali saja untuk kembali ke menu admin
+5. Kembali
+   Untuk keluar dari halaman data warga, admin bisa klik tombol “Kembali” dan tampilannya akan langsung kembali ke menu admin seperti gambar dibawah ini.
 
    <img width="1007" height="674" alt="image" src="https://github.com/user-attachments/assets/bbf4d83e-98be-45bc-8f59-c7d716fab3cf" />
 
 
 **2. Halaman Data Anggota Komunitas**
 
+Pada halaman data anggota komunitas, seorang admin dapat melihat data anggota komunitas, input data, perbarui data, dan hapus.
+
 <img width="1007" height="675" alt="image" src="https://github.com/user-attachments/assets/115a4746-9c52-4cf1-8f72-540a54ccaa74" />
 
 1. Tambah
 
-   Untuk id user an tanggal bergabung ini auto pada saat nambahin data, jadi field ini terkunci gabisa diedit
+   Untuk melakukan input data atau menambah data baru, admin bisa langsung mengisi teks kolom yang ada dengan klik setiap teks kolom dan mengisi data sesuai format, namun untuk teks kolom ID User tidak dapat diisi manual karena akan terisi secara otomatis, seperti gambar dibawah ini teks kolom nya tidak bisa di klik
 
    <img width="1005" height="667" alt="image" src="https://github.com/user-attachments/assets/b57b5118-6120-419f-bec3-7124f229d260" />
+   
 
-   jika berhasil tambah data
+   Jika admin telah mengisi semua teks kolom dengan format yang benar, maka muncul pesan seperti gambar dibawah ini, lalu admin akan diminta untuk memasukkan ID komunitas berupa angka. Karena data ini merupakan input untuk Anggota Komunitas, maka Admin juga harus menentukan anggota tersebut tergabung dalam komunitas yang mana dengan cara memasukkan ID Komunitas setelah mengisi data lainnya.
 
    <img width="999" height="667" alt="image" src="https://github.com/user-attachments/assets/66ad860d-cb92-4b2a-989e-0e6bc77865e8" />
 
+
+   Disini contohnya Ketika admin input angka, setelah input angka klik “OK” untuk melanjutkan
+
    <img width="1018" height="666" alt="image" src="https://github.com/user-attachments/assets/52abe2c9-5828-4d72-8dc6-66662ce61028" />
 
+
+   Setelah klik “OK” maka maka akan muncul lagi pesan yang memberitahukan bahwa penambahan data berhasil lalu klik “OK” untuk melihat hasil data yang telah di tambah
+
    <img width="1013" height="665" alt="image" src="https://github.com/user-attachments/assets/8f5e9050-b03e-4f0a-9eae-670ed5b0e15e" />
+
+
+   Setelah klik “OK” maka tampilannya seperti gambar dibawah ini, bisa dilihat pada tabel data baris paling bawah dengan nama “Tsabitah” adalah data yang telah diinput sebelumnya dan berhasil di tambahkan.
 
    <img width="1016" height="676" alt="image" src="https://github.com/user-attachments/assets/5856b8b0-9d99-439e-bd57-450920061b81" />
 
 
-   jika klik tambah tanpa mengisi field
+   Jika admin klik “Tambah” tanpa mengisi kolom teks, maka akan muncul pesan seperti gambar dibawah ini sebagai peringatan untuk wajib mengisi kolok teks jika ingin melakukan penambahan data.
+   
 
    <img width="1006" height="676" alt="image" src="https://github.com/user-attachments/assets/35934f17-2d3a-41ca-9390-dbd4a2885a04" />
+   
 
-   jika tambah data ga sesuai tipe data akan muncul notifikasi validasi input
+   Jika admin sudah mengisi semua kolom teks namun tidak sesuai format lalu klik “Tambah” maka akan muncul pesan bahwa format data yang dimasukkan salah, klik “OK” untuk kembali mengisi dengan format yang benar.
 
    <img width="1008" height="669" alt="image" src="https://github.com/user-attachments/assets/03dc5310-5d0e-431a-9a48-b5718bbd4bb9" />
 
 
-2. Perbarui
+1. Perbarui
 
-   jika klik id user maka akan muncul notifikasi
+   Untuk melakukan perbaruan data, seorang admin dapat meng klik salah satu data yang ingin di perbarui pada tabel data, maka semua kolom teks akan terisi dengan data yang telah di pilih/ klik sebelumnya, admin bisa mengubah data pada kolom teks, namun untuk kolom teks ID User tidak dapat diubah karena ID bersifat tetap dan tidak dapat diubah sehingga akan muncul pesan seperti gambar dibawah ini:
 
    <img width="1003" height="672" alt="image" src="https://github.com/user-attachments/assets/734ca269-a0dd-4a7e-862b-25e06d496e21" />
+   
 
-   jika klik tanggal bergabung akan muncul notifikasi
+   Jika admin klik “Tgl Bergabung” maka akan muncul pesan bahwa data tersebut tidak dapat diubah karena data tersebut bersifat tetap dan tidak dapat diubah, klik “OK” untuk melanjutkan perbaruan data.
 
    <img width="1003" height="667" alt="image" src="https://github.com/user-attachments/assets/044f6031-a9cb-48c7-8820-d124bd9b96ad" />
+   
 
-   jika berhasil perbarui data lama
+   Jika admin memperbarui data dengan format yang benar lalu klik “Perbarui” maka akan muncul pesan yang memberitahu bahwa perbaruan data berhasil, klik “OK” untuk melihat hasil data yang telah di perbarui.
 
    <img width="1007" height="671" alt="image" src="https://github.com/user-attachments/assets/396f6c49-bdb6-45e7-8e21-273ee2809592" />
 
-   <img width="1011" height="675" alt="image" src="https://github.com/user-attachments/assets/2c204186-0b3a-44f9-acdc-de1b10397a76" />
 
-   jika perbarui tanpa klik data dari tabel
+   Dibawah ini adalah tampilan Ketika admin sebelumnya klik”OK”, bisa dilihat pada tabel data baris paling bawah nama “Tsabitah” berubah menjadi “Tsabitah Kawiswara” setelah di lakukan perubahan sebelumnya.
+
+   <img width="1011" height="675" alt="image" src="https://github.com/user-attachments/assets/2c204186-0b3a-44f9-acdc-de1b10397a76" />
+   
+
+   Jika admin klik tombol “Perbarui” tanpa memilih ataupun meng klik salah stau data untuk diperbarui, maka akan muncul pesan seperti gambar dibawah ini, klik “OK” untuk melanjutkan perbaruan data dengan klik salah satu baris data yang ingin di perbarui.
 
    <img width="1002" height="670" alt="image" src="https://github.com/user-attachments/assets/fcd8bce5-2891-4141-b75d-a3108fed2321" />
 
-   Jika perbarui data tidak sesuai tipe data
+   
+
+  Jika admin telah mengisi semua kolom teks namun data yang di perbarui tidak sesuai format, maka akan muncul pesan seperti dibawah ini. Admin dapat mengetahui bagian mana saja data yang tidak sesuai format, klik “OK” untuk memperbaiki kembali perbaruan data yang sesuai format, akan perbaruan data berhasil dilakukan.
 
    <img width="1003" height="663" alt="image" src="https://github.com/user-attachments/assets/c73d5a29-9cd0-4317-9620-7292bc137d28" />
 
-3. Hapus
+   
+
+1. Hapus
+
+   Untuk melakukan penghapusan data, admin bisa memilih atau meng klik salah satu baris data pada yang ingin di hapus pada tabel data, maka semua kolom teks otomatis terisi dengan data yang di klik sebelumnya, admin bisa memastikan data dengan melihat data lebih jelas pada kolom teks, lalu klik tombol “Hapus” dan akan muncul pesan seperti gambar dibawah ini untuk memastikan kembali apakah yakin ingin menghapus data.
 
 <img width="1004" height="664" alt="image" src="https://github.com/user-attachments/assets/88929f15-bdb4-4b9a-829f-b6269b58fb6d" />
 
+
 - yes
 
+  Jika admin sudah yakin untuk menghapus data yang dipilih admin bisa klik “yes” maka tampilannya akan seperti gambar dibawah ini, klik “OK” untuk melihat hasil penghapusan data. 
+
   <img width="1002" height="674" alt="image" src="https://github.com/user-attachments/assets/004d338f-30e8-4058-b27e-381e9d977679" />
+
+
+   Setelah klik “OK”, maka tampilannya akan seperti gambar dibawah ini, bisa dilihat contohnya pada gambar dibawah ini anggota komunitas dengan nama “Tsabitah” sudah tidak ada pada tabel data yang artinya data berhasil di hapus.
 
   <img width="1008" height="675" alt="image" src="https://github.com/user-attachments/assets/e24f4374-2352-4ec1-bb4a-3b321fef440a" />
 
 
-- no, data di field tidak kehapus
+- no
+
+  Jika admin belum yakin dan masih memeriksa kembali data yang ingin di hapus, maka admin bisa klik “no” lalu tampilannya akan seperti gambar dibawah ini. Kembali ke tampilan sebelumnya dan data tidak terhapus.
   
   <img width="1022" height="674" alt="image" src="https://github.com/user-attachments/assets/107939ac-9cef-436f-9f0d-517976fc70e4" />
 
@@ -980,14 +1030,20 @@ Ketika admin klik “Data Warga” maka tampialnnya seperti gambar dibawah ini:
 
 4. Muat Ulang
 
+   Jika admin ingin memuat ulang data atau ingin melakukam refresh, admin bisa klik tombol “Muat Ulang”, lalu akan muncul pesan seperti gambar dibawah ini untuk memastikan apakah admin ingin muat ulang data.
+
 <img width="1008" height="666" alt="image" src="https://github.com/user-attachments/assets/f3f892de-7000-4da7-9256-ee61f685b025" />
 
-- yes, data di field sudah tidak ada
+- yes
+
+  Jika admin sudah yakin untuk me refresh halaman, maka admin bisa klik “yes” dan tampilan kolom teks akan kosong dengan klik “OK” 
 
   <img width="1005" height="669" alt="image" src="https://github.com/user-attachments/assets/9bf44cb5-01e0-45b4-a6a0-980da3955381" />
 
 
-- no, data di field masih ada
+- no
+
+  Jika admin belum mau me refresh halamannya, maka admin bisa klik “NO” dan tampilannya akan tetap, dan kolom teks nya masih berisi data sebelumnya.
   
   <img width="1003" height="670" alt="image" src="https://github.com/user-attachments/assets/599f436e-7906-46f8-aeb2-c40e79bea59c" />
 
@@ -998,29 +1054,34 @@ Ketika admin klik “Data Warga” maka tampialnnya seperti gambar dibawah ini:
 
 **3. Halaman Data Komunitas**
 
+   Pada halaman data komunitas, admin bisa melihat tabel data komunitas dan ada tombol akses untuk mengelola data komunitas.
+
 <img width="1006" height="673" alt="image" src="https://github.com/user-attachments/assets/661129e5-fe24-4469-9e9d-d77469fca5bd" />
 
 
 1. Tambah
 
-   Untuk id komunitas ini auto pada saat nambahin data, jadi field ini terkunci gabisa diedit
+   Untuk menambahkan data, admin harus mengisi semua kolom teks sesuai format. Pada gambar di bawah ini, menunjukkan bahwa kolom teks Id Komunitas tidak dapat diisi karena Id komunitas akan terisi secara otomatis saat terinput ke dalam database.
 
    <img width="1011" height="667" alt="image" src="https://github.com/user-attachments/assets/e0d5decd-713b-46bf-99f8-b15ace8943c2" />
 
-   Jika berhasil tambah data
+   Jika seluruh kolom teks sudah terisi dengan format yang benar, maka admin bisa klik tombol “Tambah” lalu akan muncul pesan “Tambah OK” yang berarti tambah data berhasil, klik “OK” untuk melihat hasil penambahan data.
    
 <img width="999" height="658" alt="image" src="https://github.com/user-attachments/assets/d9164156-ebbe-4c3d-b670-b5c3b5fe1df5" />
+
+
+Gambar dibawah ini menunjukkan setelah admin klik “OK” pada pesan sebelumnya, admin bisa cek pada baris paling bawah untuk memastikan data nya sudah tertambah.
 
 <img width="995" height="653" alt="image" src="https://github.com/user-attachments/assets/2b1d1225-ec8f-48bf-9438-0048a267f91f" />
 
 
 
-   Jika klik tambah tanpa mengisi field
+   Jika admin mengisi kolom teks data tidak  lengkap, maka Ketika klik tombol “Tambah” akan muncul pesan untuk wajib mengisi semua kolom data dengan lengkap.
 
    <img width="1000" height="668" alt="image" src="https://github.com/user-attachments/assets/149d82a2-00da-45d8-af91-ca082d168dd3" />
 
 
-   Jika tambah data tidak sesuai format
+   Jika admin telah mengisi semua data tapi tidak sesuai format dan klik tombol “Tambah” maka akan muncul pesan untuk memperbaiki data yang diinput sesuai format, klik “OK” untuk melanjutkan input data.
 
    <img width="1008" height="658" alt="image" src="https://github.com/user-attachments/assets/3ae608ee-bf3f-4428-8c58-4dc1c0230db1" />
 
@@ -1028,62 +1089,96 @@ Ketika admin klik “Data Warga” maka tampialnnya seperti gambar dibawah ini:
 
 2. Perbarui
    
-   jika klik id komunnitas maka akan muncul notifikasi
+   Untuk memperbarui data, klik salah satu baris data yang ingin di perbarui dalam tabel data, data yangdi klik akan otomatis terisi pada kolom teks agar admin bisa melihat lebih jelas data dan memperbarui lewat kolom teks, pada kolom teks “ID Komunitas” sat di klik, muncul pesan kolom data tersebut yidak bisa diubah karena ID bersifat tetap.
 
    <img width="1009" height="673" alt="image" src="https://github.com/user-attachments/assets/473040ec-dcda-4a77-ae04-fb3c968b9a2d" />
 
-   jika berhasil perbarui data lama
+   Jika admin memperbarui data dengan format yang benar lalu klik “Perbarui”, maka akan muncul pesan untuk memastikan apakah benar-benar ingin memperbarui datanya.
 
    <img width="1000" height="664" alt="image" src="https://github.com/user-attachments/assets/b1b17e7f-1c07-47ac-8de4-b0c49f9ff647" />
 
-   - yes, data akan berhasil di perbarui dan meumunculkan pesan seperti gambar dibawah
+   - yes
+
+     Jika admin sudah yakin untuk memperbarui data, bisa klik “Yes"
+     
+     Setelah klik “yes” maka akan muncul pesan bahwa data berhasil di perbarui , klik “OK” untuk melihat hasil perbaruan data.
      
      <img width="997" height="657" alt="image" src="https://github.com/user-attachments/assets/879038c2-871f-43b5-8f6b-08007c584c95" />
 
-   - no, data tidak di perbarui dan tetap tampilan yang sama
+   - no
+  
+     Jika admin belum yakin untuk mengubah data, klik “No”
+  
+     Setelah klik “no” maka data tidak jadi di perbarui dan halamannya kembali ke sebelumnya saat ingin memperbarui data.
      
      <img width="999" height="660" alt="image" src="https://github.com/user-attachments/assets/1882fd57-c894-4533-a739-2e45c07d1306" />
 
 
-   jika klik perbarui tanpa mengisi field dari data lama
+   Jika admin klik “Perbarui” namun belum memilih atau meng klik salah satu baris data, maka akan muncul pesan untuk wajib memilih data dari tabel dan semua kolom wajib terisi.  Klik “OK” untuk melanjutkan perbaruan data
 
    <img width="1009" height="667" alt="image" src="https://github.com/user-attachments/assets/198b9612-ec28-4a9e-aa78-9e7ffb5066a9" />
 
-   jika perbarui data lama tidak sesuai dengan format
+   Jika admin sudah mengisi semua kolom teks namun tidak sesuai format, maka akan muncul pesan untuk memperbaiki data sesuai format, klik “OK” untuk melanjutkan perbaruan data.
 
    <img width="994" height="667" alt="image" src="https://github.com/user-attachments/assets/07dd6b14-f916-486e-be07-c81068d57d06" />
   
 
-3. Hapus
+4. Hapus
+
+   Untuk menghapus data, admin harus memilih salah satu baris data yang ingin di hapus pada tabel data, lalu klik tombol “Hapus” dan akan muncul pesan apakah admin yakin untuk menghapus data.
 
    <img width="998" height="651" alt="image" src="https://github.com/user-attachments/assets/bdc33a47-7d85-4591-8f43-b49c6062e589" />
 
-   -yes, maka data berhasil di update dan memunculkan pesan notifikasi
+   - yes
 
+     Jika admin yakin untuk menghapus data, maka klik “yes”
+
+     Setelah klik “yes” maka akan muncul pesan bahwa penghapusan data berhasil, klik “OK” untuk melihat hasil penghapusan data.
+     
    <img width="1002" height="659" alt="image" src="https://github.com/user-attachments/assets/44178b43-5c7a-45c1-b40a-5f3a40aa87d4" />
+   
+
+   Setelah klik “OK” maka admin bisa melihat apakah data benar- benar terhapus pada tabel data. Karena sebelumnya admin menghapus data id 41, pada tabel sekarang id 41 sudah tidak ada karena berhasil terhapus.
 
    <img width="1000" height="653" alt="image" src="https://github.com/user-attachments/assets/5c249783-7ad5-40f5-a535-1b6ac6a33d40" />
 
 
-   -no, tampilan akan sama dan tidak ada instruksi lanjutan
+   - no
+
+     Jika admin masih belum yakin untuk menghapus data, klik “no”
+
+      Setelah klik “no” maka tampilan data tidak jadi di hapus dan kembali pada halaman saat ingin menghapus data. Dan terlihat bahwa ID 41 masih ada karena tidak jadidi hapus.
+
 
    <img width="1001" height="666" alt="image" src="https://github.com/user-attachments/assets/9abd0d66-dcc0-42fe-aa18-1f7cbe4bed33" />
    
 
-4. Muat Ulang
+6. Muat Ulang
+
+   Ketika admin inngin me refresh halaman atau memuat ulang halaman klik “Muat Ulang”.
 
    <img width="996" height="647" alt="image" src="https://github.com/user-attachments/assets/46e951ed-537d-4971-b6da-10c1b263251e" />
 
-   -yes, maka akan muncul pesan data berhasil di muat ulang
+   - yes
+
+     Jika admin yakin untuk refresh halaman, maka klik “yes”
+
+      Setelah klik “yes”, maka muncul pesan bahwa halaman berhasil dimuat ulang, klik “OK” untuk melanjutkan karena semua isi kolom teks akan kosong semua karena berhasil dimuat ulang
+
 
    <img width="999" height="660" alt="image" src="https://github.com/user-attachments/assets/65b14952-0215-405a-af82-bdde70938ed2" />
 
-   -no, tdak ada perubahan pada tampilan
+   - no
+
+     Jika admin belum yakin untuk refresh halaman, maka klik “no”
+
+     Setelah klik “no” maka semua kolom teks akan tetap terisi dan tidak di muat ulang.
+
 
    <img width="1007" height="664" alt="image" src="https://github.com/user-attachments/assets/33c38791-d778-44f9-aea1-a139c041afa5" />
 
 
-5. Kembali
+8. Kembali
 
    Ketika ingin keluar dari halaman data komunitas, admin klik tombol kembali saja untuk kembali ke menu admin
 
@@ -1092,40 +1187,55 @@ Ketika admin klik “Data Warga” maka tampialnnya seperti gambar dibawah ini:
    
 **4. Halaman Data Rumah Warga**
 
+    Jika admin memilih icon atau fitur “Data Rumah Warga”, maka admin dapat melihat tabel data rumah warga, kolom teks data, serta tombol-tombol untuk mengelola data rumah warga
+
 1. Tambah
+
+   Untuk melakukan input atau tambah data, admin harus mengisi semua kolom teks sesuai dengan data dengan format yang benar.
 
    <img width="997" height="665" alt="image" src="https://github.com/user-attachments/assets/0b20c5b1-3dba-412d-98af-124142791b28" />
 
 
-   Untuk id rumah ini auto pada saat nambahin data, jadi field ini terkunci gabisa diedit
+   Untuk kolom teks Id Rumah, tidak bisa dilakukan input untuk data tersebut karena ID bersifat tetap dan tidak bisa diubah lagi, maka Ketika admin klik kolom teks tersebut, tidak bisa mengisi nya.
 
    <img width="999" height="655" alt="image" src="https://github.com/user-attachments/assets/7a62f86e-0e74-4e40-86fe-34779c786332" />
+   
 
-   Jika berhasil menambahkan data
+   Jika admin telah mengisi semua kolom teks dengan format yang benar, klik “Tambah” maka akan muncul pesan untuk mengisi id komunitas, isi id komunitas yang sesuai. Rumah yang diinputkan sebelumnya akan masuk ke komunitas yang id nya di isi pada pesan tersebut. Jika sudah isi ID Komunitas, klik “OK”
 
    <img width="998" height="658" alt="image" src="https://github.com/user-attachments/assets/cda83486-aaee-4cc5-ac4c-3cfba34b48f4" />
 
+
+   Contohnya disini, diis dengan id komunitas 21
+
    <img width="1000" height="658" alt="image" src="https://github.com/user-attachments/assets/4dfe3e93-7b05-4160-a624-95ec5953f0b1" />
+
+
+   Setelah menekan tombol “OK”, akan muncul pesan yang meminta untuk memasukkan ID User. Data rumah yang telah diinput sebelumnya akan dihubungkan dengan data warga atau pemilik rumahnya. Dengan demikian, ID User yang dimasukkan menunjukkan bahwa user tersebut adalah pemilik dari rumah yang baru diinputkan. Selah itu klik “OK”.
 
    <img width="999" height="660" alt="image" src="https://github.com/user-attachments/assets/87321d07-82a9-47f8-8057-b6035141921c" />
 
-   <img width="995" height="655" alt="image" src="https://github.com/user-attachments/assets/0dbfa90f-eae7-4374-a028-fae5f71a7a5e" />
 
-   Tampilan setelah data berhasil ditambahkan
+   Setelah mengisi id komunitas dan id user, maka aka nada pesan bahwa data berhasil ditambah, klik “OK” untuk melihat hasil penambahan data.
+
+   <img width="995" height="655" alt="image" src="https://github.com/user-attachments/assets/0dbfa90f-eae7-4374-a028-fae5f71a7a5e" />
+   
+
+   Setelah melakukan penambahan data, bisa melihat hasilnya pada tabel data. Disini dapat dilihat terdapat baris data baru yaitu id rumah 42 yang berhasil ditambahkan.
 
    <img width="1005" height="662" alt="image" src="https://github.com/user-attachments/assets/191bcacd-5a70-4d0d-86e4-9ec248fac8c7" />
 
-   Jika tambah tanpa memasukkan data di field
+   Jika admin klik “Tambah” namun tidak mengisi kolom teks dengan lengkap, maka akan muncul pesan bahwa semua kolom teks data harus diisi lengkap untuk melakukan penambahan data 
 
    <img width="996" height="654" alt="image" src="https://github.com/user-attachments/assets/0b9ee03b-1961-4208-8169-5318d451418e" />
 
-   Jika tambah data tidak sesuai format
+   Jika sudah mengisi semua kolom teks namun tidak sesuai format dan klik “Tambah”, maka akan muncul pesan untuk memeriksa kembali data yang telah diinputkan, klik “OK” untuk kembali melanjutkan input data dengan format yang benar
 
    <img width="1000" height="658" alt="image" src="https://github.com/user-attachments/assets/f980a416-279d-4e12-9b24-6ad2cec6c96c" />
 
 
 
-2. Perbarui
+3. Perbarui
 
 jika klik id rumah maka akan muncul notifikasi
 
