@@ -640,13 +640,15 @@ Ketika ingin keluar dari halaman Tagihan Bulanan, warga tinggal klik tombol kemb
 
 **6. Halaman Data Diri**
 
+Pada halaman ini pengguna dapat melihat dan merubah data diri. Untuk melakukan perubahan, klik saja kolom teks yang ingin di ubah. Semua kolom teks data bisa melakukan perubahan, kecuali pada kolom teks “Id User” dan “Tgl. Bergabung”.
+
 <img width="1008" height="665" alt="image" src="https://github.com/user-attachments/assets/3f14a724-c1ab-425a-9488-29550aee0049" />
 
-mau ubah id user
+Jika klik kolom teks “Id user” maka akan muncul pesan seperti gambar dibawah ini:
 
 <img width="1012" height="674" alt="image" src="https://github.com/user-attachments/assets/f4204814-cc27-40c2-ab7c-eec0dcaee5a5" />
 
-mau ubah tanggal bergabung
+Jika klik kolom teks “Tgl. Bergabung” maka akan muncul pesan seperti gambar dibawah ini:
 
 <img width="1009" height="667" alt="image" src="https://github.com/user-attachments/assets/d74d6cbc-f1ea-45b3-9125-0092d0f0ad10" />
 
@@ -674,7 +676,7 @@ setelah klik muat ulang, maka akan muncul notifikasi
 
 b. Perbarui
 
-memperbarui alamat, email, username, password
+Untuk melakukan perubahan, klik kolom teks yang ingin diubah. Jika sudah klik “Perbarui”. 
 
 <img width="1009" height="669" alt="image" src="https://github.com/user-attachments/assets/fc8a5b48-79d1-43cc-8537-a0559fad3c78" />
 
@@ -682,24 +684,29 @@ jika kik tombol perbarui akan muncul notifikasi "simpan perubahan data akun anda
 
 <img width="1017" height="669" alt="image" src="https://github.com/user-attachments/assets/c54dd495-b11f-4d3d-bda7-b338c46cd083" />
 
-- yes
+Jika anda sudah yakin dengan perubahan yang telah di lakukan, maka klik “yes”
 
-  sebelum
-
+- Yes
+  Dibawah ini adalah tampilan sebelum melakukan perubahan. Bisa di lihat di tabel     data baris paling bawah pada username namanua masih “admadf”
+  
+  
   <img width="1009" height="669" alt="image" src="https://github.com/user-attachments/assets/fc8a5b48-79d1-43cc-8537-a0559fad3c78" />
 
-  sesudah
+  Ketika klik “yes” maka akan muncul pesan “Perubahan tersimpan” klik “OK” untuk      melihat hasil perubahan
 
   <img width="1006" height="676" alt="image" src="https://github.com/user-attachments/assets/f981c639-bde3-4bb3-b696-f5ceaaba1814" />
 
+   Maka ini adalah tampilan data setelah di perbarui, bisa dilihat di tabel data       baris paling bawah di username Namanya sudah berubah menjadi “ahmadfau”
+
   <img width="1016" height="666" alt="image" src="https://github.com/user-attachments/assets/215ccaa5-1519-42d7-b3dc-3103eec36d62" />
 
-- jika no, maka data baru tidak akan berubah di tabelnya
+- No
+  Jika setelah klik “Perbarui” dan tidak yakin dengan perubahan, maka klik “no”, maka data tidak di perbarui atau tampilan data tetap.
 
   <img width="1010" height="683" alt="image" src="https://github.com/user-attachments/assets/a24708e4-0b9a-4ba2-9d80-2753d62f4999" />
 
   
-Ketika memperbarui data ga sesuai dengan tipe data yang ada maka akan muncul notifikasi validasi gagal
+Untuk melakukan perubahan pada data diri, pastikan diisi dengan format yang benar, jika pengisian data atau perubahan data tidak sesuai format maka akan muncul pesan untuk memeriksa kembali dan dibagian mana saja yang tidak sesuai format, klik “OK” untuk kembali ke halaman perbarui data, dan perbaiki data dengan format yang sesuai agar perubahan data berhasil.
 
 <img width="1007" height="668" alt="image" src="https://github.com/user-attachments/assets/f108b4b1-3bf7-4f5c-99f6-3049fe925193" />
 
