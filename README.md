@@ -564,7 +564,7 @@ mau ubah tanggal bergabung
 
 a. Muat Ulang
 
-sebelum klik muat ulang, dengan memperbarui data di field, disini mengubah nomor rumah dan alamat 
+sebelum klik muat ulang, dengan memperbarui data di field, disini mengubah nomor rumah dan alamat
 
 <img width="1015" height="671" alt="image" src="https://github.com/user-attachments/assets/87075949-6777-4e23-9d49-6fba76f2b4b2" />
 
@@ -687,6 +687,7 @@ jika kik tombol perbarui akan muncul notifikasi "simpan perubahan data akun anda
 Jika anda sudah yakin dengan perubahan yang telah di lakukan, maka klik “yes”
 
 - Yes
+  
   Dibawah ini adalah tampilan sebelum melakukan perubahan. Bisa di lihat di tabel     data baris paling bawah pada username namanua masih “admadf”
   
   
@@ -701,6 +702,7 @@ Jika anda sudah yakin dengan perubahan yang telah di lakukan, maka klik “yes�
   <img width="1016" height="666" alt="image" src="https://github.com/user-attachments/assets/215ccaa5-1519-42d7-b3dc-3103eec36d62" />
 
 - No
+  
   Jika setelah klik “Perbarui” dan tidak yakin dengan perubahan, maka klik “no”, maka data tidak di perbarui atau tampilan data tetap.
 
   <img width="1010" height="683" alt="image" src="https://github.com/user-attachments/assets/a24708e4-0b9a-4ba2-9d80-2753d62f4999" />
@@ -716,53 +718,65 @@ Ketika ingin keluar dari halaman data diri, warga tinggal klik tombol kembali sa
 
 **7. Kembali**
 
-Klik tombol Kembali pada halaman menu warga maka akan muncul notifikasi "Apakah Anda yakin ingin keluar?", dan diarahkan ke halaman login
+Ketika pengguna pada halaman warga ingin kembali ke halaman login, maka klik “Kembali” dan akan muncul notifikasi “Apakah Anda yakin ingin keluar?”
 
 <img width="1007" height="671" alt="image" src="https://github.com/user-attachments/assets/410ffa3c-ae61-461d-a1ef-92e7573adfc6" />
 
 - yes
 
+   Jika pengguna memilih “yes”, maka akan muncul pesan seperti gambar dibawah ini, klik “ok” untuk kembali ke halaman login
+
   <img width="999" height="665" alt="image" src="https://github.com/user-attachments/assets/84dc223c-271b-4dd5-933d-7352d756391e" />
 
   <img width="998" height="669" alt="image" src="https://github.com/user-attachments/assets/32924295-68e9-4067-9d6f-0e1cb85fd133" />
 
-- no, maka akan tetap di menu warga
+- no
+
+  Jika pengguna memilih “no” maka pengguna akan tetap berada di menu warga, seperti gambar yanga ada dibawah ini
 
   <img width="1009" height="674" alt="image" src="https://github.com/user-attachments/assets/4b911aea-420a-4b72-9daa-d84775e9da6b" />
 
 ## Halaman Menu Admin
 
+Ketika pengguna berhasil login sebagai Admin, maka tampilan menu admin seperti dibawah ini, untuk memilih menu, cukup klik saja icon/tulisan yang ingin di Kelola.
+
  <img width="1005" height="669" alt="image" src="https://github.com/user-attachments/assets/57f6da26-7b8f-4a41-8996-68ffffe51d03" />
 
 **1. Halaman Data Warga**
+
+Ketika admin klik “Data Warga” maka tampialnnya seperti gambar dibawah ini:
 
 <img width="1004" height="664" alt="image" src="https://github.com/user-attachments/assets/17b07102-a614-44a9-8caf-0b759ed33fa3" />
 
 1. Tambah
 
-   jika klik id user maka akan muncul notifikasi
+   Untuk melakukan penambahan data,  admin harus mengisi semua kolom teks yang ada sesuai format. Namu ID User tidak bisa diubah, maka Ketika Admin mencoba mengisi/ klik kolom teks ID User, akan muncul pesan seperti gambar di bawah ini. Klik “OK” untuk melanjutkan penambahan data.
 
    <img width="1002" height="679" alt="image" src="https://github.com/user-attachments/assets/86ac935e-6659-4b7e-9802-513bb7229f00" />
 
 
-   jika klik field tanggal bergabung maka tidak bisa diedit, karena filed nya terkunci dan muncul pesan notifikasi
+   Berlaku juga pada kolom teks Tgl Bergabung, admin tidak dapat mengisi data tersebut karena data tersebut akan terisi dengan otomatis, jika admin klik kolom teks tersebut maka akan muncul pesan seperti dibawah ini:
+
+   
 
   <img width="998" height="668" alt="image" src="https://github.com/user-attachments/assets/4286c204-2c11-41d7-8094-1184f6618496" />
 
 
-   jika berhasil tambah data
+   Jika admin telah mengisi semua kolom teks dengan format yang benar, maka akan muncul pesan seperti gambar dibawah ini, klik “OK” maka penambahan data telah berhasil dilakukan.
 
    <img width="995" height="671" alt="image" src="https://github.com/user-attachments/assets/4125a79f-83f8-4b44-a992-366213acba6e" />
+
+   Bisa dilihat pada tabel data baris paling bawah data sudah bertambah dengan ID User USR081 yang sebelumnya ditambah saat mengisi kolom-kolom teks, sudah masuk pada tabel datanya.
 
    <img width="1005" height="670" alt="image" src="https://github.com/user-attachments/assets/9b58d7fe-4a48-4602-b387-2a79233fa215" />
 
   
-   jika klik tambah, tanpa mengisi field
+   Jika admin klik “tambah” tanpa mengisi kolom teks, maka akan muncul pesan bahwa data tidak sesuai dan data wajib diisi.
 
    <img width="1008" height="674" alt="image" src="https://github.com/user-attachments/assets/327be207-568c-4f6d-a6c0-a440cb141a93" />
    
 
-   jika tambah data ga sesuai tipe data akan muncul notifikasi validasi input
+   Jika admin mengisi data, tapi tidak sesuai format, maka akan muncul pesan dan memberitahu format yang seharusyna diisi. Klik “OK” untuk kembali mengisi data dengan format yang benar
 
    <img width="1008" height="670" alt="image" src="https://github.com/user-attachments/assets/2c23b018-ced3-4a15-ae69-cedfb618e431" />
 
