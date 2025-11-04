@@ -850,7 +850,7 @@ Ketika admin klik “Data Warga” maka tampialnnya seperti gambar dibawah ini:
 
 2. Perbarui
 
-   jika klik id user maka akan muncul notifikasi
+   Pada halaman ini, admin bisa memperbarui data warga dengan cara klik salah satu baris data, setelah itu semua teks kolom akan terisi dengan data yang sebelumnya di klik. Admin tinggal merubah data yang diinginkan. Tetapi untuk ID User, tidak dapat diubah saat memperbarui data, sehhingga Ketika admin klik kolom teks ID User, makaa akn muncul pesan seperti gambar dibawah ini, klik “OK” untuk kembali memperbarui data:
 
    <img width="1008" height="668" alt="image" src="https://github.com/user-attachments/assets/71cfed1e-549f-476c-8d90-bb6c8f2efc6a" />
 
