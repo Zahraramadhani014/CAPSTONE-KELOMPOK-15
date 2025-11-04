@@ -497,51 +497,51 @@ Jika ingin kembali ke halaman login, pengguna dapat menekan tombol “Kembali”
 
 <img width="1002" height="669" alt="image" src="https://github.com/user-attachments/assets/31543273-7762-4092-be43-18c448733b02" />
 
-
 Ketika pengguna dengan peran warga memilih menu “Pembayaran Listrik” pada halaman utama warga, sistem akan menampilkan halaman pilihan metode pembayaran.
 Terdapat tiga metode pembayaran yang dapat dipilih sesuai keinginan warga. Untuk melanjutkan proses pembayaran, warga cukup mengklik metode pembayaran yang diinginkan.
 Apabila ingin kembali ke halaman menu utama warga, pengguna dapat menekan tombol “Kembali” yang tersedia di halaman tersebut.
 
-   **a. Halaman jika memilih metode pembayaran Transfer**
+Sebagai contoh jika tagihan warga belum dibayar dengan status tagihan belum lunas 
 
-   <img width="1012" height="675" alt="image" src="https://github.com/user-attachments/assets/adf70594-3a3a-4196-a5fe-0aac007efac8" />
+<img width="1001" height="669" alt="image" src="https://github.com/user-attachments/assets/11bbe39d-a664-4e0c-9838-5cc226ae0cb0" />
 
-   Klik Konfirmasi pembayaran
+a. Transfer Bank
 
-   <img width="1014" height="673" alt="image" src="https://github.com/user-attachments/assets/1f1390d3-6438-46bd-9415-8046dadb7b99" />
+<img width="1006" height="672" alt="image" src="https://github.com/user-attachments/assets/6a040ad5-39b4-475c-9bf8-957a246b019f" />
 
-   Klik Kembali
+b. Dana
 
-   <img width="998" height="667" alt="image" src="https://github.com/user-attachments/assets/4ee5ca4e-fc0b-4900-8f17-a229aea9834d" />
+<img width="1004" height="666" alt="image" src="https://github.com/user-attachments/assets/58df2430-b061-4167-8b06-ab7a6bb0b2b1" />
 
-   **b. Halaman jika memilih metode pembayaran Dana**
+c. OVO 
 
-   <img width="1012" height="673" alt="image" src="https://github.com/user-attachments/assets/6dee23ba-a02c-47d1-be69-475d6c5b7041" />
+<img width="1005" height="667" alt="image" src="https://github.com/user-attachments/assets/903665c0-5f93-485e-bda8-892db6b05234" />
 
-   Klik konfirmasi pembayaran
+Jika klik kembali
 
-   <img width="1008" height="671" alt="image" src="https://github.com/user-attachments/assets/d68185c3-3135-47b1-b3a0-be8a24dcd7aa" />
+<img width="1004" height="672" alt="image" src="https://github.com/user-attachments/assets/f1a3fcd1-e5f7-4e00-ae98-f78bae8a404d" />
 
-   Klik Kembali
+jika klik konfirmasi pembayaran
 
-   <img width="1008" height="675" alt="image" src="https://github.com/user-attachments/assets/367828e7-8ee9-4a86-951e-86ddd33876cc" />
-   
-   **c. Halaman jika memilih metode pembayaran OVO**
+<img width="1016" height="674" alt="image" src="https://github.com/user-attachments/assets/5775cc72-deba-4d5b-94d0-f68cbb651e42" />
 
-   <img width="996" height="671" alt="image" src="https://github.com/user-attachments/assets/1df1a25f-0c0a-4d69-a839-4c1add87bbd1" />
+<img width="1005" height="669" alt="image" src="https://github.com/user-attachments/assets/ad6efbe6-d1c3-4c6d-9d2f-66589856af90" />
 
-   Klik konfirmasi pembayaran
+Tagihan bulanannya jadi lunas juga
 
-   <img width="1010" height="671" alt="image" src="https://github.com/user-attachments/assets/1c536289-dad7-4733-a6e4-f9c7e3ad20a0" />
+<img width="1003" height="667" alt="image" src="https://github.com/user-attachments/assets/e921001e-97c0-48cd-bd67-62a528bec365" />
 
-   Klik Kembali
+yang sebelumnya sebelum dibayar status nya masih belum lunas
 
-   <img width="1001" height="671" alt="image" src="https://github.com/user-attachments/assets/6c03aff7-d668-412b-8adf-cc7220761329" />
+<img width="1004" height="676" alt="image" src="https://github.com/user-attachments/assets/cdc6eaaa-4595-4276-a834-2dd818faf80e" />
 
-Sebagai contoh jika tagihan warga belum dibayar dengan ststus belum lunas
+Ketika tagihan warga sudah lunas semua status nya maka warga tersebut tidak bisa masuk ke halaman pembayaran listrik dan muncul notifikasi "Semua Tagihan Anda Sudah LUNAS"
 
+<img width="1009" height="672" alt="image" src="https://github.com/user-attachments/assets/2d7b98c7-8f9f-4099-9782-4d17628a4865" />
 
 Ketika ingin keluar dari halaman pembayaran listrik warga tinggak klik tombol kembali saja untuk kembali ke menu warga
+
+<img width="1001" height="669" alt="image" src="https://github.com/user-attachments/assets/11bbe39d-a664-4e0c-9838-5cc226ae0cb0" />
 
 <img width="1009" height="671" alt="image" src="https://github.com/user-attachments/assets/a25c891d-a530-4d9a-a2a0-6b22cafec41e" />
 
@@ -1303,9 +1303,7 @@ jika perbarui data tanpa format yang sesuai
    <img width="1009" height="669" alt="image" src="https://github.com/user-attachments/assets/0d601360-b822-4503-b317-e4d3c674f23d" />
 
 
-   jika tambah data ga sesuai format
-
-   seperti yang diliat field total tagihan jika kita mengisi total kwh dan traif per kwh ga sesuai tipe data, maka total tagihan tidak tergenerate dan tidak bisa diisi field nya karena field nya dikunci
+   jika tambah data ga sesuai format, seperti yang diliat field total tagihan jika kita mengisi total kwh dan tarif per kwh ga sesuai tipe data, maka total tagihan tidak tergenerate dan tidak bisa diisi field nya karena field nya dikunci
    
 <img width="1014" height="679" alt="image" src="https://github.com/user-attachments/assets/19c72fdc-b27d-42e0-b8ee-246addaa0121" />
 
@@ -1344,9 +1342,7 @@ jika perbarui data tanpa format yang sesuai
 
    <img width="1010" height="661" alt="image" src="https://github.com/user-attachments/assets/f50f8636-d99f-4d8a-9ee3-4963c5f4f3f5" />
 
-   jika perbarui data tidak sesuai format
-
-   seperti yang diliat field total tagihan jika kita mengubah total kwh dan tarif per kwh ga sesuai tipe data, maka total tagihan tidak tergenerate dan tidak bisa diisi field nya karena field nya dikunci
+   jika perbarui data tidak sesuai format, seperti yang diliat field total tagihan jika kita mengubah total kwh dan tarif per kwh ga sesuai tipe data, maka total tagihan tidak tergenerate dan tidak bisa diisi field nya karena field nya dikunci
 
    <img width="1009" height="686" alt="image" src="https://github.com/user-attachments/assets/d1374ee6-527e-4f01-8753-027bf9203f4f" />
 
@@ -1401,7 +1397,15 @@ jika perbarui data tanpa format yang sesuai
 
    <img width="1011" height="672" alt="image" src="https://github.com/user-attachments/assets/048056f0-0fde-4f85-928d-daf1326ae0ad" />
 
-   jika berhasil tambah data
+   jika berhasil tambah data, untuk tambah data pembayaran disini diminta untuk menginputkan id tagihan jumlah bayar tersebut langsung terisi dari tabel tagihan bulanan, serta nik untuk menandai bahwa warga dengan nik inilah yang membayar, tapi untuk nik ini bersifat  opsional jika tidak ingin mengisi nya tinggal klik cancel, jika ingin menambahkan nik agar data nya terorganisir maka inputkan nik di field nya dan klik ok
+
+   <img width="1015" height="672" alt="image" src="https://github.com/user-attachments/assets/7fe1551f-b027-4808-84e7-917ce0bccdfd" />
+
+   <img width="1004" height="675" alt="image" src="https://github.com/user-attachments/assets/228e54bb-0b0c-4a9a-af4b-68c1e21afade" />
+
+   <img width="1003" height="668" alt="image" src="https://github.com/user-attachments/assets/0ab4963f-20de-4a61-b74c-dde4db539983" />
+
+   <img width="1005" height="664" alt="image" src="https://github.com/user-attachments/assets/f276f199-284a-46d2-9d29-94a94d09befc" />
 
    jika tambah data ga mengisi field
 
@@ -1411,41 +1415,59 @@ jika perbarui data tanpa format yang sesuai
 
    <img width="1004" height="669" alt="image" src="https://github.com/user-attachments/assets/1d3936d4-bea2-40e6-bc8c-76e1c59dd3d6" />
 
-
-
-3. Perbarui
+2. Perbarui
 
    jika klik id pembayaran, muncul notifikasi
 
    <img width="998" height="665" alt="image" src="https://github.com/user-attachments/assets/0874fb6e-6d72-4d6d-b092-a69de4a20a3e" />
 
-
    jika berhasil perbarui data
+
+   <img width="1010" height="671" alt="image" src="https://github.com/user-attachments/assets/1bbdf6be-47d7-455e-9176-f252ce791cf6" />
+
+   - yes
+
+     <img width="1007" height="669" alt="image" src="https://github.com/user-attachments/assets/b75a789d-cb8c-4fa4-a836-8b8830488467" />
+
+   - no
+     <img width="1015" height="675" alt="image" src="https://github.com/user-attachments/assets/c20fc4c9-c70b-4383-b656-819f0de9f07d" />
 
    jika perbarui data ga klik data dari tabel
 
    <img width="1001" height="670" alt="image" src="https://github.com/user-attachments/assets/84f5607e-9bb3-429b-9760-352baf4f004d" />
 
-   jika perbarui data ga sesuai format
-
-   field jumlah bayar gabisa di klik karena field nya dikunci
+   jika perbarui data ga sesuai format, field jumlah bayar gabisa di klik karena field nya dikunci
 
    <img width="1005" height="672" alt="image" src="https://github.com/user-attachments/assets/adfd8902-e165-43b1-be07-a60105fc9356" />
 
    <img width="1005" height="671" alt="image" src="https://github.com/user-attachments/assets/5f3438f6-1d85-494d-9b57-033ead08a7a5" />
 
 
-4. Hapus
+3. Hapus
+
+   <img width="1005" height="672" alt="image" src="https://github.com/user-attachments/assets/7e55f2c5-911c-4e09-890b-48ba5b136c5b" />
 
    - yes
+  
+     <img width="1009" height="668" alt="image" src="https://github.com/user-attachments/assets/9c4deb16-af86-4ad2-9a9a-11a8686593ef" />
+
    - no
+
+     <img width="996" height="666" alt="image" src="https://github.com/user-attachments/assets/5412cc4a-0b05-41df-b159-a8ff56b33891" />
+
      
-5. Muat Ulang
+4. Muat Ulang
+
+   <img width="1007" height="668" alt="image" src="https://github.com/user-attachments/assets/477e53ba-6a03-4554-ae0e-7cf91cf3ca84" />
 
    - yes
+
+     <img width="1013" height="670" alt="image" src="https://github.com/user-attachments/assets/9f259fc8-b731-4d84-9a36-99fddab818c6" />
+
    - no
+     <img width="1010" height="672" alt="image" src="https://github.com/user-attachments/assets/bcd1c773-7818-4517-816c-9c1a72f268c2" />
      
-6. Kembali
+5. Kembali
 
    Ketika ingin keluar dari halaman data pembayaran listrik, admin klik tombol kembali saja untuk kembali ke menu admin
 
@@ -1490,18 +1512,17 @@ Klik tombol Kembali pada halaman menu admin  maka akan muncul notifikasi "Apakah
 
 Klik tombol Kembali pada halaman menu anggota komunitas maka akan muncul notifikasi "Apakah Anda yakin ingin keluar?", dan diarahkan ke halaman login
 
+<img width="1012" height="667" alt="image" src="https://github.com/user-attachments/assets/89f635a7-40f0-4429-b092-3115ce443cc6" />
 
 - yes
 
-  <img width="1010" height="669" alt="image" src="https://github.com/user-attachments/assets/5c4f7013-4c30-49e6-aa0e-8fb7bbdc9737" />
-
+ <img width="1002" height="667" alt="image" src="https://github.com/user-attachments/assets/bae8b1ea-cd12-40b0-bd15-cedd0da2dc55" />
 
   <img width="998" height="669" alt="image" src="https://github.com/user-attachments/assets/32924295-68e9-4067-9d6f-0e1cb85fd133" />
 
-- no, maka akan tetap di menu admin
+- no, maka akan tetap di menu anggota komunitas
 
- <img width="1004" height="659" alt="image" src="https://github.com/user-attachments/assets/59475241-c800-4525-9892-f769b3595cbb" />
-
+ <img width="1001" height="661" alt="image" src="https://github.com/user-attachments/assets/3a2d3ae3-6f4c-40e4-b8c0-71a574ca45b3" />
 
 </details>
 
