@@ -523,9 +523,9 @@ Jika klik kembali
 
 jika klik konfirmasi pembayaran
 
-<img width="1016" height="674" alt="image" src="https://github.com/user-attachments/assets/5775cc72-deba-4d5b-94d0-f68cbb651e42" />
-
 <img width="1005" height="669" alt="image" src="https://github.com/user-attachments/assets/ad6efbe6-d1c3-4c6d-9d2f-66589856af90" />
+
+<img width="1016" height="674" alt="image" src="https://github.com/user-attachments/assets/5775cc72-deba-4d5b-94d0-f68cbb651e42" />
 
 Tagihan bulanannya jadi lunas juga
 
