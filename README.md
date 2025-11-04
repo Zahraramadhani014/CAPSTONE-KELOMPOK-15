@@ -533,7 +533,8 @@ Tagihan bulanannya jadi lunas juga
 
 yang sebelumnya sebelum dibayar status nya masih belum lunas
 
-<img width="1004" height="676" alt="image" src="https://github.com/user-attachments/assets/cdc6eaaa-4595-4276-a834-2dd818faf80e" />
+<img width="1007" height="668" alt="image" src="https://github.com/user-attachments/assets/ece22794-4030-4dd4-bd47-6e746a6a2274" />
+
 
 Ketika tagihan warga sudah lunas semua status nya maka warga tersebut tidak bisa masuk ke halaman pembayaran listrik dan muncul notifikasi "Semua Tagihan Anda Sudah LUNAS"
 
