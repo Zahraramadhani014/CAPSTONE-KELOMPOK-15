@@ -34,6 +34,15 @@ Secara teknis, SolarWave dibangun menggunakan **Java (OOP)** dan **MySQL** melal
 </details>
 
 <details>
+<summary><h3> ~ 📊 Flowchart dan Use Case Sistem 📊 ~</h3></summary>
+
+Berikut adalah tautan flowchart dan use case diagram dari program kami yang bernama **"SOLARWAVE"**
+
+📎https://drive.google.com/file/d/1C4cm3iT_LkGmbbt0pUCiHRGlI0Drdhwt/view?usp=sharing
+
+</details>
+
+<details>
 <summary><h3> ~ 📌 Fitur Program 📌 ~</h3></summary>
 
 --------------------------------------------------------------------------------------------  
@@ -178,10 +187,8 @@ Setelah pengguna berhasil login sebagai Super Admin, tampilan yang muncul akan  
 </details>
    
 <details>
-<summary><h3>~ 📥Penerapan OOP (Encapsulation, Inheritance, Abstraction, Polymorphism, Interface)📥 ~</h3></summary>
+<summary><h3>~ 📥Penerapan OOP 📥 ~</h3></summary>
    
-
-
 <details>
 <summary><h3>1. Encapsulation</h3></summary>
    
@@ -191,12 +198,10 @@ Setelah pengguna berhasil login sebagai Super Admin, tampilan yang muncul akan  
 
 </details>
 
-
-
 <details>
 <summary><h3>2. Inheritance</h3></summary>
 
-   Penerapan Inheritance dalam program **SOLARWAVE** ada pada class **Login.java** di Package **View**. Selain itu juga ada class **User.java** di Packcage **Model** sebagai parent         class dan class **Warga.java**, **AnggotaKomunitas.java** di package **Model** sebagai child class.
+   Penerapan Inheritance dalam program **SOLARWAVE** ada pada class **Login.java** di Package **View**. Selain itu juga ada class **User.java** di Packcage **Model** sebagai parent class dan class **Warga.java**, **AnggotaKomunitas.java** di package **Model** sebagai child class.
 
 ────────────────────────────────────────────────────────
    
@@ -229,7 +234,6 @@ Setelah pengguna berhasil login sebagai Super Admin, tampilan yang muncul akan  
 ---
 
 </details>
-
 
 <details>
    
@@ -340,7 +344,6 @@ Setelah pengguna berhasil login sebagai Super Admin, tampilan yang muncul akan  
 <summary><h3>~ 📁 Struktur Folder/Package 📁 ~</h3></summary>
 
 
-
 A. Package
 
 Package adalah mekanisme untuk mengelompokkan class, interface, enum, dan sub-package ke dalam satu namespace. Tujuannya agar kode lebih terstruktur, mudah dicari, dan tidak terjadi benturan nama. Di Java, package juga berkaitan dengan kontrol akses (mis. package-private) dan distribusi kode.
@@ -439,23 +442,87 @@ Java Dependencies yang digunakan di SOLARWAVE antara lain:
 <img width="260" height="51" alt="image" src="https://github.com/user-attachments/assets/3453f9fa-b567-49fc-9721-9fd9327e521a" />
 
 </details>
-
-
-  
+ 
 <details>
-<summary><h3>~ Nilai Tambah ~</h3></summary>
+<summary><h3>~ ➕ Nilai Tambah ➕ ~</h3></summary>
 
 Untuk nilai tambah pada program ini menerapkan 2 nilai tambah, yaitu:
 
-A. DAO
+**A. DAO**
 
-B. MVC
+DAO atau Data Access Object adalah bagian dari program yang tugasnya khusus untuk mengatur hubungan antara aplikasi dan database. Jadi, semua proses seperti mengambil data, menambah, mengubah, atau menghapus data di database dilakukan lewat class DAO. Dengan cara ini, kode program jadi lebih rapi karena bagian logika tampilan (UI) dan bagian yang berurusan dengan database dipisah dengan jelas. Misalnya, kalau nanti struktur tabel di database berubah, kita cukup ubah di DAO tanpa harus ngoprek seluruh program.
+
+Di program ini, setiap tabel punya class DAO sendiri di folder dao, seperti UserDao, RumahDao, TagihanDao, dan PembayaranDao. Tiap DAO punya fungsi berbeda, tapi tujuannya sama, biar akses data jadi lebih mudah dan aman. Misalnya, TagihanDao ngurus data tagihan, WargaDao buat data warga, dan PembayaranDao untuk mencatat pembayaran.
+
+Selain itu, DAO juga bikin kode lebih teratur karena semua perintah SQL ditulis di satu tempat. Jadi kalau mau ambil data dari tabel, tinggal panggil fungsi dari DAO tanpa perlu nulis query panjang di bagian tampilan. Selain lebih cepat, ini juga lebih aman karena pakai PreparedStatement yang bisa mencegah error dan serangan injeksi SQL.
+
+Singkatnya, DAO itu seperti jembatan antara aplikasi dan database. Ia yang ngurus semua komunikasi data di belakang layar, supaya program bisa berjalan lancar tanpa harus ribet dengan urusan teknis query di setiap layar atau menu yang dibuat.
+
+Untuk class DAO yang kami gunakan di program adalah sebagai berikut:
+
+<img width="292" height="257" alt="image" src="https://github.com/user-attachments/assets/5cd9196b-17e1-410d-a3a7-33ba6612caed" />
+
+Gambar dibawah ini adalah salah satu contoh kode dari DAO yang ada di class **Anggota Komunitas.java**
+
+<img width="1020" height="855" alt="image" src="https://github.com/user-attachments/assets/5a4a0b28-448d-4019-9f61-fad6fd8d2995" />
+
+**B. MVC**
+
+MVC atau Model View Controller adalah konsep arsitektur pemrograman yang digunakan untuk memisahkan bagian logika, tampilan, dan pengontrol dalam sebuah aplikasi agar lebih terstruktur dan mudah dikembangkan.  Pada program “SOLARWAVE”, konsep MVC digunakan untuk memisahkan antara data, tampilan, dan proses yang menghubungkan keduanya.
+
+Penjelasannya sebagai berikut:
+
+**- Model (M)**
+>
+>Bagian Model berfungsi untuk mengatur dan mengelola data aplikasi, termasuk koneksi ke database dan pengolahan data. Di dalam program ini, bagian Model terdiri dari:
+>
+>a. Folder Model/ yang berisi class seperti User.java, Warga.java, Rumah.java, TagihanBulanan.java, Pembayaran.java, dan lainnya yang merepresentasikan tabel di database.
+>
+>b. Folder dao/ yang berisi class DAO seperti UserDao.java, WargaDao.java, TagihanDao.java, dan PembayaranDao.java, yang bertugas untuk melakukan operasi SQL (insert, update, delete, select).
+>
+>c. Folder config/ seperti AppConfig.java, yang mengatur koneksi database dan konfigurasi sistem.
+
+**- View (V)**
+>
+>Bagian View adalah tampilan antarmuka yang berinteraksi langsung dengan pengguna. Di SOLARWAVE, bagian ini berisi seluruh form Swing (JFrame) yang menampilkan data dan menerima input dari pengguna.
+>Contohnya:
+>
+>a. View/Login.java, View/Menu_superadmin.java, View/Menu_warga_PembayaranListrik.java, dan form lain di dalam folder View/.
+>
+>b. Folder assets/ juga termasuk bagian View karena berisi gambar dan elemen visual yang digunakan di tampilan.
+
+**Controller (C)**
+>
+>Bagian Controller menghubungkan antara View dan Model. Controller menerima aksi dari pengguna di View, memprosesnya dengan logika tertentu (misalnya validasi atau perhitungan), lalu mengirim atau mengambil data dari Model.
+>
+>Pada program SOLARWAVE, bagian Controller terdapat di folder Service/, seperti:
+>
+>a. AuthService.java (untuk autentikasi pengguna),
+>
+>b. PembayaranService.java, TagihanService.java, dan WargaService.java (untuk logika pengelolaan data),
+>
+>c. serta ServiceFactory.java (untuk mengatur pemanggilan service).
+
+Jadi, secara sederhana:
+
+- Model mengelola data,
+
+- View menampilkan dan menerima input pengguna,
+
+- Controller menjadi jembatan yang mengatur alur data antara Model dan View.
+
+Dengan pembagian ini, program SOLARWAVE jadi lebih terorganisir, mudah dipelihara, dan setiap bagian memiliki tugasnya masing-masing.
+
+ <img width="803" height="701" alt="image" src="https://github.com/user-attachments/assets/f82bc9cb-90d2-4ffe-8ddb-a03523cfa02a" />
+
+ <img width="814" height="715" alt="image" src="https://github.com/user-attachments/assets/8060e554-02d8-40b4-b433-ff1f0b7a5780" />
+
+ <img width="807" height="474" alt="image" src="https://github.com/user-attachments/assets/7d639e2d-7374-45d8-a230-94d27339f14f" />
 
 </details>
 
 <details>
 <summary><h3>~ ➡ Cara Menggunakan Program ⬅ ~</h3></summary>
-
 
 **Halaman Login**
 
@@ -869,7 +936,6 @@ Ketika admin klik “Data Warga” maka tampialnnya seperti gambar dibawah ini:
    <img width="1008" height="669" alt="image" src="https://github.com/user-attachments/assets/03dc5310-5d0e-431a-9a48-b5718bbd4bb9" />
 
 
-   
 2. Perbarui
 
    jika klik id user maka akan muncul notifikasi
@@ -1755,26 +1821,25 @@ Disini kami ingin mengubah status koneksi dari rumah "Athahiroh" dari "putus" me
 
 Jika berhasil tambah data, untuk total tagihan ini akan tergenerate otomatis apabila mengisi field total kwh dan tarif per kwh nya
 
-<img width="1011" height="671" alt="image" src="https://github.com/user-attachments/assets/0d0be42f-8d89-42f4-8a19-d983a5f1c37d" />
+<img width="1006" height="664" alt="image" src="https://github.com/user-attachments/assets/05b27a5b-9cb6-4df8-bd97-bd1b57f05faf" />
 
-<img width="1000" height="666" alt="image" src="https://github.com/user-attachments/assets/b71f727f-ac38-4ba1-8524-2e22a302b737" />
+<img width="1009" height="674" alt="image" src="https://github.com/user-attachments/assets/7494b74c-b371-437b-b62e-60dd1ebfcce6" />
 
 - Disini saya memilih rumah dengan nomor rumah "A-42" dengan nama pemilik "Athahiroh".
 
-  <img width="1007" height="674" alt="image" src="https://github.com/user-attachments/assets/9217ccb4-4334-473a-b03f-a456231a080e" />
+ <img width="1003" height="664" alt="image" src="https://github.com/user-attachments/assets/3d50364e-e5aa-43d4-87dc-dc752ce3417f" />
 
-  <img width="1013" height="665" alt="image" src="https://github.com/user-attachments/assets/d486a80f-b505-485c-a37c-6a28bf8ff2e0" />
+  <img width="1008" height="664" alt="image" src="https://github.com/user-attachments/assets/1505486e-0ce5-4ccf-836f-aae2e548c8a8" />
 
-  <img width="1012" height="670" alt="image" src="https://github.com/user-attachments/assets/8ac014b4-4b84-4e7d-9fcd-62ec3b036d57" />
+ <img width="1008" height="668" alt="image" src="https://github.com/user-attachments/assets/4202057c-3d0d-4694-ab94-7343235317e5" />
 
 Jika tambah data tidak mengisi field
 
-<img width="1001" height="666" alt="image" src="https://github.com/user-attachments/assets/40d4ffaf-9cf5-410b-bfef-399737288ce1" />
+<img width="1005" height="663" alt="image" src="https://github.com/user-attachments/assets/7af2b5d0-f8f4-44ca-b1e7-61136ce11228" />
 
 Jika tambah data tidak sesuai tipe data
 
 <img width="1007" height="672" alt="image" src="https://github.com/user-attachments/assets/6df9d7f6-6980-4e6c-b9f8-720299050e01" />
-
 
 2. Perbarui
 
@@ -1797,12 +1862,113 @@ Jika tambah data tidak sesuai tipe data
 
 3. Hapus
 
+   <img width="1004" height="666" alt="image" src="https://github.com/user-attachments/assets/0e29f9f8-73d4-4d5a-9f48-41df43d3806d" />
+
+   - Jika klik yes
+
+      <img width="1005" height="665" alt="image" src="https://github.com/user-attachments/assets/6983601e-8607-42ae-9136-b12d5a7ccebc" />
+
+      <img width="1005" height="670" alt="image" src="https://github.com/user-attachments/assets/fe81e24d-5fbf-4cf3-9b9d-a2b8d7916940" />
+
+
+   - Jika klik no
+
+     <img width="1000" height="667" alt="image" src="https://github.com/user-attachments/assets/907a78d9-e525-488a-b154-515be7cd845b" />
+
 4. Muat Ulang
+
+   <img width="1006" height="676" alt="image" src="https://github.com/user-attachments/assets/bcac88dd-159a-4b1a-b661-4ed234f20093" />
+
+   - Jika klik yes
+
+     <img width="998" height="665" alt="image" src="https://github.com/user-attachments/assets/a2659ec6-ae5f-4236-8718-a894eada7c15" />
+
+   - Jika klik no
+      <img width="1005" height="670" alt="image" src="https://github.com/user-attachments/assets/e8785215-a2b0-4eac-ba54-d2b48be286f5" />
 
 5. Kembali
 
+   Ketika ingin keluar dari halaman data tagihan bulanan warga, anggota komunitas tinggal klik tombol kembali saja untuk kembali ke menu anggota komunitas.
 
+   <img width="1005" height="668" alt="image" src="https://github.com/user-attachments/assets/1c57d01b-d733-4cb8-818c-510ae93e0ea5" />
+   
 **6. Halaman Data Pembayaran Listrik Warga**
+
+<img width="1004" height="666" alt="image" src="https://github.com/user-attachments/assets/2ee5c44c-617c-4eab-bb74-00e473247b95" />
+
+1. Tambah (Untuk Cash doang)
+
+   Untuk id pembayaran dibuat otomatis ketika menambahkan data kedalam tabel, jika klik field id pembayaran maka akan muncul notifikasi seperti gambar dibawah ini.
+
+   <img width="1009" height="669" alt="image" src="https://github.com/user-attachments/assets/adacad16-14d9-46d7-ae31-f15b4c429e62" />
+
+   Untuk pembayaran cash, anggota komunitas tinggal klik tombol tambah, setelah itu akan muncul pop up untuk inputkan nik warga yang bayar cash.
+
+<img width="1014" height="666" alt="image" src="https://github.com/user-attachments/assets/8f4c6187-ccbc-44da-895e-6551a77b9ffd" />
+
+Diminta untuk menginputkan id tagihan
+
+<img width="999" height="667" alt="image" src="https://github.com/user-attachments/assets/86fca36d-9336-4cff-ad6d-52dafe10bd41" />
+
+Jika sesudah menginputkan nik dan id tagihan maka akan muncul notifikasi seperti dibawah ini
+
+<img width="1007" height="663" alt="image" src="https://github.com/user-attachments/assets/b019d91e-86dc-48e5-8d02-5c022038557b" />
+
+
+- jika klik yes
+
+  <img width="1005" height="670" alt="image" src="https://github.com/user-attachments/assets/b2661383-c60a-4c61-849e-cdfa94d5d5eb" />
+
+     <img width="1006" height="669" alt="image" src="https://github.com/user-attachments/assets/9208ecca-7395-4cde-8913-9337517ee685" />
+
+     di status tagihan juga berubah menjadi lunas
+
+     <img width="1005" height="671" alt="image" src="https://github.com/user-attachments/assets/759501f1-028a-4f28-8735-9aafbedf43d5" />
+
+  Yang sebelumnya status nya belum lunas
+
+   <img width="1008" height="668" alt="image" src="https://github.com/user-attachments/assets/4202057c-3d0d-4694-ab94-7343235317e5" />
+
+- jika klik no, maka pembayaran listrik yang kita lakukan tadi tidak masuk ke dalam tabel pembayaran
+
+  <img width="1007" height="674" alt="image" src="https://github.com/user-attachments/assets/3dde580e-9cc0-4486-92b5-55740a29f70e" />
+
+
+3. Perbarui
+
+   Untuk perbarui, anggota komunitas hanya bisa mengubah status pembayaran nya saja, jika klik field id pembayaran, tanggal pembayaran, metode pembayaran, jumlah bayar itu akan muncul notifikasi seperti gambar dibawah ini, karena field-field ini terisi ketika warga melakukan pembayaran
+
+   <img width="1005" height="665" alt="image" src="https://github.com/user-attachments/assets/ddbbee9c-3ccb-435c-80fa-c30f8e59a4a6" />
+
+   <img width="1004" height="669" alt="image" src="https://github.com/user-attachments/assets/3aaee3a3-62f5-474f-8ba6-910da734ceef" />
+
+   <img width="1008" height="663" alt="image" src="https://github.com/user-attachments/assets/39f73413-c9a1-4f3c-ba0f-3f9e6e3480d6" />
+
+   <img width="1008" height="678" alt="image" src="https://github.com/user-attachments/assets/baba054e-ecf2-4475-8010-1d04463f5f29" />
+
+
+untuk status pembayaran bisa diubah
+
+<img width="1011" height="674" alt="image" src="https://github.com/user-attachments/assets/3fcd2359-a7bd-45bb-954e-041139987d6d" />
+
+4. Muat Ulang
+
+   <img width="1005" height="665" alt="image" src="https://github.com/user-attachments/assets/eea934a8-df36-46d3-b50a-b33146b1af51" />
+
+   - Jika klik yes
+
+      <img width="1011" height="663" alt="image" src="https://github.com/user-attachments/assets/28cae24f-807c-4a78-9d44-9a6b0d4801b3" />
+
+   - Jika klik no
+  
+     <img width="1005" height="669" alt="image" src="https://github.com/user-attachments/assets/2f812c90-f963-4e13-8a3a-131c29c42151" />
+
+
+4. Kembali
+
+   Ketika ingin keluar dari halaman data pembayaran listrik warga, anggota komunitas tinggal klik tombol kembali saja untuk kembali ke menu anggota komunitas.
+
+   <img width="999" height="664" alt="image" src="https://github.com/user-attachments/assets/f73c195d-3053-4b55-93e7-0a01d106544b" />
 
 **7. Kembali**
 
